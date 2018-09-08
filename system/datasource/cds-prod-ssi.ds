@@ -1,0 +1,5 @@
+{
+  "type" : "mysql",
+  "db" : "ssi-new",
+  "auth" : "@secrets://us-east-1/prod/cds/cdsrds"
+}

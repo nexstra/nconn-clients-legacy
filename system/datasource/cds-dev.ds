@@ -1,0 +1,5 @@
+{
+  "type" : "mysql",
+  "db" : "hpe",
+  "auth" : "@secrets://us-west-2/dev/cds/cdsserver"
+}

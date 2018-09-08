@@ -1,0 +1,5 @@
+{
+  "type" : "mysql",
+  "db" : "cds3",
+  "auth" : "@secrets://us-east-1/prod/cds/cdsrds"
+}
