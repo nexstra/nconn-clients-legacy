@@ -1,0 +1,4480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="ssi-new@cds.rds.nexstra.com">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.11">
+    <root id="1">
+      <ServerVersion>5.7.12</ServerVersion>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
+      <DefaultCasing>exact</DefaultCasing>
+    </root>
+    <schema id="2" parent="1" name="cds3">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="3" parent="1" name="hpe">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="4" parent="1" name="information_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="5" parent="1" name="mysql">
+      <Collation>utf8_unicode_ci</Collation>
+    </schema>
+    <schema id="6" parent="1" name="performance_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="7" parent="1" name="ssi-new">
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="8" parent="1" name="sys">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="9" parent="1" name="testlocks">
+      <Collation>utf8_unicode_ci</Collation>
+    </schema>
+    <schema id="10" parent="1" name="tmp">
+      <Collation>utf8_unicode_ci</Collation>
+    </schema>
+    <collation id="11" parent="1" name="armscii8_bin">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="12" parent="1" name="armscii8_general_ci">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="13" parent="1" name="ascii_bin">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="14" parent="1" name="ascii_general_ci">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="15" parent="1" name="big5_bin">
+      <Charset>big5</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="16" parent="1" name="big5_chinese_ci">
+      <Charset>big5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="17" parent="1" name="binary">
+      <Charset>binary</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="18" parent="1" name="cp1250_bin">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="19" parent="1" name="cp1250_croatian_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="20" parent="1" name="cp1250_czech_cs">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="21" parent="1" name="cp1250_general_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="22" parent="1" name="cp1250_polish_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="23" parent="1" name="cp1251_bin">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="24" parent="1" name="cp1251_bulgarian_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="25" parent="1" name="cp1251_general_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="26" parent="1" name="cp1251_general_cs">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="27" parent="1" name="cp1251_ukrainian_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="28" parent="1" name="cp1256_bin">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="29" parent="1" name="cp1256_general_ci">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="30" parent="1" name="cp1257_bin">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="31" parent="1" name="cp1257_general_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="32" parent="1" name="cp1257_lithuanian_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="33" parent="1" name="cp850_bin">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="34" parent="1" name="cp850_general_ci">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="35" parent="1" name="cp852_bin">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="36" parent="1" name="cp852_general_ci">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="37" parent="1" name="cp866_bin">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="38" parent="1" name="cp866_general_ci">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="39" parent="1" name="cp932_bin">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="40" parent="1" name="cp932_japanese_ci">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="41" parent="1" name="dec8_bin">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="42" parent="1" name="dec8_swedish_ci">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="43" parent="1" name="eucjpms_bin">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="44" parent="1" name="eucjpms_japanese_ci">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="45" parent="1" name="euckr_bin">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="46" parent="1" name="euckr_korean_ci">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="47" parent="1" name="gb18030_bin">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="48" parent="1" name="gb18030_chinese_ci">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="49" parent="1" name="gb18030_unicode_520_ci">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="50" parent="1" name="gb2312_bin">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="51" parent="1" name="gb2312_chinese_ci">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="52" parent="1" name="gbk_bin">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="53" parent="1" name="gbk_chinese_ci">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="54" parent="1" name="geostd8_bin">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="55" parent="1" name="geostd8_general_ci">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="56" parent="1" name="greek_bin">
+      <Charset>greek</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="57" parent="1" name="greek_general_ci">
+      <Charset>greek</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="58" parent="1" name="hebrew_bin">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="59" parent="1" name="hebrew_general_ci">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="60" parent="1" name="hp8_bin">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="61" parent="1" name="hp8_english_ci">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="62" parent="1" name="keybcs2_bin">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="63" parent="1" name="keybcs2_general_ci">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="64" parent="1" name="koi8r_bin">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="65" parent="1" name="koi8r_general_ci">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="66" parent="1" name="koi8u_bin">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="67" parent="1" name="koi8u_general_ci">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="68" parent="1" name="latin1_bin">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="69" parent="1" name="latin1_danish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="70" parent="1" name="latin1_general_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="71" parent="1" name="latin1_general_cs">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="72" parent="1" name="latin1_german1_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="73" parent="1" name="latin1_german2_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="74" parent="1" name="latin1_spanish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="75" parent="1" name="latin1_swedish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="76" parent="1" name="latin2_bin">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="77" parent="1" name="latin2_croatian_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="78" parent="1" name="latin2_czech_cs">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="79" parent="1" name="latin2_general_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="80" parent="1" name="latin2_hungarian_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="81" parent="1" name="latin5_bin">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="82" parent="1" name="latin5_turkish_ci">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="83" parent="1" name="latin7_bin">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="84" parent="1" name="latin7_estonian_cs">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="85" parent="1" name="latin7_general_ci">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="86" parent="1" name="latin7_general_cs">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="87" parent="1" name="macce_bin">
+      <Charset>macce</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="88" parent="1" name="macce_general_ci">
+      <Charset>macce</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="89" parent="1" name="macroman_bin">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="90" parent="1" name="macroman_general_ci">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="91" parent="1" name="sjis_bin">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="92" parent="1" name="sjis_japanese_ci">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="93" parent="1" name="swe7_bin">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="94" parent="1" name="swe7_swedish_ci">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="95" parent="1" name="tis620_bin">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="96" parent="1" name="tis620_thai_ci">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="97" parent="1" name="ucs2_bin">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="98" parent="1" name="ucs2_croatian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="99" parent="1" name="ucs2_czech_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="100" parent="1" name="ucs2_danish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="101" parent="1" name="ucs2_esperanto_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="102" parent="1" name="ucs2_estonian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="103" parent="1" name="ucs2_general_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="104" parent="1" name="ucs2_general_mysql500_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="105" parent="1" name="ucs2_german2_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="106" parent="1" name="ucs2_hungarian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="107" parent="1" name="ucs2_icelandic_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="108" parent="1" name="ucs2_latvian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="109" parent="1" name="ucs2_lithuanian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="110" parent="1" name="ucs2_persian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="111" parent="1" name="ucs2_polish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="112" parent="1" name="ucs2_roman_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="113" parent="1" name="ucs2_romanian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="114" parent="1" name="ucs2_sinhala_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="115" parent="1" name="ucs2_slovak_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="116" parent="1" name="ucs2_slovenian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="117" parent="1" name="ucs2_spanish2_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="118" parent="1" name="ucs2_spanish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="119" parent="1" name="ucs2_swedish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="120" parent="1" name="ucs2_turkish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="121" parent="1" name="ucs2_unicode_520_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="122" parent="1" name="ucs2_unicode_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="123" parent="1" name="ucs2_vietnamese_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="124" parent="1" name="ujis_bin">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="125" parent="1" name="ujis_japanese_ci">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="126" parent="1" name="utf16_bin">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="127" parent="1" name="utf16_croatian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="128" parent="1" name="utf16_czech_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="129" parent="1" name="utf16_danish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="130" parent="1" name="utf16_esperanto_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="131" parent="1" name="utf16_estonian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="132" parent="1" name="utf16_general_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="133" parent="1" name="utf16_german2_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="134" parent="1" name="utf16_hungarian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="135" parent="1" name="utf16_icelandic_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="136" parent="1" name="utf16_latvian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="137" parent="1" name="utf16_lithuanian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="138" parent="1" name="utf16_persian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="139" parent="1" name="utf16_polish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="140" parent="1" name="utf16_roman_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="141" parent="1" name="utf16_romanian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="142" parent="1" name="utf16_sinhala_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="143" parent="1" name="utf16_slovak_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="144" parent="1" name="utf16_slovenian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="145" parent="1" name="utf16_spanish2_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="146" parent="1" name="utf16_spanish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="147" parent="1" name="utf16_swedish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="148" parent="1" name="utf16_turkish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="149" parent="1" name="utf16_unicode_520_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="150" parent="1" name="utf16_unicode_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="151" parent="1" name="utf16_vietnamese_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="152" parent="1" name="utf16le_bin">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="153" parent="1" name="utf16le_general_ci">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="154" parent="1" name="utf32_bin">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="155" parent="1" name="utf32_croatian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="156" parent="1" name="utf32_czech_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="157" parent="1" name="utf32_danish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="158" parent="1" name="utf32_esperanto_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="159" parent="1" name="utf32_estonian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="160" parent="1" name="utf32_general_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="161" parent="1" name="utf32_german2_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="162" parent="1" name="utf32_hungarian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="163" parent="1" name="utf32_icelandic_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="164" parent="1" name="utf32_latvian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="165" parent="1" name="utf32_lithuanian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="166" parent="1" name="utf32_persian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="167" parent="1" name="utf32_polish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="168" parent="1" name="utf32_roman_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="169" parent="1" name="utf32_romanian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="170" parent="1" name="utf32_sinhala_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="171" parent="1" name="utf32_slovak_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="172" parent="1" name="utf32_slovenian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="173" parent="1" name="utf32_spanish2_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="174" parent="1" name="utf32_spanish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="175" parent="1" name="utf32_swedish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="176" parent="1" name="utf32_turkish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="177" parent="1" name="utf32_unicode_520_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="178" parent="1" name="utf32_unicode_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="179" parent="1" name="utf32_vietnamese_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="180" parent="1" name="utf8_bin">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="181" parent="1" name="utf8_croatian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="182" parent="1" name="utf8_czech_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="183" parent="1" name="utf8_danish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="184" parent="1" name="utf8_esperanto_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="185" parent="1" name="utf8_estonian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="186" parent="1" name="utf8_general_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="187" parent="1" name="utf8_general_mysql500_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="188" parent="1" name="utf8_german2_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="189" parent="1" name="utf8_hungarian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="190" parent="1" name="utf8_icelandic_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="191" parent="1" name="utf8_latvian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="192" parent="1" name="utf8_lithuanian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="193" parent="1" name="utf8_persian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="194" parent="1" name="utf8_polish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="195" parent="1" name="utf8_roman_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="196" parent="1" name="utf8_romanian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="197" parent="1" name="utf8_sinhala_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="198" parent="1" name="utf8_slovak_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="199" parent="1" name="utf8_slovenian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="200" parent="1" name="utf8_spanish2_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="201" parent="1" name="utf8_spanish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="202" parent="1" name="utf8_swedish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="203" parent="1" name="utf8_turkish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="204" parent="1" name="utf8_unicode_520_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="205" parent="1" name="utf8_unicode_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="206" parent="1" name="utf8_vietnamese_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="207" parent="1" name="utf8mb4_bin">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="208" parent="1" name="utf8mb4_croatian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="209" parent="1" name="utf8mb4_czech_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="210" parent="1" name="utf8mb4_danish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="211" parent="1" name="utf8mb4_esperanto_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="212" parent="1" name="utf8mb4_estonian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="213" parent="1" name="utf8mb4_general_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="214" parent="1" name="utf8mb4_german2_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="215" parent="1" name="utf8mb4_hungarian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="216" parent="1" name="utf8mb4_icelandic_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="217" parent="1" name="utf8mb4_latvian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="218" parent="1" name="utf8mb4_lithuanian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="219" parent="1" name="utf8mb4_persian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="220" parent="1" name="utf8mb4_polish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="221" parent="1" name="utf8mb4_roman_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="222" parent="1" name="utf8mb4_romanian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="223" parent="1" name="utf8mb4_sinhala_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="224" parent="1" name="utf8mb4_slovak_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="225" parent="1" name="utf8mb4_slovenian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="226" parent="1" name="utf8mb4_spanish2_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="227" parent="1" name="utf8mb4_spanish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="228" parent="1" name="utf8mb4_swedish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="229" parent="1" name="utf8mb4_turkish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="230" parent="1" name="utf8mb4_unicode_520_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="231" parent="1" name="utf8mb4_unicode_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="232" parent="1" name="utf8mb4_vietnamese_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <table id="233" parent="7" name="addresses">
+      <Comment>Addresses for orders - no update</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="234" parent="7" name="admin">
+      <Comment>Administrators</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="235" parent="7" name="admin_client">
+      <Comment>Administrators authorized to use partner page</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="236" parent="7" name="admin_partner">
+      <Comment>Administrators authorized to use partner page</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="237" parent="7" name="alert_log">
+      <Comment>InnoDB free: 22528 kB</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="238" parent="7" name="campaign">
+      <Comment>InnoDB free: 22528 kB; (`client_id`) REFER `cds/client`(`cli</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="239" parent="7" name="campaign_activity">
+      <Comment>InnoDB free: 22528 kB; (`campaign_id`) REFER `cds/campaign`(</Comment>
+    </table>
+    <table id="240" parent="7" name="campaign_dist_elem">
+      <Comment>InnoDB free: 22528 kB; (`campaign_id`) REFER `cds/campaign`(</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="241" parent="7" name="campaign_dist_list">
+      <Comment>InnoDB free: 22528 kB; (`campaign_id`) REFER `cds/campaign`(</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="242" parent="7" name="campaign_state">
+      <Comment>InnoDB free: 22528 kB; (`campaign_id`) REFER `cds/campaign`(</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="243" parent="7" name="cdskey"/>
+    <table id="244" parent="7" name="client">
+      <Comment>InnoDB free: 22528 kB; (`partner_id`) REFER `cds/partners`(`</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="245" parent="7" name="client_data">
+      <Comment>InnoDB free: 22528 kB; (`client_id`) REFER `cds/client`(`cli</Comment>
+    </table>
+    <table id="246" parent="7" name="client_list">
+      <Comment>InnoDB free: 22528 kB; (`client_id`) REFER `cds/client`(`cli</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="247" parent="7" name="client_list_item">
+      <Comment>InnoDB free: 22528 kB; (`client_list_id`) REFER `cds/client_</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="248" parent="7" name="client_log">
+      <Comment>InnoDB free: 22528 kB; (`client_id`) REFER `cds/client`(`cli</Comment>
+    </table>
+    <table id="249" parent="7" name="connector_log">
+      <Comment>InnoDB free: 22528 kB; (`connector_id`) REFER `cds/connector</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="250" parent="7" name="connector_types">
+      <Comment>InnoDB free: 22528 kB</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="251" parent="7" name="connectors">
+      <Comment>InnoDB free: 22528 kB; (`client_id`) REFER `cds/client`(`cli</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="252" parent="7" name="countries">
+      <Comment>Countries and country codes</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="253" parent="7" name="de"/>
+    <table id="254" parent="7" name="dist_elem">
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="255" parent="7" name="dist_elem_item">
+      <Comment>InnoDB free: 22528 kB; (`dist_elem_id`) REFER `cds/dist_elem</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="256" parent="7" name="dist_elem_log">
+      <Comment>InnoDB free: 22528 kB; (`dist_elem_id`) REFER `cds/dist_elem</Comment>
+    </table>
+    <table id="257" parent="7" name="dist_list">
+      <Comment>InnoDB free: 22528 kB; (`client_id`) REFER `cds/client`(`cli</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="258" parent="7" name="dist_list_def">
+      <Comment>InnoDB free: 22528 kB; (`client_id`) REFER `cds/client`(`cli</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="259" parent="7" name="dist_list_item_def">
+      <Comment>InnoDB free: 22528 kB; (`dist_list_def_id`) REFER `cds/dist_</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="260" parent="7" name="dist_message"/>
+    <table id="261" parent="7" name="dist_message_event">
+      <Comment>InnoDB free: 22528 kB; (`dist_message_id`) REFER `cds/dist_m</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="262" parent="7" name="dist_method">
+      <Comment>InnoDB free: 22528 kB</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="263" parent="7" name="dist_method_event">
+      <Comment>InnoDB free: 22528 kB; (`dist_method_id`) REFER `cds/dist_me</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="264" parent="7" name="event_log">
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="265" parent="7" name="event_log_p15">
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="266" parent="7" name="event_log_p16">
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="267" parent="7" name="event_log_p17">
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="268" parent="7" name="event_queue">
+      <Comment>InnoDB free: 22528 kB; (`campaign_id`) REFER `cds/campaign`(</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="269" parent="7" name="flow"/>
+    <table id="270" parent="7" name="flow_event"/>
+    <table id="271" parent="7" name="flow_event_t1"/>
+    <table id="272" parent="7" name="flow_t1"/>
+    <table id="273" parent="7" name="images">
+      <Comment>Item Images</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="274" parent="7" name="members">
+      <Comment>Registered Users</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="275" parent="7" name="partners">
+      <Comment>Our Customers</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="276" parent="7" name="partners_report">
+      <Comment>InnoDB free: 22528 kB; (`report_id`) REFER `cds/reports`(`re</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="277" parent="7" name="properties">
+      <Comment>Global Properties</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="278" parent="7" name="reports">
+      <Comment>InnoDB free: 22528 kB</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="279" parent="7" name="reports_input">
+      <Comment>InnoDB free: 22528 kB; (`report_id`) REFER `cds/reports`(`re</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="280" parent="7" name="rhfix"/>
+    <table id="281" parent="7" name="states">
+      <Comment>US States and possessions </Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="282" parent="7" name="system_list_data">
+      <Comment>InnoDB free: 22528 kB; (`system_list_id`) REFER `cds/system_</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="283" parent="7" name="system_lists">
+      <Comment>InnoDB free: 22528 kB; (`partner_id`) REFER `cds/partners`(`</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="284" parent="7" name="template">
+      <Comment>Email Templates</Comment>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="285" parent="7" name="tmpcde"/>
+    <view id="286" parent="7" name="campaign_elems_view">
+      <SourceTextLength>2395</SourceTextLength>
+    </view>
+    <view id="287" parent="7" name="campaign_log_view">
+      <SourceTextLength>292</SourceTextLength>
+    </view>
+    <view id="288" parent="7" name="campaign_message_event_view">
+      <SourceTextLength>420</SourceTextLength>
+    </view>
+    <view id="289" parent="7" name="campaign_message_view">
+      <SourceTextLength>992</SourceTextLength>
+    </view>
+    <view id="290" parent="7" name="campaign_script">
+      <SourceTextLength>432</SourceTextLength>
+    </view>
+    <view id="291" parent="7" name="connector_log_view">
+      <SourceTextLength>1207</SourceTextLength>
+    </view>
+    <view id="292" parent="7" name="connector_view">
+      <SourceTextLength>1356</SourceTextLength>
+    </view>
+    <view id="293" parent="7" name="dist_elem_item_dist_list">
+      <SourceTextLength>1419</SourceTextLength>
+    </view>
+    <routine id="294" parent="7" name="findscript">
+      <SourceTextLength>209</SourceTextLength>
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <column id="295" parent="233" name="address_id">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="296" parent="233" name="address_type">
+      <Position>2</Position>
+      <DataType>enum(&apos;Partner&apos;, &apos;PO&apos;, &apos;Order&apos;, &apos;Vendor&apos;)|0e</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;Order&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="297" parent="233" name="company">
+      <Position>3</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="298" parent="233" name="first_name">
+      <Position>4</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="299" parent="233" name="middle_name">
+      <Position>5</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="300" parent="233" name="last_name">
+      <Position>6</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="301" parent="233" name="email">
+      <Position>7</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="302" parent="233" name="address1">
+      <Position>8</Position>
+      <DataType>varchar(60)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="303" parent="233" name="address2">
+      <Position>9</Position>
+      <DataType>varchar(60)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="304" parent="233" name="address3">
+      <Position>10</Position>
+      <DataType>varchar(60)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="305" parent="233" name="city">
+      <Position>11</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="306" parent="233" name="state">
+      <Position>12</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="307" parent="233" name="zipcode">
+      <Position>13</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="308" parent="233" name="country">
+      <Position>14</Position>
+      <DataType>varchar(25)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="309" parent="233" name="country_code">
+      <Position>15</Position>
+      <DataType>varchar(2)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="310" parent="233" name="phone">
+      <Position>16</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="311" parent="233" name="mtime">
+      <Position>17</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="312" parent="233" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>address_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="313" parent="234" name="admin_id">
+      <Position>1</Position>
+      <DataType>int(3) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="314" parent="234" name="admin_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="315" parent="234" name="admin_password">
+      <Position>3</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="316" parent="234" name="admin_level">
+      <Position>4</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;2&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="317" parent="234" name="admin_name">
+      <ColNames>admin_name</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <key id="318" parent="234" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>admin_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="319" parent="234" name="admin_name">
+      <ColNames>admin_name</ColNames>
+      <UnderlyingIndexName>admin_name</UnderlyingIndexName>
+    </key>
+    <column id="320" parent="235" name="admin_id">
+      <Position>1</Position>
+      <DataType>int(3) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="321" parent="235" name="admin_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="322" parent="235" name="admin_password">
+      <Position>3</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="323" parent="235" name="admin_level">
+      <Position>4</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="324" parent="235" name="client_id">
+      <Position>5</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="325" parent="235" name="admin_name">
+      <ColNames>admin_name
+admin_password</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <index id="326" parent="235" name="client_id">
+      <ColNames>client_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="327" parent="235" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>admin_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="328" parent="235" name="admin_name">
+      <ColNames>admin_name
+admin_password</ColNames>
+      <UnderlyingIndexName>admin_name</UnderlyingIndexName>
+    </key>
+    <foreign-key id="329" parent="235" name="0_2812_new">
+      <ColNames>client_id</ColNames>
+      <RefSchemaName>ssi-new</RefSchemaName>
+      <RefTableName>client</RefTableName>
+      <RefColNames>client_id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="330" parent="236" name="admin_id">
+      <Position>1</Position>
+      <DataType>int(3) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="331" parent="236" name="admin_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="332" parent="236" name="admin_password">
+      <Position>3</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="333" parent="236" name="admin_level">
+      <Position>4</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="334" parent="236" name="partner_id">
+      <Position>5</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="335" parent="236" name="admin_name">
+      <ColNames>admin_name</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <index id="336" parent="236" name="partner_id">
+      <ColNames>partner_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="337" parent="236" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>admin_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="338" parent="236" name="admin_name">
+      <ColNames>admin_name</ColNames>
+      <UnderlyingIndexName>admin_name</UnderlyingIndexName>
+    </key>
+    <foreign-key id="339" parent="236" name="0_2812">
+      <ColNames>partner_id</ColNames>
+      <RefSchemaName>ssi-new</RefSchemaName>
+      <RefTableName>partners</RefTableName>
+      <RefColNames>partner_id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="340" parent="237" name="alert_log_id">
+      <Position>1</Position>
+      <DataType>int(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="341" parent="237" name="create_dt">
+      <Position>2</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="342" parent="237" name="level">
+      <Position>3</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="343" parent="237" name="text">
+      <Position>4</Position>
+      <DataType>mediumtext|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="344" parent="237" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>alert_log_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="345" parent="238" name="campaign_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="346" parent="238" name="client_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="347" parent="238" name="name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="348" parent="238" name="description">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="349" parent="238" name="testmode">
+      <Position>5</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="350" parent="238" name="autostart">
+      <Position>6</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="351" parent="238" name="initial_state_id">
+      <Position>7</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="352" parent="238" name="status">
+      <Position>8</Position>
+      <DataType>enum(&apos;OFFLINE&apos;, &apos;STARTING&apos;, &apos;ONLINE&apos;, &apos;STOPPING&apos;, &apos;WAITING&apos;, &apos;INITIALIZING&apos;)|0e</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;OFFLINE&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="353" parent="238" name="state">
+      <Position>9</Position>
+      <DataType>enum(&apos;UNINITIALIZED&apos;, &apos;INITIALIZED&apos;)|0e</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;UNINITIALIZED&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="354" parent="238" name="start_dt">
+      <Position>10</Position>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="355" parent="238" name="end_dt">
+      <Position>11</Position>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="356" parent="238" name="global_rules">
+      <Position>12</Position>
+      <DataType>mediumtext|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="357" parent="238" name="common_rules">
+      <Position>13</Position>
+      <DataType>mediumtext|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="358" parent="238" name="properties">
+      <Position>14</Position>
+      <DataType>mediumtext|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="359" parent="238" name="last_update_activity_dt">
+      <Position>15</Position>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="360" parent="238" name="client_id">
+      <ColNames>client_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="361" parent="238" name="initial_state_id">
+      <ColNames>initial_state_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="362" parent="238" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>campaign_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="363" parent="238" name="campaign_fk">
+      <ColNames>client_id</ColNames>
+      <RefSchemaName>ssi-new</RefSchemaName>
+      <RefTableName>client</RefTableName>
+      <RefColNames>client_id</RefColNames>
+    </foreign-key>
+    <column id="364" parent="239" name="campaign_activity_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="365" parent="239" name="campaign_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="366" parent="239" name="activity_dt">
+      <Position>3</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="367" parent="239" name="active_elem">
+      <Position>4</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="368" parent="239" name="campaign_id">
+      <ColNames>campaign_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="369" parent="239" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>campaign_activity_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="370" parent="239" name="campaign_activity_fk">
+      <ColNames>campaign_id</ColNames>
+      <RefSchemaName>ssi-new</RefSchemaName>
+      <RefTableName>campaign</RefTableName>
+      <RefColNames>campaign_id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="371" parent="240" name="campaign_dist_elem_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="372" parent="240" name="campaign_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="373" parent="240" name="dist_elem_id">
+      <Position>3</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="374" parent="240" name="campaign_state_id">
+      <Position>4</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="375" parent="240" name="campaign_state_status">
+      <Position>5</Position>
+      <DataType>enum(&apos;START&apos;, &apos;RUNNING&apos;, &apos;COMPLETE&apos;, &apos;ERROR&apos;, &apos;EXCLUDE&apos;)|0e</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;START&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="376" parent="240" name="active">
+      <Position>6</Position>
+      <DataType>int(1) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="377" parent="240" name="ever_active">
+      <Position>7</Position>
+      <DataType>tinyint(3) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="378" parent="240" name="run_dt">
+      <Position>8</Position>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="379" parent="240" name="last_run_dt">
+      <Position>9</Position>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="380" parent="240" name="last_active_dt">
+      <Position>10</Position>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="381" parent="240" name="mtime">
+      <Position>11</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="382" parent="240" name="ctime">
+      <Position>12</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="383" parent="240" name="campaign_dist_elem_idx1">
+      <ColNames>campaign_id
+campaign_state_status</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="384" parent="240" name="dist_elem_id">
+      <ColNames>dist_elem_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="385" parent="240" name="campaign_state_id">
+      <ColNames>campaign_state_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="386" parent="240" name="campaign_dist_elem_idx2">
+      <ColNames>active
+run_dt</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="387" parent="240" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>campaign_dist_elem_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="388" parent="241" name="campaign_dist_list_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="389" parent="241" name="campaign_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="390" parent="241" name="dist_list_id">
+      <Position>3</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="391" parent="241" name="campaign_id">
+      <ColNames>campaign_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="392" parent="241" name="dist_list_id">
+      <ColNames>dist_list_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="393" parent="241" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>campaign_dist_list_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="394" parent="241" name="campaign_dist_list_fk1">
+      <ColNames>dist_list_id</ColNames>
+      <RefSchemaName>ssi-new</RefSchemaName>
+      <RefTableName>dist_list</RefTableName>
+      <RefColNames>dist_list_id</RefColNames>
+    </foreign-key>
+    <column id="395" parent="242" name="campaign_state_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="396" parent="242" name="campaign_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="397" parent="242" name="name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="398" parent="242" name="description">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="399" parent="242" name="rule">
+      <Position>5</Position>
+      <DataType>mediumtext|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="400" parent="242" name="campaign_id">
+      <ColNames>campaign_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="401" parent="242" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>campaign_state_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="402" parent="242" name="campaign_state_fk1">
+      <ColNames>campaign_id</ColNames>
+      <RefSchemaName>ssi-new</RefSchemaName>
+      <RefTableName>campaign</RefTableName>
+      <RefColNames>campaign_id</RefColNames>
+    </foreign-key>
+    <column id="403" parent="243" name="cdskey_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="404" parent="243" name="key_id">
+      <Position>2</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="405" parent="243" name="key">
+      <Position>3</Position>
+      <DataType>varchar(256)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="406" parent="243" name="test_crypt">
+      <Position>4</Position>
+      <DataType>varchar(256)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="407" parent="243" name="key_id">
+      <ColNames>key_id</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <key id="408" parent="243" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>cdskey_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="409" parent="243" name="key_id">
+      <ColNames>key_id</ColNames>
+      <UnderlyingIndexName>key_id</UnderlyingIndexName>
+    </key>
+    <column id="410" parent="244" name="client_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="411" parent="244" name="partner_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="412" parent="244" name="name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="413" parent="244" name="partner_id">
+      <ColNames>partner_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="414" parent="244" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>client_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="415" parent="244" name="client_fk">
+      <ColNames>partner_id</ColNames>
+      <RefSchemaName>ssi-new</RefSchemaName>
+      <RefTableName>partners</RefTableName>
+      <RefColNames>partner_id</RefColNames>
+    </foreign-key>
+    <column id="416" parent="245" name="client_data_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="417" parent="245" name="client_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="418" parent="245" name="name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="419" parent="245" name="description">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="420" parent="245" name="data">
+      <Position>5</Position>
+      <DataType>mediumtext|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="421" parent="245" name="client_id">
+      <ColNames>client_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="422" parent="245" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>client_data_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="423" parent="245" name="client_data_fk">
+      <ColNames>client_id</ColNames>
+      <RefSchemaName>ssi-new</RefSchemaName>
+      <RefTableName>client</RefTableName>
+      <RefColNames>client_id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="424" parent="246" name="client_list_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="425" parent="246" name="client_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="426" parent="246" name="name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="427" parent="246" name="description">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="428" parent="246" name="campaign_specific">
+      <Position>5</Position>
+      <DataType>tinyint(4) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="429" parent="246" name="unique_key">
+      <Position>6</Position>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="430" parent="246" name="client_name_id">
+      <ColNames>client_id
+name</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <key id="431" parent="246" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>client_list_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="432" parent="246" name="client_name_id">
+      <ColNames>client_id
+name</ColNames>
+      <UnderlyingIndexName>client_name_id</UnderlyingIndexName>
+    </key>
+    <column id="433" parent="247" name="client_list_item_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="434" parent="247" name="client_list_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="435" parent="247" name="campaign_id">
+      <Position>3</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="436" parent="247" name="item">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="437" parent="247" name="data">
+      <Position>5</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="438" parent="247" name="mtime">
+      <Position>6</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="439" parent="247" name="comment">
+      <Position>7</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="440" parent="247" name="type">
+      <Position>8</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="441" parent="247" name="client_list_item_name_campaign">
+      <ColNames>client_list_id
+item
+campaign_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="442" parent="247" name="campaign_id">
+      <ColNames>campaign_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="443" parent="247" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>client_list_item_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="444" parent="247" name="client_list_item_fk">
+      <ColNames>client_list_id</ColNames>
+      <RefSchemaName>ssi-new</RefSchemaName>
+      <RefTableName>client_list</RefTableName>
+      <RefColNames>client_list_id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="445" parent="247" name="client_list_item_fk1">
+      <ColNames>campaign_id</ColNames>
+      <RefSchemaName>ssi-new</RefSchemaName>
+      <RefTableName>campaign</RefTableName>
+      <RefColNames>campaign_id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="446" parent="248" name="client_log_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="447" parent="248" name="client_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="448" parent="248" name="type">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="449" parent="248" name="key_value">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="450" parent="248" name="author">
+      <Position>5</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="451" parent="248" name="comment">
+      <Position>6</Position>
+      <DataType>varchar(2000)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="452" parent="248" name="ctime">
+      <Position>7</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="453" parent="248" name="client_id">
+      <ColNames>client_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="454" parent="248" name="type">
+      <ColNames>type
+key_value
+client_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="455" parent="248" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>client_log_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="456" parent="248" name="client_log_fk">
+      <ColNames>client_id</ColNames>
+      <RefSchemaName>ssi-new</RefSchemaName>
+      <RefTableName>client</RefTableName>
+      <RefColNames>client_id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="457" parent="249" name="connector_log_id">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="458" parent="249" name="connector_id">
+      <Position>2</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="459" parent="249" name="start_dt">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="460" parent="249" name="end_dt">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="461" parent="249" name="log_data">
+      <Position>5</Position>
+      <DataType>mediumtext|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="462" parent="249" name="connector_id">
+      <ColNames>connector_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="463" parent="249" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>connector_log_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="464" parent="249" name="0_2918">
+      <ColNames>connector_id</ColNames>
+      <RefSchemaName>ssi-new</RefSchemaName>
+      <RefTableName>connectors</RefTableName>
+      <RefColNames>connector_id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="465" parent="250" name="connector_type_id">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="466" parent="250" name="name">
+      <Position>2</Position>
+      <DataType>varchar(80)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="467" parent="250" name="classname">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="468" parent="250" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>connector_type_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="469" parent="251" name="connector_id">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="470" parent="251" name="connector_type_id">
+      <Position>2</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="471" parent="251" name="name">
+      <Position>3</Position>
+      <DataType>varchar(80)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="472" parent="251" name="client_id">
+      <Position>4</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="473" parent="251" name="running">
+      <Position>5</Position>
+      <DataType>tinyint(4) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="474" parent="251" name="state">
+      <Position>6</Position>
+      <DataType>mediumtext|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="475" parent="251" name="run_type">
+      <Position>7</Position>
+      <DataType>enum(&apos;MANUAL&apos;, &apos;ONCE&apos;, &apos;EVERY&apos;)|0e</DataType>
+      <DefaultExpression>&apos;MANUAL&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="476" parent="251" name="run_start">
+      <Position>8</Position>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="477" parent="251" name="run_every">
+      <Position>9</Position>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="478" parent="251" name="run_every_unit">
+      <Position>10</Position>
+      <DataType>enum(&apos;MINUTE&apos;, &apos;HOUR&apos;, &apos;DAY&apos;, &apos;WEEK&apos;, &apos;MONTH&apos;, &apos;YEAR&apos;)|0e</DataType>
+      <DefaultExpression>&apos;MINUTE&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="479" parent="251" name="properties">
+      <Position>11</Position>
+      <DataType>mediumtext|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="480" parent="251" name="start_dt">
+      <Position>12</Position>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="481" parent="251" name="end_dt">
+      <Position>13</Position>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="482" parent="251" name="log_data">
+      <Position>14</Position>
+      <DataType>mediumtext|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="483" parent="251" name="config_data">
+      <Position>15</Position>
+      <DataType>mediumtext|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="484" parent="251" name="client_name">
+      <ColNames>name
+client_id</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <index id="485" parent="251" name="connectors_fk1">
+      <ColNames>connector_type_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="486" parent="251" name="client_id">
+      <ColNames>client_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="487" parent="251" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>connector_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="488" parent="251" name="client_name">
+      <ColNames>name
+client_id</ColNames>
+      <UnderlyingIndexName>client_name</UnderlyingIndexName>
+    </key>
+    <foreign-key id="489" parent="251" name="connectors_fk1">
+      <ColNames>connector_type_id</ColNames>
+      <RefSchemaName>ssi-new</RefSchemaName>
+      <RefTableName>connector_types</RefTableName>
+      <RefColNames>connector_type_id</RefColNames>
+    </foreign-key>
+    <column id="490" parent="252" name="country_id">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="491" parent="252" name="country_code">
+      <Position>2</Position>
+      <DataType>char(2)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="492" parent="252" name="country">
+      <Position>3</Position>
+      <DataType>varchar(80)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="493" parent="252" name="eu">
+      <Position>4</Position>
+      <DataType>tinyint(1) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="494" parent="252" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>country_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="495" parent="253" name="dist_elem_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="496" parent="254" name="dist_elem_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="497" parent="254" name="dist_list_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="498" parent="254" name="id">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="499" parent="254" name="data">
+      <Position>4</Position>
+      <DataType>mediumtext|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="500" parent="254" name="active">
+      <Position>5</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="501" parent="254" name="mtime">
+      <Position>6</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="502" parent="254" name="ctime">
+      <Position>7</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="503" parent="254" name="id_dist_list_id">
+      <ColNames>dist_list_id
+id</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <key id="504" parent="254" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>dist_elem_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="505" parent="254" name="id_dist_list_id">
+      <ColNames>dist_list_id
+id</ColNames>
+      <UnderlyingIndexName>id_dist_list_id</UnderlyingIndexName>
+    </key>
+    <column id="506" parent="255" name="dist_elem_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="507" parent="255" name="dist_list_def_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="508" parent="255" name="value1">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="509" parent="255" name="value2">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="510" parent="255" name="value3">
+      <Position>5</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="511" parent="255" name="value4">
+      <Position>6</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="512" parent="255" name="value5">
+      <Position>7</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="513" parent="255" name="value6">
+      <Position>8</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="514" parent="255" name="value7">
+      <Position>9</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="515" parent="255" name="value8">
+      <Position>10</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="516" parent="255" name="value9">
+      <Position>11</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="517" parent="255" name="value10">
+      <Position>12</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="518" parent="255" name="value11">
+      <Position>13</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="519" parent="255" name="value12">
+      <Position>14</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="520" parent="255" name="value13">
+      <Position>15</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="521" parent="255" name="value14">
+      <Position>16</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="522" parent="255" name="value15">
+      <Position>17</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="523" parent="255" name="value16">
+      <Position>18</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="524" parent="255" name="value17">
+      <Position>19</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="525" parent="255" name="value18">
+      <Position>20</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="526" parent="255" name="value19">
+      <Position>21</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="527" parent="255" name="value20">
+      <Position>22</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="528" parent="255" name="value21">
+      <Position>23</Position>
+      <DataType>varchar(4096)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="529" parent="255" name="value22">
+      <Position>24</Position>
+      <DataType>varchar(4096)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="530" parent="255" name="dist_list_def_id">
+      <ColNames>dist_list_def_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="531" parent="255" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>dist_elem_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="532" parent="256" name="dist_elem_log_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="533" parent="256" name="dist_elem_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="534" parent="256" name="ctime">
+      <Position>3</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="535" parent="256" name="author">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="536" parent="256" name="comment">
+      <Position>5</Position>
+      <DataType>varchar(2000)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="537" parent="256" name="dist_elem_id">
+      <ColNames>dist_elem_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="538" parent="256" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>dist_elem_log_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="539" parent="257" name="dist_list_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="540" parent="257" name="dist_list_def_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="541" parent="257" name="client_id">
+      <Position>3</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="542" parent="257" name="name">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="543" parent="257" name="description">
+      <Position>5</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="544" parent="257" name="client_name">
+      <ColNames>client_id
+name</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <index id="545" parent="257" name="dist_list_def_id">
+      <ColNames>dist_list_def_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="546" parent="257" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>dist_list_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="547" parent="257" name="client_name">
+      <ColNames>client_id
+name</ColNames>
+      <UnderlyingIndexName>client_name</UnderlyingIndexName>
+    </key>
+    <foreign-key id="548" parent="257" name="dist_list_fk1">
+      <ColNames>dist_list_def_id</ColNames>
+      <RefSchemaName>ssi-new</RefSchemaName>
+      <RefTableName>dist_list_def</RefTableName>
+      <RefColNames>dist_list_def_id</RefColNames>
+    </foreign-key>
+    <column id="549" parent="258" name="dist_list_def_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="550" parent="258" name="client_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="551" parent="258" name="name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="552" parent="258" name="description">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="553" parent="258" name="id_xpath">
+      <Position>5</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="554" parent="258" name="xml_schema">
+      <Position>6</Position>
+      <DataType>mediumtext|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="555" parent="258" name="client_id">
+      <ColNames>client_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="556" parent="258" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>dist_list_def_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="557" parent="258" name="dist_list_def_fk">
+      <ColNames>client_id</ColNames>
+      <RefSchemaName>ssi-new</RefSchemaName>
+      <RefTableName>client</RefTableName>
+      <RefColNames>client_id</RefColNames>
+    </foreign-key>
+    <column id="558" parent="259" name="dist_list_item_def_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="559" parent="259" name="dist_list_def_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="560" parent="259" name="name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="561" parent="259" name="value_xpath">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="562" parent="259" name="editable">
+      <Position>5</Position>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="563" parent="259" name="searchable">
+      <Position>6</Position>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="564" parent="259" name="field_id">
+      <Position>7</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="565" parent="259" name="dist_list_def_id_name">
+      <ColNames>dist_list_def_id
+name</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <index id="566" parent="259" name="dist_list_def_id_field">
+      <ColNames>dist_list_def_id
+field_id</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <key id="567" parent="259" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>dist_list_item_def_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="568" parent="259" name="dist_list_def_id_name">
+      <ColNames>dist_list_def_id
+name</ColNames>
+      <UnderlyingIndexName>dist_list_def_id_name</UnderlyingIndexName>
+    </key>
+    <key id="569" parent="259" name="dist_list_def_id_field">
+      <ColNames>dist_list_def_id
+field_id</ColNames>
+      <UnderlyingIndexName>dist_list_def_id_field</UnderlyingIndexName>
+    </key>
+    <foreign-key id="570" parent="259" name="dist_list_item_def_fk">
+      <ColNames>dist_list_def_id</ColNames>
+      <RefSchemaName>ssi-new</RefSchemaName>
+      <RefTableName>dist_list_def</RefTableName>
+      <RefColNames>dist_list_def_id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="571" parent="260" name="dist_message_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="572" parent="260" name="dist_method_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="573" parent="260" name="create_dt">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="574" parent="260" name="address">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <Collation>utf8_unicode_ci</Collation>
+    </column>
+    <column id="575" parent="260" name="dist_elem_id">
+      <Position>5</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="576" parent="260" name="campaign_id">
+      <Position>6</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="577" parent="260" name="campaign_dist_elem_id">
+      <Position>7</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="578" parent="260" name="tag">
+      <Position>8</Position>
+      <Comment>Optional message &quot;tag&quot;</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+      <Collation>utf8_unicode_ci</Collation>
+    </column>
+    <column id="579" parent="260" name="properties">
+      <Position>9</Position>
+      <DataType>mediumtext|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+      <Collation>utf8_unicode_ci</Collation>
+    </column>
+    <column id="580" parent="260" name="docuri">
+      <Position>10</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+      <Collation>utf8_unicode_ci</Collation>
+    </column>
+    <column id="581" parent="260" name="rendered_dt">
+      <Position>11</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="582" parent="260" name="sent_dt">
+      <Position>12</Position>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="583" parent="260" name="dist_message_idx1">
+      <ColNames>campaign_id
+create_dt</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="584" parent="260" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>dist_message_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="585" parent="261" name="dist_message_event_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="586" parent="261" name="dist_message_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="587" parent="261" name="dist_method_event_id">
+      <Position>3</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="588" parent="261" name="event_dt">
+      <Position>4</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="589" parent="261" name="detail">
+      <Position>5</Position>
+      <DataType>mediumtext|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="590" parent="261" name="dist_message_id">
+      <ColNames>dist_message_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="591" parent="261" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>dist_message_event_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="592" parent="262" name="dist_method_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="593" parent="262" name="name">
+      <Position>2</Position>
+      <DataType>varchar(80)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="594" parent="262" name="description">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="595" parent="262" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>dist_method_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="596" parent="263" name="dist_method_event_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="597" parent="263" name="dist_method_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="598" parent="263" name="name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="599" parent="263" name="description">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="600" parent="263" name="campaign_id">
+      <Position>5</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="601" parent="263" name="dist_method_id">
+      <ColNames>dist_method_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="602" parent="263" name="campaign_id">
+      <ColNames>campaign_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="603" parent="263" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>dist_method_event_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="604" parent="263" name="dist_method_event_fk">
+      <ColNames>dist_method_id</ColNames>
+      <RefSchemaName>ssi-new</RefSchemaName>
+      <RefTableName>dist_method</RefTableName>
+      <RefColNames>dist_method_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="605" parent="263" name="dist_method_event_fk1">
+      <ColNames>campaign_id</ColNames>
+      <RefSchemaName>ssi-new</RefSchemaName>
+      <RefTableName>campaign</RefTableName>
+      <RefColNames>campaign_id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="606" parent="264" name="event_log_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="607" parent="264" name="campaign_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="608" parent="264" name="campaign_dist_elem_id">
+      <Position>3</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="609" parent="264" name="campaign_state_id">
+      <Position>4</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="610" parent="264" name="event">
+      <Position>5</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="611" parent="264" name="action">
+      <Position>6</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="612" parent="264" name="detail">
+      <Position>7</Position>
+      <DataType>mediumtext|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="613" parent="264" name="event_dt">
+      <Position>8</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="614" parent="264" name="event_log_idx1">
+      <ColNames>campaign_id
+campaign_dist_elem_id
+event_dt</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="615" parent="264" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>event_log_id
+event_dt
+campaign_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="616" parent="265" name="event_log_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="617" parent="265" name="campaign_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="618" parent="265" name="campaign_dist_elem_id">
+      <Position>3</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="619" parent="265" name="campaign_state_id">
+      <Position>4</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="620" parent="265" name="event">
+      <Position>5</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="621" parent="265" name="action">
+      <Position>6</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="622" parent="265" name="detail">
+      <Position>7</Position>
+      <DataType>mediumtext|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="623" parent="265" name="event_dt">
+      <Position>8</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="624" parent="265" name="event_log_idx1">
+      <ColNames>campaign_id
+campaign_dist_elem_id
+event_dt</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="625" parent="265" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>event_log_id
+event_dt
+campaign_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="626" parent="266" name="event_log_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="627" parent="266" name="campaign_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="628" parent="266" name="campaign_dist_elem_id">
+      <Position>3</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="629" parent="266" name="campaign_state_id">
+      <Position>4</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="630" parent="266" name="event">
+      <Position>5</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="631" parent="266" name="action">
+      <Position>6</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="632" parent="266" name="detail">
+      <Position>7</Position>
+      <DataType>mediumtext|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="633" parent="266" name="event_dt">
+      <Position>8</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="634" parent="266" name="event_log_idx1">
+      <ColNames>campaign_id
+campaign_dist_elem_id
+event_dt</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="635" parent="266" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>event_log_id
+event_dt
+campaign_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="636" parent="267" name="event_log_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="637" parent="267" name="campaign_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="638" parent="267" name="campaign_dist_elem_id">
+      <Position>3</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="639" parent="267" name="campaign_state_id">
+      <Position>4</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="640" parent="267" name="event">
+      <Position>5</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="641" parent="267" name="action">
+      <Position>6</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="642" parent="267" name="detail">
+      <Position>7</Position>
+      <DataType>mediumtext|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="643" parent="267" name="event_dt">
+      <Position>8</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="644" parent="267" name="event_log_idx1">
+      <ColNames>campaign_id
+campaign_dist_elem_id
+event_dt</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="645" parent="267" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>event_log_id
+event_dt
+campaign_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="646" parent="268" name="event_queue_id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="647" parent="268" name="classname">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="648" parent="268" name="campaign_id">
+      <Position>3</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="649" parent="268" name="campaign_dist_elem_id">
+      <Position>4</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="650" parent="268" name="queue_dt">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="651" parent="268" name="properties">
+      <Position>6</Position>
+      <DataType>mediumtext|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="652" parent="268" name="dist_message_id">
+      <Position>7</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="653" parent="268" name="dist_message_id">
+      <ColNames>dist_message_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="654" parent="268" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>event_queue_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="655" parent="269" name="flow_uuid">
+      <Position>1</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="656" parent="269" name="service_uuid">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="657" parent="269" name="attributes">
+      <Position>3</Position>
+      <DataType>mediumtext|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="658" parent="269" name="flow_status">
+      <Position>4</Position>
+      <DataType>enum(&apos;OPEN&apos;, &apos;SHUTDOWN&apos;, &apos;CLOSED&apos;)|0e</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="659" parent="269" name="create_dt">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="660" parent="269" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>flow_uuid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="661" parent="270" name="flow_event_uuid">
+      <Position>1</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="662" parent="270" name="attributes">
+      <Position>2</Position>
+      <DataType>mediumtext|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="663" parent="270" name="flow_uuid">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="664" parent="270" name="flow_event">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="665" parent="270" name="create_dt">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="666" parent="270" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>flow_event_uuid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="667" parent="271" name="flow_event_uuid">
+      <Position>1</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="668" parent="271" name="attributes">
+      <Position>2</Position>
+      <DataType>mediumtext|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="669" parent="271" name="flow_uuid">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="670" parent="271" name="flow_event">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="671" parent="271" name="create_dt">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="672" parent="271" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>flow_event_uuid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="673" parent="272" name="flow_uuid">
+      <Position>1</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="674" parent="272" name="service_uuid">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="675" parent="272" name="attributes">
+      <Position>3</Position>
+      <DataType>mediumtext|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="676" parent="272" name="flow_status">
+      <Position>4</Position>
+      <DataType>enum(&apos;OPEN&apos;, &apos;SHUTDOWN&apos;, &apos;CLOSED&apos;)|0e</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="677" parent="272" name="create_dt">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="678" parent="272" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>flow_uuid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="679" parent="273" name="image_id">
+      <Position>1</Position>
+      <DataType>int(3) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="680" parent="273" name="filename">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="681" parent="273" name="content_type">
+      <Position>3</Position>
+      <DataType>varchar(80)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="682" parent="273" name="data">
+      <Position>4</Position>
+      <DataType>mediumblob|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="683" parent="273" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>image_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="684" parent="274" name="member_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="685" parent="274" name="email">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="686" parent="274" name="instance">
+      <Position>3</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="687" parent="274" name="account_id">
+      <Position>4</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="688" parent="274" name="password">
+      <Position>5</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="689" parent="274" name="first_name">
+      <Position>6</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="690" parent="274" name="middle_name">
+      <Position>7</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="691" parent="274" name="last_name">
+      <Position>8</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="692" parent="274" name="admin_level">
+      <Position>9</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="693" parent="274" name="ignore_entitlements">
+      <Position>10</Position>
+      <DataType>tinyint(4) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="694" parent="274" name="temporary">
+      <Position>11</Position>
+      <DataType>tinyint(4) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="695" parent="274" name="mtime">
+      <Position>12</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="696" parent="274" name="ctime">
+      <Position>13</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="697" parent="274" name="last_login">
+      <Position>14</Position>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="698" parent="274" name="email">
+      <ColNames>email
+instance</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <key id="699" parent="274" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>member_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="700" parent="274" name="email">
+      <ColNames>email
+instance</ColNames>
+      <UnderlyingIndexName>email</UnderlyingIndexName>
+    </key>
+    <column id="701" parent="275" name="partner_id">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="702" parent="275" name="code">
+      <Position>2</Position>
+      <DataType>varchar(40)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="703" parent="275" name="company">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="704" parent="275" name="address_id">
+      <Position>4</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="705" parent="275" name="tax_id">
+      <Position>5</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="706" parent="275" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>partner_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="707" parent="276" name="partners_reports_id">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="708" parent="276" name="report_id">
+      <Position>2</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="709" parent="276" name="partner_id">
+      <Position>3</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="710" parent="276" name="client_id">
+      <Position>4</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="711" parent="276" name="report_id">
+      <ColNames>report_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="712" parent="276" name="partner_id">
+      <ColNames>partner_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="713" parent="276" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>partners_reports_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="714" parent="276" name="0_2885">
+      <ColNames>report_id</ColNames>
+      <RefSchemaName>ssi-new</RefSchemaName>
+      <RefTableName>reports</RefTableName>
+      <RefColNames>report_id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="715" parent="276" name="0_2888">
+      <ColNames>partner_id</ColNames>
+      <RefSchemaName>ssi-new</RefSchemaName>
+      <RefTableName>partners</RefTableName>
+      <RefColNames>partner_id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="716" parent="277" name="name">
+      <Position>1</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="717" parent="277" name="value">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="718" parent="277" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>name</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="719" parent="278" name="report_id">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="720" parent="278" name="name">
+      <Position>2</Position>
+      <DataType>varchar(80)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="721" parent="278" name="description">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="722" parent="278" name="report_type">
+      <Position>4</Position>
+      <DataType>enum(&apos;SQL&apos;, &apos;XML&apos;)|0e</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;SQL&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="723" parent="278" name="dbname">
+      <Position>5</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="724" parent="278" name="sql_query">
+      <Position>6</Position>
+      <DataType>mediumtext|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="725" parent="278" name="name">
+      <ColNames>name</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <key id="726" parent="278" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>report_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="727" parent="278" name="name">
+      <ColNames>name</ColNames>
+      <UnderlyingIndexName>name</UnderlyingIndexName>
+    </key>
+    <column id="728" parent="279" name="report_input_id">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="729" parent="279" name="report_id">
+      <Position>2</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="730" parent="279" name="col">
+      <Position>3</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="731" parent="279" name="name">
+      <Position>4</Position>
+      <DataType>varchar(80)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="732" parent="279" name="description">
+      <Position>5</Position>
+      <DataType>varchar(80)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="733" parent="279" name="type">
+      <Position>6</Position>
+      <DataType>enum(&apos;INTEGER&apos;, &apos;STRING&apos;, &apos;DATE&apos;, &apos;DOUBLE&apos;)|0e</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;INTEGER&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="734" parent="279" name="fillin">
+      <Position>7</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="735" parent="279" name="def_value">
+      <Position>8</Position>
+      <DataType>varchar(80)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="736" parent="279" name="report_id">
+      <ColNames>report_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="737" parent="279" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>report_input_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="738" parent="279" name="0_2873">
+      <ColNames>report_id</ColNames>
+      <RefSchemaName>ssi-new</RefSchemaName>
+      <RefTableName>reports</RefTableName>
+      <RefColNames>report_id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="739" parent="280" name="event_log_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="740" parent="280" name="campaign_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="741" parent="280" name="campaign_dist_elem_id">
+      <Position>3</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="742" parent="280" name="campaign_state_id">
+      <Position>4</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="743" parent="280" name="event">
+      <Position>5</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+      <Collation>utf8_unicode_ci</Collation>
+    </column>
+    <column id="744" parent="280" name="action">
+      <Position>6</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+      <Collation>utf8_unicode_ci</Collation>
+    </column>
+    <column id="745" parent="280" name="detail">
+      <Position>7</Position>
+      <DataType>mediumtext|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+      <Collation>utf8_unicode_ci</Collation>
+    </column>
+    <column id="746" parent="280" name="event_dt">
+      <Position>8</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="747" parent="281" name="state_code">
+      <Position>1</Position>
+      <DataType>char(2)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="748" parent="281" name="state">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="749" parent="281" name="country_code">
+      <Position>3</Position>
+      <DataType>char(2)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="750" parent="281" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>state_code</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="751" parent="282" name="data_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="752" parent="282" name="system_list_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="753" parent="282" name="list_order">
+      <Position>3</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="754" parent="282" name="code">
+      <Position>4</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="755" parent="282" name="value">
+      <Position>5</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="756" parent="282" name="system_list_id">
+      <ColNames>system_list_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="757" parent="282" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>data_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="758" parent="282" name="system_list_data_ibfk_1">
+      <ColNames>system_list_id</ColNames>
+      <RefSchemaName>ssi-new</RefSchemaName>
+      <RefTableName>system_lists</RefTableName>
+      <RefColNames>system_list_id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="759" parent="283" name="system_list_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="760" parent="283" name="partner_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="761" parent="283" name="name">
+      <Position>3</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="762" parent="283" name="description">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="763" parent="283" name="partner_id">
+      <ColNames>partner_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="764" parent="283" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>system_list_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="765" parent="283" name="system_lists_ibfk_1">
+      <ColNames>partner_id</ColNames>
+      <RefSchemaName>ssi-new</RefSchemaName>
+      <RefTableName>partners</RefTableName>
+      <RefColNames>partner_id</RefColNames>
+    </foreign-key>
+    <column id="766" parent="284" name="template_id">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="767" parent="284" name="client_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="768" parent="284" name="dist_method_id">
+      <Position>3</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="769" parent="284" name="name">
+      <Position>4</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="770" parent="284" name="description">
+      <Position>5</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="771" parent="284" name="body">
+      <Position>6</Position>
+      <DataType>mediumtext|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="772" parent="284" name="mtime">
+      <Position>7</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="773" parent="284" name="template_type">
+      <Position>8</Position>
+      <DataType>enum(&apos;JSP&apos;, &apos;PDF&apos;, &apos;XHTML&apos;)|0e</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;JSP&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="774" parent="284" name="unique_key">
+      <ColNames>client_id
+name</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <index id="775" parent="284" name="dist_method_id">
+      <ColNames>dist_method_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="776" parent="284" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>template_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="777" parent="284" name="unique_key">
+      <ColNames>client_id
+name</ColNames>
+      <UnderlyingIndexName>unique_key</UnderlyingIndexName>
+    </key>
+    <foreign-key id="778" parent="284" name="template_fk">
+      <ColNames>client_id</ColNames>
+      <RefSchemaName>ssi-new</RefSchemaName>
+      <RefTableName>client</RefTableName>
+      <RefColNames>client_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="779" parent="284" name="template_fk1">
+      <ColNames>dist_method_id</ColNames>
+      <RefSchemaName>ssi-new</RefSchemaName>
+      <RefTableName>dist_method</RefTableName>
+      <RefColNames>dist_method_id</RefColNames>
+    </foreign-key>
+    <column id="780" parent="285" name="campaign_dist_elem_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="781" parent="285" name="dist_elem_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="782" parent="285" name="campaign_state_id">
+      <Position>3</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="783" parent="286" name="dist_elem_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="784" parent="286" name="dist_list_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="785" parent="286" name="id">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="786" parent="286" name="dist_list_def_id">
+      <Position>4</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="787" parent="286" name="entity_name">
+      <Position>5</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="788" parent="286" name="entity_type">
+      <Position>6</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="789" parent="286" name="contact_name">
+      <Position>7</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="790" parent="286" name="av_address1">
+      <Position>8</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="791" parent="286" name="av_address2">
+      <Position>9</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="792" parent="286" name="av_city">
+      <Position>10</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="793" parent="286" name="av_state">
+      <Position>11</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="794" parent="286" name="postal_code">
+      <Position>12</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="795" parent="286" name="av_country">
+      <Position>13</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="796" parent="286" name="email_address_customer">
+      <Position>14</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="797" parent="286" name="region">
+      <Position>15</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="798" parent="286" name="custom_field1">
+      <Position>16</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="799" parent="286" name="all_custom_fields">
+      <Position>17</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="800" parent="286" name="record_id">
+      <Position>18</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="801" parent="286" name="av_code">
+      <Position>19</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="802" parent="286" name="ev_result">
+      <Position>20</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="803" parent="286" name="custom_field2">
+      <Position>21</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="804" parent="286" name="custom_field3">
+      <Position>22</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="805" parent="286" name="custom_field4">
+      <Position>23</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="806" parent="286" name="custom_field5">
+      <Position>24</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="807" parent="286" name="block_all">
+      <Position>25</Position>
+      <DataType>varchar(4096)|0s</DataType>
+    </column>
+    <column id="808" parent="286" name="orig_email_address">
+      <Position>26</Position>
+      <DataType>varchar(4096)|0s</DataType>
+    </column>
+    <column id="809" parent="286" name="campaign_state_status">
+      <Position>27</Position>
+      <DataType>enum(&apos;START&apos;, &apos;RUNNING&apos;, &apos;COMPLETE&apos;, &apos;ERROR&apos;, &apos;EXCLUDE&apos;)|0e</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="810" parent="286" name="run_dt">
+      <Position>28</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="811" parent="286" name="last_run_dt">
+      <Position>29</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="812" parent="286" name="last_active_dt">
+      <Position>30</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="813" parent="286" name="campaign_state">
+      <Position>31</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="814" parent="286" name="campaign_dist_elem_id">
+      <Position>32</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="815" parent="286" name="campaign_name">
+      <Position>33</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="816" parent="287" name="log_id">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="817" parent="287" name="id">
+      <Position>2</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="818" parent="287" name="start_dt">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="819" parent="287" name="end_dt">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="820" parent="287" name="log_data">
+      <Position>5</Position>
+      <DataType>mediumtext|0s</DataType>
+    </column>
+    <column id="821" parent="288" name="dist_message_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="822" parent="288" name="event">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="823" parent="288" name="event_dt">
+      <Position>3</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="824" parent="288" name="detail">
+      <Position>4</Position>
+      <DataType>mediumtext|0s</DataType>
+    </column>
+    <column id="825" parent="289" name="dist_message_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="826" parent="289" name="campaign_dist_elem_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+    </column>
+    <column id="827" parent="289" name="create_dt">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="828" parent="289" name="address">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="829" parent="289" name="dist_elem_id">
+      <Position>5</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+    </column>
+    <column id="830" parent="289" name="tag">
+      <Position>6</Position>
+      <Comment>Optional message &quot;tag&quot;</Comment>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="831" parent="289" name="docuri">
+      <Position>7</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="832" parent="289" name="rendered_dt">
+      <Position>8</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="833" parent="289" name="sent_dt">
+      <Position>9</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="834" parent="289" name="dist_method">
+      <Position>10</Position>
+      <DataType>varchar(80)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="835" parent="289" name="campaign_name">
+      <Position>11</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="836" parent="289" name="client_name">
+      <Position>12</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="837" parent="290" name="campaign_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="838" parent="290" name="script">
+      <Position>2</Position>
+      <DataType>longtext|0s</DataType>
+    </column>
+    <column id="839" parent="291" name="log_id">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="840" parent="291" name="id">
+      <Position>2</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="841" parent="291" name="start_dt">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="842" parent="291" name="end_dt">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="843" parent="291" name="log_data">
+      <Position>5</Position>
+      <DataType>mediumtext|0s</DataType>
+    </column>
+    <column id="844" parent="291" name="loaded">
+      <Position>6</Position>
+      <DataType>bigint(21) unsigned|0s</DataType>
+    </column>
+    <column id="845" parent="291" name="file">
+      <Position>7</Position>
+      <DataType>longtext|0s</DataType>
+    </column>
+    <column id="846" parent="291" name="dist_list">
+      <Position>8</Position>
+      <DataType>longtext|0s</DataType>
+    </column>
+    <column id="847" parent="291" name="campaign">
+      <Position>9</Position>
+      <DataType>longtext|0s</DataType>
+    </column>
+    <column id="848" parent="291" name="loaded_dt">
+      <Position>10</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="849" parent="292" name="id">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="850" parent="292" name="client_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="851" parent="292" name="type">
+      <Position>3</Position>
+      <DataType>varchar(80)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="852" parent="292" name="name">
+      <Position>4</Position>
+      <DataType>varchar(80)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="853" parent="292" name="running">
+      <Position>5</Position>
+      <DataType>tinyint(4) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="854" parent="292" name="state">
+      <Position>6</Position>
+      <DataType>mediumtext|0s</DataType>
+    </column>
+    <column id="855" parent="292" name="run_type">
+      <Position>7</Position>
+      <DataType>enum(&apos;MANUAL&apos;, &apos;ONCE&apos;, &apos;EVERY&apos;)|0e</DataType>
+    </column>
+    <column id="856" parent="292" name="run_start">
+      <Position>8</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="857" parent="292" name="run_every">
+      <Position>9</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="858" parent="292" name="run_every_unit">
+      <Position>10</Position>
+      <DataType>enum(&apos;MINUTE&apos;, &apos;HOUR&apos;, &apos;DAY&apos;, &apos;WEEK&apos;, &apos;MONTH&apos;, &apos;YEAR&apos;)|0e</DataType>
+    </column>
+    <column id="859" parent="292" name="properties">
+      <Position>11</Position>
+      <DataType>mediumtext|0s</DataType>
+    </column>
+    <column id="860" parent="292" name="start_dt">
+      <Position>12</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="861" parent="292" name="end_dt">
+      <Position>13</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="862" parent="292" name="config_data">
+      <Position>14</Position>
+      <DataType>mediumtext|0s</DataType>
+    </column>
+    <column id="863" parent="292" name="loaded_history">
+      <Position>15</Position>
+      <DataType>longtext|0s</DataType>
+    </column>
+    <column id="864" parent="292" name="last_loaded_dt">
+      <Position>16</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="865" parent="293" name="dist_elem_id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="866" parent="293" name="dist_list_def_id">
+      <Position>2</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="867" parent="293" name="value1">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="868" parent="293" name="value2">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="869" parent="293" name="value3">
+      <Position>5</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="870" parent="293" name="value4">
+      <Position>6</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="871" parent="293" name="value5">
+      <Position>7</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="872" parent="293" name="value6">
+      <Position>8</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="873" parent="293" name="value7">
+      <Position>9</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="874" parent="293" name="value8">
+      <Position>10</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="875" parent="293" name="value9">
+      <Position>11</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="876" parent="293" name="value10">
+      <Position>12</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="877" parent="293" name="value11">
+      <Position>13</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="878" parent="293" name="value12">
+      <Position>14</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="879" parent="293" name="value13">
+      <Position>15</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="880" parent="293" name="value14">
+      <Position>16</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="881" parent="293" name="value15">
+      <Position>17</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="882" parent="293" name="value16">
+      <Position>18</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="883" parent="293" name="value17">
+      <Position>19</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="884" parent="293" name="value18">
+      <Position>20</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="885" parent="293" name="value19">
+      <Position>21</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="886" parent="293" name="value20">
+      <Position>22</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="887" parent="293" name="value21">
+      <Position>23</Position>
+      <DataType>varchar(4096)|0s</DataType>
+    </column>
+    <column id="888" parent="293" name="value22">
+      <Position>24</Position>
+      <DataType>varchar(4096)|0s</DataType>
+    </column>
+    <column id="889" parent="293" name="dist_list_id">
+      <Position>25</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <argument id="890" parent="294" name="str">
+      <Position>1</Position>
+      <DataType>text|0s</DataType>
+    </argument>
+  </database-model>
+</dataSource>

@@ -4,3 +4,6 @@ out
 gen
 *~
 gradle-local.properties
+repo
+buildSrc/.gradle
+.gradle

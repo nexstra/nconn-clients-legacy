@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.holgerbrandl:kscript-annotations:1.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.holgerbrandl/kscript-annotations/1.2/2babb75c7e858ed757b84f3fc14bf798d5437fd2/kscript-annotations-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.holgerbrandl/kscript-annotations/1.2/e610b0aef421a580eb61e74f2b9d7dbbbd5fc219/kscript-annotations-1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

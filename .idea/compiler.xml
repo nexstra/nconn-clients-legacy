@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="8">
+      <module name="cli_main" target="1.8" />
+      <module name="cli_test" target="1.8" />
+      <module name="config_main" target="1.8" />
+      <module name="config_test" target="1.8" />
+      <module name="docrun_main" target="1.8" />
+      <module name="docrun_test" target="1.8" />
+      <module name="docstore-dsl_main" target="1.8" />
+      <module name="docstore-dsl_test" target="1.8" />
+      <module name="docstore-lib_main" target="1.8" />
+      <module name="docstore-lib_test" target="1.8" />
+      <module name="docstore-main_main" target="1.8" />
+      <module name="docstore-main_test" target="1.8" />
+      <module name="docstore_main" target="1.8" />
+      <module name="docstore_test" target="1.8" />
+      <module name="kscript_main" target="1.8" />
+      <module name="kscript_test" target="1.8" />
+      <module name="nconn-legacy_buildSrc_main" target="1.8" />
+      <module name="nconn-legacy_buildSrc_test" target="1.8" />
+      <module name="nconn-legacy_main" target="1.8" />
+      <module name="nconn-legacy_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
