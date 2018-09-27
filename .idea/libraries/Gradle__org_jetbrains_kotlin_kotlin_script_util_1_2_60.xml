@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlin:kotlin-script-util:1.2.60">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-util/1.2.60/cdb37620e623896bf5a7bd5aaa3d4193477069e5/kotlin-script-util-1.2.60.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-util/1.2.60/e5becea9a434e76dac9374e8ee8c23e4e2c0bced/kotlin-script-util-1.2.60-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-util/1.2.60/4f210e3044773ed997467619af04f4a65469bd17/kotlin-script-util-1.2.60-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

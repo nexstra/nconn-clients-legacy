@@ -2,12 +2,12 @@ buildscript {
     repositories {  
        jcenter()  
       maven {
-              url "${rootProject.projectDir}/../repo"
+              url "/nexstra/docstore/build/repo" //"${rootProject.projectDir}/../repo"
       }
     }  
     dependencies {  
         classpath 'com.bmuschko:gradle-tomcat-plugin:2.2.5'  
-        classpath "content-services:config:1.+"
+        classpath "content-services:config:1.4.+"
     }  
 }  
 plugins {
@@ -20,12 +20,13 @@ dependencies {
   repositories {
     jcenter()
     maven {
-      url "${rootProject.projectDir}/../repo"
+      //url "${rootProject.projectDir}/../repo"
+      url "/nexstra/docstore/build/repo"
     }
   }
   // compile "org.jetbrains.exposed:exposed:0.10.4"
     compile "mysql:mysql-connector-java:5.1.33"
-    compile "content-services:config:1.+"
+    compile "content-services:config:1.4.+"
 }
 compileKotlin {
   sourceCompatibility = JavaVersion.VERSION_1_8

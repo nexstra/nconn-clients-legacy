@@ -7,13 +7,13 @@ buildscript {
     }  
     dependencies {  
         classpath 'com.bmuschko:gradle-tomcat-plugin:2.2.5'  
-        classpath "content-services:config:1.4.34"
+        classpath "content-services:config:1.4.44"
     }  
 }  
 plugins {
   id "org.gradle.kotlin.kotlin-dsl" version "1.0-rc-5"
   id 'org.jetbrains.kotlin.jvm' version '1.2.61'
-  id 'nexstra.docstore-dsl' version "1.0.5"
+  id 'nexstra.docstore-dsl' version "1.0.6"
 }
 dependencies {
   repositories {
@@ -36,7 +36,7 @@ dependencies {
     compile "mysql:mysql-connector-java:5.1.33"
     compile "org.jetbrains.kotlin:kotlin-script-runtime"
     compile "com.github.holgerbrandl:kscript-annotations:1.2"
-    compile "content-services:config:1.4.40"
+    compile "content-services:config:1.4.44"
 }
 compileKotlin {
   sourceCompatibility = JavaVersion.VERSION_1_8
@@ -79,6 +79,6 @@ task putReports(type:nexstra.PutTask) {
   group = 'nconnect'
   dependsOn reports
   source reports.outputs.files // file("${buildDir}/reports/")
-  docuri 's3://nexstra-com-test-us-west-2/tmp/testdocstore/templates'
+  docuri 's3://nexstra-com-dev-config-us-west-2/system/config/reports/'
 }
 

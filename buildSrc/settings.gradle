@@ -6,4 +6,4 @@ pluginManagement {
   }
 }
 
-includeBuild "../../docstore"
+//includeBuild "../../../docstore"

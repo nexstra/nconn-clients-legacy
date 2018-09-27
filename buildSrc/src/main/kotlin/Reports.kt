@@ -41,14 +41,17 @@ fun extractReports( outdir: java.io.File , datasource: File  ){
     val metaname = "${fname}.report"
     val ext = report.report_type.toLowerCase()
 
-    File( outdir,"${fname}.${ext}").writeText( report.sql_query )
+    val queryFile = "${fname}.${ext}"
+    File( outdir,queryFile).writeText( report.sql_query )
     val allp = query("SELECT * from reports_input WHERE report_id = ?",report.report_id).toList { asJsonNode() }
     val meta = mapOf(
         "name" to report.name,
         "type" to "report",
         "description" to report.description,
-        "report_type" to report.report_type ,
+        "report_type" to report.report_type.toLowerCase() ,
         "dbname" to report.dbname ,
+        "query" to queryFile ,
+        "datasource" to datasource.nameWithoutExtension,
         "parameters" to
          allp.map {
            mapOf(
