@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="ssi-new@cds.rds.nexstra.com">
-  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.11">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.12">
     <root id="1">
       <ServerVersion>5.7.12</ServerVersion>
       <DefaultEngine>InnoDB</DefaultEngine>
@@ -1084,7 +1084,7 @@
     </table>
     <table id="280" parent="7" name="rhfix"/>
     <table id="281" parent="7" name="states">
-      <Comment>US States and possessions </Comment>
+      <Comment>US States and possessions</Comment>
       <Collation>utf8_unicode_ci</Collation>
     </table>
     <table id="282" parent="7" name="system_list_data">

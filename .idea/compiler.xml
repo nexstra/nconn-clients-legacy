@@ -2,26 +2,121 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="8">
+      <module name="activities-api_main" target="1.8" />
+      <module name="activities-api_test" target="1.8" />
+      <module name="activities-client_main" target="1.8" />
+      <module name="activities-client_test" target="1.8" />
+      <module name="activities-report_main" target="1.8" />
+      <module name="activities-report_test" target="1.8" />
+      <module name="activities_main" target="1.8" />
+      <module name="activities_test" target="1.8" />
+      <module name="activity-util_main" target="1.8" />
+      <module name="activity-util_test" target="1.8" />
+      <module name="bash_integrationTest" target="1.8" />
+      <module name="bash_main" target="1.8" />
+      <module name="bash_test" target="1.8" />
       <module name="cli_main" target="1.8" />
       <module name="cli_test" target="1.8" />
+      <module name="client-dsl_main" target="1.8" />
+      <module name="client-dsl_test" target="1.8" />
+      <module name="cognito-api_integrationTest" target="1.8" />
+      <module name="cognito-api_main" target="1.8" />
+      <module name="cognito-api_test" target="1.8" />
+      <module name="common_main" target="1.8" />
+      <module name="common_test" target="1.8" />
+      <module name="composemail-activity_main" target="1.8" />
+      <module name="composemail-activity_test" target="1.8" />
+      <module name="composemail_integrationTest" target="1.8" />
+      <module name="composemail_main" target="1.8" />
+      <module name="composemail_test" target="1.8" />
       <module name="config_main" target="1.8" />
       <module name="config_test" target="1.8" />
+      <module name="docker-report_main" target="1.8" />
+      <module name="docker-report_test" target="1.8" />
+      <module name="docker_main" target="1.8" />
+      <module name="docker_test" target="1.8" />
       <module name="docrun_main" target="1.8" />
       <module name="docrun_test" target="1.8" />
+      <module name="docstore-api_integrationTest" target="1.8" />
+      <module name="docstore-api_main" target="1.8" />
+      <module name="docstore-api_test" target="1.8" />
       <module name="docstore-dsl_main" target="1.8" />
       <module name="docstore-dsl_test" target="1.8" />
+      <module name="docstore-kscript_main" target="1.8" />
+      <module name="docstore-kscript_test" target="1.8" />
       <module name="docstore-lib_main" target="1.8" />
       <module name="docstore-lib_test" target="1.8" />
       <module name="docstore-main_main" target="1.8" />
       <module name="docstore-main_test" target="1.8" />
       <module name="docstore_main" target="1.8" />
       <module name="docstore_test" target="1.8" />
+      <module name="echo-service_main" target="1.8" />
+      <module name="echo-service_test" target="1.8" />
+      <module name="format-util_main" target="1.8" />
+      <module name="format-util_test" target="1.8" />
+      <module name="gindex-activity_main" target="1.8" />
+      <module name="gindex-activity_test" target="1.8" />
+      <module name="github-api_integrationTest" target="1.8" />
+      <module name="github-api_main" target="1.8" />
+      <module name="github-api_test" target="1.8" />
       <module name="kscript_main" target="1.8" />
       <module name="kscript_test" target="1.8" />
+      <module name="lambda-api_main" target="1.8" />
+      <module name="lambda-api_test" target="1.8" />
+      <module name="lambda_main" target="1.8" />
+      <module name="lambda_test" target="1.8" />
+      <module name="logutil_main" target="1.8" />
+      <module name="logutil_test" target="1.8" />
+      <module name="mail_main" target="1.8" />
+      <module name="mail_test" target="1.8" />
+      <module name="metrics_main" target="1.8" />
+      <module name="metrics_test" target="1.8" />
       <module name="nconn-legacy_buildSrc_main" target="1.8" />
       <module name="nconn-legacy_buildSrc_test" target="1.8" />
       <module name="nconn-legacy_main" target="1.8" />
       <module name="nconn-legacy_test" target="1.8" />
+      <module name="nconnect-v2-client_main" target="1.8" />
+      <module name="nconnect-v2-client_test" target="1.8" />
+      <module name="nconnect-v2_main" target="1.8" />
+      <module name="nconnect-v2_test" target="1.8" />
+      <module name="nexstra.nconnect_buildSrc_main" target="1.8" />
+      <module name="nexstra.nconnect_buildSrc_test" target="1.8" />
+      <module name="portal-sys_main" target="1.8" />
+      <module name="portal-sys_test" target="1.8" />
+      <module name="report-api_integrationTest" target="1.8" />
+      <module name="report-api_main" target="1.8" />
+      <module name="report-api_test" target="1.8" />
+      <module name="script-kscript_integrationTest" target="1.8" />
+      <module name="script-kscript_main" target="1.8" />
+      <module name="script-kscript_test" target="1.8" />
+      <module name="script_main" target="1.8" />
+      <module name="script_test" target="1.8" />
+      <module name="sendmail-activity_main" target="1.8" />
+      <module name="sendmail-activity_test" target="1.8" />
+      <module name="sendmail_integrationTest" target="1.8" />
+      <module name="sendmail_main" target="1.8" />
+      <module name="sendmail_test" target="1.8" />
+      <module name="sftp-api_integrationTest" target="1.8" />
+      <module name="sftp-api_main" target="1.8" />
+      <module name="sftp-api_test" target="1.8" />
+      <module name="sftp_main" target="1.8" />
+      <module name="sftp_test" target="1.8" />
+      <module name="split_main" target="1.8" />
+      <module name="split_test" target="1.8" />
+      <module name="stepdsl_main" target="1.8" />
+      <module name="stepdsl_test" target="1.8" />
+      <module name="steputil_integrationTest" target="1.8" />
+      <module name="steputil_main" target="1.8" />
+      <module name="steputil_test" target="1.8" />
+      <module name="thumb_integrationTest" target="1.8" />
+      <module name="thumb_main" target="1.8" />
+      <module name="thumb_test" target="1.8" />
+      <module name="workflow_integrationTest" target="1.8" />
+      <module name="workflow_main" target="1.8" />
+      <module name="workflow_test" target="1.8" />
+      <module name="xmlsh_integrationTest" target="1.8" />
+      <module name="xmlsh_main" target="1.8" />
+      <module name="xmlsh_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

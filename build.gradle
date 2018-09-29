@@ -14,18 +14,15 @@ plugins {
   id "org.gradle.kotlin.kotlin-dsl" version "1.0-rc-5"
   id 'org.jetbrains.kotlin.jvm' version '1.2.61'
   id 'nexstra.docstore-dsl' version "1.0.6"
-}
-dependencies {
-  repositories {
-  jcenter()
-    maven {
-        url "${rootProject.projectDir}/repo"
-    }   
-  }
+  id 'nexstra.core-dsl' version "1.0.2"
+  id 'nexstra.client-dsl' version "1.0.2"
 }
 ext {
     if( project.hasProperty("datasource" ) ) datasource = file(project.getProperty("datasource"))
     else  datasource = file("system/datasource/cds-dev.ds" ) 
+   templateDir = "${projectDir}/templates"
+   cftemplate = "${buildDir}/cloud/cftemplate.yml"
+   workflowDir = "${projectDir}/workflow"
 }
 
 apply plugin: 'kotlin'
@@ -82,3 +79,31 @@ task putReports(type:nexstra.PutTask) {
   docuri 's3://nexstra-com-dev-config-us-west-2/system/config/reports/'
 }
 
+
+stepFunction {
+    outputDir = file("build/steps/")
+    source = file("steps/")
+}
+/*
+createPackage {
+     dependsOn("mergeTemplate")
+ }
+
+  "deployPackage"(DeployPackageTask::class) {
+     dependsOn("createPackage")
+  }
+*/
+mergeTemplate {
+     dependsOn createTemplate
+    templateFile =file("${templateDir}/cloudformation-template.yml")
+    outputFile = file(cftemplate)
+    source=fileTree(workflowDir)
+    include("*.yml")
+  }
+
+createTemplate {
+    dependsOn stepFunction
+      templateFile =file("${templateDir}/step-template.yml")
+      tag="STEPS"
+      extension = "yml"
+}

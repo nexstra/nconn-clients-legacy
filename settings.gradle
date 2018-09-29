@@ -5,5 +5,9 @@ pluginManagement {
     gradlePluginPortal()
   }
 }
+if(hasProperty("includedev")) {
 
-includeBuild "../../docstore"
+  //includeBuild "../../docstore"
+  //includeBuild "../../portal-sys"
+  //includeBuild "../../nconn-v2"
+}

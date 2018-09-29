@@ -32,94 +32,135 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="401e8a23-1b45-4240-aa06-4a2cde0ea055" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_cloudformation_1_11_408.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_cloudwatch_1_11_408.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_core_1_11_408.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_dynamodb_1_11_408.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_events_1_11_408.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_kms_1_11_408.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_logs_1_11_408.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_s3_1_11_408.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_secretsmanager_1_11_408.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_ssm_1_11_408.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_sts_1_11_408.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_jmespath_java_1_11_408.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_mrbean_2_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_gradle_publish_plugin_publish_plugin_0_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jcraft_jsch_0_1_54.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jcraft_jzlib_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_nexstra_jcommander_1_73.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_mail_javax_mail_1_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_univocity_univocity_parsers_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_arrow_kt_arrow_annotations_0_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_arrow_kt_arrow_core_0_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kindedj_kindedj_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kotlintest_kotlintest_assertions_3_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kotlintest_kotlintest_core_3_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kotlintest_kotlintest_runner_junit5_3_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kotlintest_kotlintest_runner_jvm_3_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_activation_activation_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_mail_javax_mail_api_1_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_8_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_core_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_jcl_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_slf4j_impl_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_model_3_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jgit_org_eclipse_jgit_5_0_2_201807311906_r.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_compiler_embeddable_1_2_60.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_daemon_client_1_2_60.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_script_runtime_1_2_60.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_script_util_1_2_60.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_launcher_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_launcher_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_runner_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_suite_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_suite_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_vintage_junit_vintage_engine_5_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reflections_reflections_0_9_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_8_0_alpha2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/-96522314/docstore.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/-96522314/docstore_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/-96522314/docstore_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/1019145117/kscript.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/1019145117/kscript_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/1019145117/kscript_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/1663779655/cli.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/1663779655/cli_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/1663779655/cli_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/1740127163/config.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/1740127163/config_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/1740127163/config_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/1768440524/docrun.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/1768440524/docrun_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/1768440524/docrun_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/ByteBuddyBean.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/ByteBuddyBean.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/Config.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/Config.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/KSchema.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/KSchema.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../docstore/kscript/src/test/kotlin/nexstra/services/scripting/TestKScript.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../docstore/kscript/src/test/kotlin/nexstra/services/scripting/TestKScript.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__content_services_config_1_4_40.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_csv_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_properties_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_kotlin_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__content_services_config_1_4_44.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_2_61.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_2_61.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_2_61.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_2_61.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_2_61.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docstore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../docstore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docstore/docstore-dsl/src/main/kotlin/nexstra/CreateTemplateTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../docstore/docstore-dsl/src/main/kotlin/nexstra/CreateTemplateTask.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docstore/docstore-dsl/src/main/kotlin/nexstra/docstore-dsl.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../../docstore/docstore-dsl/src/main/kotlin/nexstra/docstore-dsl.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docstore/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../docstore/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docstore/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../docstore/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docstore/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../docstore/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/34ed8653-68d9-4774-85b8-a0bc70baaefa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/34ed8653-68d9-4774-85b8-a0bc70baaefa.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_cloudformation_1_11_408.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_cloudwatch_1_11_408.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_core_1_11_408.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_dynamodb_1_11_408.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_events_1_11_408.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_kms_1_11_408.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_logs_1_11_408.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_s3_1_11_408.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_secretsmanager_1_11_408.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_ssm_1_11_408.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_sts_1_11_408.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_jmespath_java_1_11_408.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_csv_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_properties_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_kotlin_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_mrbean_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_20_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_gradle_publish_plugin_publish_plugin_0_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jcraft_jsch_0_1_54.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jcraft_jzlib_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_nexstra_jcommander_1_73.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_univocity_univocity_parsers_2_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_arrow_kt_arrow_annotations_0_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_arrow_kt_arrow_core_0_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kindedj_kindedj_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kotlintest_kotlintest_assertions_3_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kotlintest_kotlintest_core_3_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kotlintest_kotlintest_runner_junit5_3_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kotlintest_kotlintest_runner_jvm_3_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_mail_javax_mail_api_1_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_core_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_jcl_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_slf4j_impl_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_model_3_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jgit_org_eclipse_jgit_5_0_2_201807311906_r.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_javassist_javassist_3_21_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_compiler_embeddable_1_2_60.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_daemon_client_1_2_60.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_2_60.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_script_runtime_1_2_60.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_script_util_1_2_60.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_2_60.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_2_60.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_2_60.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_2_60.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_launcher_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_launcher_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_runner_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_suite_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_suite_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_vintage_junit_vintage_engine_5_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reflections_reflections_0_9_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_8_0_alpha2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/-96522314/docstore.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/-96522314/docstore_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/-96522314/docstore_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1019145117/kscript.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1019145117/kscript_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1019145117/kscript_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1663779655/cli.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1663779655/cli_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1663779655/cli_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1740127163/config.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1740127163/config_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1740127163/config_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1768440524/docrun.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1768440524/docrun_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1768440524/docrun_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/nconn-legacy_buildSrc_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/nconn-legacy_buildSrc_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/nconn-legacy_buildSrc_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/nconn-legacy_buildSrc_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/nconn-legacy_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/nconn-legacy_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/nconn-legacy_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/nconn-legacy_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildSrc/src/main/kotlin/Reports.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/Reports.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrepo.sh" beforeDir="false" afterPath="$PROJECT_DIR$/getrepo.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -149,6 +190,126 @@
     <ignored path="$PROJECT_DIR$/../../docstore/kscript/.gradle/" />
     <ignored path="$PROJECT_DIR$/../../docstore/kscript/build/" />
     <ignored path="$PROJECT_DIR$/../../docstore/kscript/out/" />
+    <ignored path="$PROJECT_DIR$/../../portal-sys/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../portal-sys/build/" />
+    <ignored path="$PROJECT_DIR$/../../portal-sys/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activity-util/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activity-util/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activity-util/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/client/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/client/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/client/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/client-dsl/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/client-dsl/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/client-dsl/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/docker/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/docker/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/docker/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/format-util/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/format-util/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/format-util/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/metrics/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/metrics/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/metrics/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/stepdsl/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/stepdsl/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/stepdsl/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/api/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/api/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/api/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/client/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/client/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/client/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/mail/compose/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/mail/compose/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/mail/compose/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/gindex/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/gindex/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/gindex/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/report/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/report/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/report/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/mail/sendmail/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/mail/sendmail/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/mail/sendmail/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/sftp/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/sftp/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/sftp/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/split/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/split/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/split/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/docker/echo/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/docker/echo/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/docker/echo/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/docker/report/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/docker/report/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/docker/report/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/cognito/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/cognito/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/cognito/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/common/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/common/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/common/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/docstore/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/docstore/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/docstore/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/github/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/github/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/github/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/api/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/api/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/api/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/mail/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/mail/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/mail/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/report/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/report/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/report/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/sftp/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/sftp/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/sftp/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/steputil/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/steputil/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/steputil/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/thumb/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/thumb/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/thumb/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/metrics/logutil/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/metrics/logutil/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/metrics/logutil/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/mail/composemail/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/mail/composemail/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/mail/composemail/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/mail/sendmail/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/mail/sendmail/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/mail/sendmail/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/bash/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/bash/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/bash/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/kscript/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/kscript/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/kscript/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/workflow/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/workflow/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/workflow/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/xmlsh/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/xmlsh/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/xmlsh/out/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/buildSrc/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/buildSrc/build/" />
+    <ignored path="$PROJECT_DIR$/../../nconn-v2/buildSrc/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,54 +327,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ssi-new@cds.rds.nexstra.com" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ssi-new@cds.rds.nexstra.com" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ssi-new@cds.rds.nexstra.com" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ssi-new: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ssi-new@cds.rds.nexstra.com" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ssi-new: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ssi-new@cds.rds.nexstra.com" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ssi-new: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="client: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ssi-new@cds.rds.nexstra.com" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ssi-new: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="reports: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ssi-new@cds.rds.nexstra.com" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ssi-new: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="reports_input: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ExternalProjectsData">
@@ -236,6 +350,15 @@
         <task path="$PROJECT_DIR$/../../docstore/cli">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/../../nconn-v2/lambda">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../../nconn-v2/lambda/sftp">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../../nconn-v2/lambda/mail">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -252,11 +375,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/Config.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../nconn-v2/buildSrc/src/main/kotlin/LambdaUtil.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+            <state relative-caret-position="18">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../nconn-v2/buildSrc/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../nconn-v2/buildSrc/src/main/kotlin/LambdaClient.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../nconn-v2/buildSrc/build/tmp/jar/MANIFEST.MF">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -265,26 +420,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>describe()</find>
-      <find>createBeanClass</find>
-      <find>createB</find>
-      <find>initializer</find>
-      <find>defineCon</find>
-      <find>empty</find>
-      <find>body</find>
-      <find>code</find>
-      <find>constructor</find>
-      <find>initialParameterDefinition</find>
-      <find>defineConstructor</find>
-      <find>Code</find>
-      <find>ConstructorImplementation</find>
-      <find>defineConstructor(</find>
-      <find>Code(</find>
-      <find>intercept(C</find>
-      <find>createDefaultConstructor</find>
-      <find>DynamicTYpe</find>
-      <find>make(</find>
-      <find>intercept(Super</find>
       <find>synthetic</find>
       <find>Constructor</find>
       <find>getAnnotationType</find>
@@ -295,34 +430,44 @@
       <find>annotate</find>
       <find>annotation</find>
       <find>Initializing</find>
+      <find>javaName</find>
+      <find>packageName</find>
+      <find>read(</find>
+      <find>load(</find>
+      <find>Reports</find>
+      <find>RunSteps</find>
+      <find>docstore-dsl</find>
+      <find>Steps</find>
+      <find>stateMachine</find>
+      <find>step</find>
+      <find>&quot;stepFunction</find>
+      <find>Auth</find>
+      <find>options</find>
+      <find>&quot;options&quot;</find>
+      <find>ReportParameters</find>
+      <find>val buildRepoPath</find>
+      <find>build.repo.</find>
+      <find>RunReportAndSyncParameters</find>
+      <find>formatOptions</find>
+      <find>import</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../docstore" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/kotlin/templates.kts" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/Main.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/Templates.kt" />
-        <option value="$PROJECT_DIR$/../../docstore/docstore-lib/src/main/kotlin/nexstra/services/docstore/localfile/FileDocStore.kt" />
-        <option value="$PROJECT_DIR$/../../docstore/docstore-lib/src/main/kotlin/nexstra/services/docstore/DocStore.kt" />
-        <option value="$PROJECT_DIR$/../../docstore/docstore-lib/src/main/kotlin/nexstra/services/docstore/s3/S3DocStore.kt" />
         <option value="$PROJECT_DIR$/../../docstore/docstore-dsl/src/main/kotlin/nexstra/MergeTemplateTask.kt" />
         <option value="$PROJECT_DIR$/../../docstore/docrun/src/test/kotlin/nexstra/docrun/TestSimpleEvent.kt" />
         <option value="$PROJECT_DIR$/../../docstore/config/src/test/kotlin/nexstra/services/config/TestValueProvider.kt" />
         <option value="$PROJECT_DIR$/../../docstore/docstore-dsl/src/test/kotlin/TestCF.kt" />
-        <option value="$PROJECT_DIR$/../../docstore/docstore-dsl/src/main/kotlin/nexstra/docstore-dsl.gradle.kts" />
         <option value="$PROJECT_DIR$/../../docstore/docstore-dsl/gradle.properties" />
         <option value="$PROJECT_DIR$/../../docstore/docstore-dsl/build.gradle.kts" />
         <option value="$PROJECT_DIR$/../../docstore/build.gradle" />
         <option value="$PROJECT_DIR$/../../docstore/docstore-dsl/src/main/kotlin/nexstra/PutTask.kt" />
         <option value="$PROJECT_DIR$/buildSrc/build.gradle" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/buildSrc/src/main/kotlin/Templates.kt" />
-        <option value="$PROJECT_DIR$/buildSrc/src/main/kotlin/Reports.kt" />
         <option value="$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/CloudformationProvider.kt" />
         <option value="$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/SecretsClient.kt" />
         <option value="$PROJECT_DIR$/../../docstore/config/src/main/kotlin/sun/net/www/protocol/secrets/Secrets.kt" />
@@ -334,17 +479,46 @@
         <option value="$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/ByteBuddyBean.kt" />
         <option value="$PROJECT_DIR$/../../docstore/kscript/src/test/kotlin/nexstra/services/scripting/TestKScript.kt" />
         <option value="$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/Config.kt" />
+        <option value="$PROJECT_DIR$/buildSrc/src/main/java/Client.java" />
+        <option value="$PROJECT_DIR$/buildSrc/src/main/java/Reports.java" />
+        <option value="$PROJECT_DIR$/buildSrc/src/main/java/ReportsInput.java" />
+        <option value="$PROJECT_DIR$/buildSrc/src/main/java/partners_report.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/schema/Generate POJOs NoCamel.groovy" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/34ed8653-68d9-4774-85b8-a0bc70baaefa/console.sql" />
+        <option value="$PROJECT_DIR$/buildSrc/src/main/kotlin/Reports.kt" />
+        <option value="$PROJECT_DIR$/../../nconn-v2/settings.gradle" />
+        <option value="$PROJECT_DIR$/../../docstore/settings.gradle" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/gradle.properties" />
+        <option value="$PROJECT_DIR$/gradle-dev.properties" />
+        <option value="$PROJECT_DIR$/gradle-local.properties" />
+        <option value="$PROJECT_DIR$/../../nconn-v2/client/src/main/kotlin/nexstra/client/workflow/Steps.kt" />
+        <option value="$PROJECT_DIR$/../../docstore/docstore-dsl/src/main/kotlin/nexstra/docstore-dsl.gradle.kts" />
+        <option value="$PROJECT_DIR$/../../nconn-v2/docker/report/src/test/kotlin/nexstra/service/echo/TestReport.kt" />
+        <option value="$PROJECT_DIR$/../../nconn-v2/client-dsl/build.gradle.kts" />
+        <option value="$PROJECT_DIR$/../../nconn-v2/client-dsl/src/test/kotlin/TestClient.kt" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.kts" />
+        <option value="$PROJECT_DIR$/../../nconn-v2/client-dsl/src/test/kotlin/IgnoreMyTest.kt" />
+        <option value="$PROJECT_DIR$/../../nconn-v2/client-dsl/src/test/kotlin/A.kt" />
+        <option value="$PROJECT_DIR$/../../nconn-v2/client/src/main/kotlin/nexstra/client/workflow/RunReportAndEmailSteps.kt" />
+        <option value="$PROJECT_DIR$/../../nconn-v2/client/src/main/kotlin/nexstra/client/workflow/RunReportAndSyncSteps.kt" />
+        <option value="$PROJECT_DIR$/../../nconn-v2/client/src/main/kotlin/nexstra/client/workflow/RunReportSteps.kt" />
+        <option value="$PROJECT_DIR$/../../nconn-v2/lambda/lambda.gradle" />
+        <option value="$PROJECT_DIR$/../../nconn-v2/lambda/steputil/build.gradle" />
+        <option value="$PROJECT_DIR$/../../nconn-v2/buildSrc/build.gradle" />
+        <option value="$PROJECT_DIR$/../../nconn-v2/buildSrc/src/main/kotlin/LambdaClient.kt" />
+        <option value="$PROJECT_DIR$/../../nconn-v2/buildSrc/src/main/kotlin/LambdaUtil.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="264" />
-    <option name="y" value="310" />
-    <option name="width" value="1590" />
-    <option name="height" value="798" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="24" />
+    <option name="width" value="2048" />
+    <option name="height" value="1104" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -352,85 +526,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docstore" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docstore" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="docrun" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docstore" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="docstore-dsl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docstore" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="docstore-dsl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docstore" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="docstore-dsl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docstore" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kscript" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docstore" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kscript" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docstore" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kscript" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docstore" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kscript" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docstore" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kscript" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="scripting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docstore" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kscript" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="scripting" type="462c0819:PsiDirectoryNode" />
-              <item name="TestKScript.kt" type="24436e51:KtFileTreeNode" />
+              <item name="nconn-legacy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
               <item name="nconn-legacy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
@@ -442,70 +548,32 @@
               <item name="nconn-legacy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="buildSrc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nconn-legacy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="buildSrc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nconn-legacy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="buildSrc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nconn-legacy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="buildSrc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="Reports.kt" type="24436e51:KtFileTreeNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nconn-legacy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="buildSrc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="Reports.kt" type="24436e51:KtFileTreeNode" />
-              <item name="Report" type="2c5a2ef7:KtClassOrObjectTreeNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nconn-legacy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="buildSrc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="Templates.kt" type="24436e51:KtFileTreeNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nconn-legacy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="buildSrc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="Templates.kt" type="24436e51:KtFileTreeNode" />
-              <item name="Template" type="2c5a2ef7:KtClassOrObjectTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
               <item name="nconn-legacy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="nconn-legacy" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="nconn-legacy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="nconn-legacy" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="build/steps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="nconn-legacy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="nconnect-v2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="nconn-legacy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="nconnect-v2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="nconnect-v2_main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
           </expand>
           <select />
@@ -516,24 +584,36 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/build/templates/demo_print_IN.template&#10;/nexstra/nconnect-clients/nconn-legacy/build/reports/ATP.report&#10;/nexstra/nconnect-clients/nconn-legacy/build/reports/ATP.sql" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/../../nconnect-clients/nconn-legacy/build/reports/ATP.report&#10;/nexstra/nconnect-clients/nconn-legacy/build/reports/ATP.sql&#10;/nexstra/nconn-clients/nconn-legacy/build/templates/demo_print_IN.template&#10;/nexstra/nconn-clients/nconn-legacy/build/steps/anotherreport.json" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="kotlin" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../nconn-v2" />
+      <recent name="$PROJECT_DIR$/../../nconn-v2/client/src/main/kotlin/nexstra/client/workflow" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/buildSrc/src/main/kotlin" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/schema" />
       <recent name="$PROJECT_DIR$/buildSrc/src/main/kotlin" />
       <recent name="$PROJECT_DIR$/buildSrc" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/buildSrc/src/main/kotlin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -548,7 +628,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.nconn-v2:lambda:sftp [createPackage]">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -562,15 +642,100 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestKScript" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kscript_test" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="PACKAGE_NAME" value="nexstra.services.scripting" />
-      <option name="MAIN_CLASS_NAME" value="nexstra.services.scripting.TestKScript" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="nconn-v2:lambda [createTemplate]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../../nconn-v2/lambda" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="createTemplate" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="nconn-v2:lambda [mergeTemplate]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../../nconn-v2/lambda" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="mergeTemplate" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="nconn-v2:lambda:sftp [createPackage]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../../nconn-v2/lambda/sftp" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="createPackage" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="nconn-v2:lambda:sftp [createTemplate]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../../nconn-v2/lambda/sftp" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="createTemplate" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="nconn-v2:lambda:sftp [mergeTemplate]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../../nconn-v2/lambda/sftp" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="mergeTemplate" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -590,7 +755,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestKScript" />
+        <item itemvalue="Gradle.nconn-v2:lambda:sftp [createPackage]" />
+        <item itemvalue="Gradle.nconn-v2:lambda:sftp [mergeTemplate]" />
+        <item itemvalue="Gradle.nconn-v2:lambda:sftp [createTemplate]" />
+        <item itemvalue="Gradle.nconn-v2:lambda [mergeTemplate]" />
+        <item itemvalue="Gradle.nconn-v2:lambda [createTemplate]" />
       </list>
     </recent_temporary>
   </component>
@@ -610,35 +779,35 @@
     </servers>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestKScript - 2018.09.18 at 22h 50m 40s.xml">
-      <configuration name="TestKScript" configurationId="JUnit" />
+    <history-entry file="TestClient_(1) - 2018.09.27 at 22h 03m 14s.xml">
+      <configuration name="TestClient (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestKScript - 2018.09.18 at 22h 56m 17s.xml">
-      <configuration name="TestKScript" configurationId="JUnit" />
+    <history-entry file="TestClient_(1) - 2018.09.27 at 22h 04m 46s.xml">
+      <configuration name="TestClient (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestKScript - 2018.09.18 at 22h 57m 36s.xml">
-      <configuration name="TestKScript" configurationId="JUnit" />
+    <history-entry file="TestClient_(1) - 2018.09.27 at 22h 06m 32s.xml">
+      <configuration name="TestClient (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestKScript - 2018.09.18 at 23h 02m 16s.xml">
-      <configuration name="TestKScript" configurationId="JUnit" />
+    <history-entry file="TestClient_(1) - 2018.09.27 at 22h 15m 37s.xml">
+      <configuration name="TestClient (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestKScript - 2018.09.18 at 23h 05m 25s.xml">
-      <configuration name="TestKScript" configurationId="JUnit" />
+    <history-entry file="TestClient_(1) - 2018.09.27 at 22h 26m 04s.xml">
+      <configuration name="TestClient (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestKScript - 2018.09.18 at 23h 19m 55s.xml">
-      <configuration name="TestKScript" configurationId="JUnit" />
+    <history-entry file="TestClient_(1) - 2018.09.27 at 22h 39m 10s.xml">
+      <configuration name="TestClient (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestKScript - 2018.09.18 at 23h 28m 26s.xml">
-      <configuration name="TestKScript" configurationId="JUnit" />
+    <history-entry file="TestClient_(1) - 2018.09.27 at 22h 41m 39s.xml">
+      <configuration name="TestClient (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestKScript - 2018.09.18 at 23h 31m 08s.xml">
-      <configuration name="TestKScript" configurationId="JUnit" />
+    <history-entry file="TestClient_(1) - 2018.09.27 at 22h 45m 28s.xml">
+      <configuration name="TestClient (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestKScript - 2018.09.18 at 23h 31m 40s.xml">
-      <configuration name="TestKScript" configurationId="JUnit" />
+    <history-entry file="TestClient_(1) - 2018.09.27 at 22h 47m 56s.xml">
+      <configuration name="TestClient (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestKScript - 2018.09.18 at 23h 34m 18s.xml">
-      <configuration name="TestKScript" configurationId="JUnit" />
+    <history-entry file="TestClient_(1) - 2018.09.27 at 22h 49m 03s.xml">
+      <configuration name="TestClient (1)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -651,11 +820,72 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="24" width="2060" height="1109" extended-state="6" />
+    <frame x="0" y="24" width="2048" height="1104" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47411004" visible="true" weight="0.250998" />
-      <window_info id="Structure" order="1" sideWeight="0.52589" side_tool="true" visible="true" weight="0.250998" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47131783" visible="true" weight="0.2615462" />
+      <window_info id="Structure" order="1" sideWeight="0.5286822" side_tool="true" weight="0.253493" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Learn" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Image Layers" order="7" />
+      <window_info id="Web" order="8" sideWeight="0.5107991" side_tool="true" weight="0.24974975" />
+      <window_info id="DB Browser" order="9" weight="0.32984033" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.48415843" weight="0.42481598" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.68415844" weight="0.46687698" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7821782" weight="0.41955835" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.62025946" weight="0.32704404" />
+      <window_info anchor="bottom" id="Docker" order="7" sideWeight="0.49786097" weight="0.3290398" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" sideWeight="0.49732906" weight="0.3273453" />
+      <window_info anchor="bottom" id="Build" order="9" sideWeight="0.3148515" side_tool="true" weight="0.24921136" />
+      <window_info anchor="bottom" id="Amazon EC2" order="10" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4861386" weight="0.5184017" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.3158416" side_tool="true" weight="0.46638656" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.3579208" weight="0.28286016" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Database Console" order="16" sideWeight="0.498503" weight="0.3253138" />
+      <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.32937366" />
+      <window_info anchor="bottom" id="Database Changes" order="18" sideWeight="0.499002" weight="0.32879582" />
+      <window_info anchor="bottom" id="Sequence" order="19" />
+      <window_info anchor="bottom" id="DB Execution Console" order="20" />
+      <window_info anchor="bottom" id="YouTrack" order="21" sideWeight="0.498503" weight="0.32984293" />
+      <window_info anchor="bottom" id="Analyze Dataflow to" order="22" weight="0.32991803" />
+      <window_info anchor="bottom" id="Thumbnails" order="23" weight="0.32991803" />
+      <window_info anchor="bottom" id="Problems" order="24" weight="0.32991803" />
+      <window_info anchor="bottom" id="SQL Generator" order="25" weight="0.28742516" />
+      <window_info anchor="bottom" id="TeamCity" order="26" sideWeight="0.498004" weight="0.32879582" />
+      <window_info anchor="bottom" id="JProfiler" order="27" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.05982906" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Connector for AWS Lambda" order="5" side_tool="true" />
+      <window_info anchor="right" id="Database" order="6" weight="0.18712871" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Gradle" order="8" visible="true" weight="0.2811245" />
+      <window_info anchor="right" id="sbt" order="9" />
+      <window_info anchor="right" id="CBT" order="10" />
+      <window_info anchor="right" id="Maven Projects" order="11" />
+      <window_info anchor="right" id="SBT" order="12" />
+      <window_info anchor="right" id="Bean Validation" order="13" />
+      <window_info anchor="right" id="Theme Preview" order="14" />
+      <window_info anchor="right" id="Dynamic Properties" order="15" />
+      <window_info anchor="right" id="PlantUML" order="16" />
+      <window_info anchor="right" id="JWT" order="17" />
+      <window_info anchor="right" id="Swagger UI" order="18" />
+      <window_info anchor="right" id="Kotlin Bytecode" order="19" visible="true" />
+      <window_info anchor="right" id="Maven" order="20" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47131783" visible="true" weight="0.253493" />
+      <window_info id="Structure" order="1" sideWeight="0.5286822" side_tool="true" weight="0.253493" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -673,14 +903,14 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.62025946" weight="0.32704404" />
       <window_info anchor="bottom" id="Docker" order="7" sideWeight="0.49786097" weight="0.3290398" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" sideWeight="0.49732906" weight="0.3273453" />
-      <window_info anchor="bottom" id="Build" order="9" sideWeight="0.30538923" side_tool="true" visible="true" weight="0.35220125" />
+      <window_info anchor="bottom" id="Build" order="9" sideWeight="0.50149703" side_tool="true" weight="0.3253138" />
       <window_info anchor="bottom" id="Amazon EC2" order="10" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.48752496" weight="0.3277487" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.500998" side_tool="true" weight="0.3294979" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.29041916" weight="0.2851153" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" />
-      <window_info anchor="bottom" id="Database Console" order="16" weight="0.3253493" />
+      <window_info anchor="bottom" id="Database Console" order="16" sideWeight="0.498503" weight="0.3253138" />
       <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="18" sideWeight="0.499002" weight="0.32879582" />
       <window_info anchor="bottom" id="Sequence" order="19" />
@@ -700,66 +930,6 @@
       <window_info anchor="right" id="Connector for AWS Lambda" order="5" side_tool="true" />
       <window_info anchor="right" id="Database" order="6" weight="0.18862276" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Gradle" order="8" visible="true" weight="0.28143713" />
-      <window_info anchor="right" id="sbt" order="9" />
-      <window_info anchor="right" id="CBT" order="10" />
-      <window_info anchor="right" id="Maven Projects" order="11" />
-      <window_info anchor="right" id="SBT" order="12" />
-      <window_info anchor="right" id="Bean Validation" order="13" />
-      <window_info anchor="right" id="Theme Preview" order="14" />
-      <window_info anchor="right" id="Dynamic Properties" order="15" />
-      <window_info anchor="right" id="PlantUML" order="16" />
-      <window_info anchor="right" id="JWT" order="17" />
-      <window_info anchor="right" id="Swagger UI" order="18" />
-      <window_info anchor="right" id="Kotlin Bytecode" order="19" visible="true" />
-      <window_info anchor="right" id="Maven" order="20" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47765362" visible="true" weight="0.23353294" />
-      <window_info id="Structure" order="1" sideWeight="0.5223464" side_tool="true" weight="0.23103793" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Learn" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Image Layers" order="7" />
-      <window_info id="Web" order="8" sideWeight="0.5107991" side_tool="true" weight="0.24974975" />
-      <window_info id="DB Browser" order="9" weight="0.32984033" />
-      <window_info anchor="bottom" id="TeamCity" order="0" sideWeight="0.499501" weight="0.3294979" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.4866453" weight="0.4272541" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.84431136" visible="true" weight="0.35355648" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.63572854" weight="0.41422594" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49601197" weight="0.32719836" />
-      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.49786097" weight="0.3290398" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" sideWeight="0.49732906" weight="0.3273453" />
-      <window_info anchor="bottom" id="Build" order="10" sideWeight="0.15568863" side_tool="true" visible="true" weight="0.35355648" />
-      <window_info anchor="bottom" id="Amazon EC2" order="11" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.48798212" weight="0.32777777" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.36277446" side_tool="true" weight="0.41516966" />
-      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.29161528" weight="0.28542915" />
-      <window_info anchor="bottom" id="Java Enterprise" order="16" />
-      <window_info anchor="bottom" id="Database Console" order="17" weight="0.3253493" />
-      <window_info anchor="bottom" id="Inspection Results" order="18" weight="0.32937366" />
-      <window_info anchor="bottom" id="Database Changes" order="19" sideWeight="0.499501" weight="0.32934132" />
-      <window_info anchor="bottom" id="Sequence" order="20" />
-      <window_info anchor="bottom" id="DB Execution Console" order="21" />
-      <window_info anchor="bottom" id="YouTrack" order="22" />
-      <window_info anchor="bottom" id="Analyze Dataflow to" order="23" weight="0.32991803" />
-      <window_info anchor="bottom" id="Thumbnails" order="24" weight="0.32991803" />
-      <window_info anchor="bottom" id="Problems" order="25" weight="0.32991803" />
-      <window_info anchor="bottom" id="SQL Generator" order="26" weight="0.28742516" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.05982906" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Connector for AWS Lambda" order="5" side_tool="true" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.18862276" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Gradle" order="8" weight="0.28143713" />
       <window_info anchor="right" id="sbt" order="9" />
       <window_info anchor="right" id="CBT" order="10" />
@@ -772,6 +942,7 @@
       <window_info anchor="right" id="JWT" order="17" />
       <window_info anchor="right" id="Swagger UI" order="18" />
       <window_info anchor="right" id="Kotlin Bytecode" order="19" visible="true" />
+      <window_info anchor="right" id="Maven" order="20" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -832,14 +1003,41 @@
           </properties>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/buildSrc/src/main/kotlin/Reports.kt</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/../../nconn-v2/client/src/main/kotlin/nexstra/client/workflow/RunReportSteps.kt</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/../../nconn-v2/client/src/main/kotlin/nexstra/client/workflow/Steps.kt</url>
+          <line>142</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/../../nconn-v2/client-dsl/src/main/kotlin/nexstra/client/Client.kt</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/../../nconn-v2/client-dsl/src/main/kotlin/nexstra/client/Client.kt</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.IllegalArgumentException" package="java.lang" />
           <option name="timeStamp" value="8" />
         </breakpoint>
       </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
     </breakpoint-manager>
   </component>
   <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
@@ -868,393 +1066,313 @@
     <option name="serverIp" value="localhost" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-secretsmanager/1.11.408/f92580784614d5bc71a419afbdc750ff93d64ee0/aws-java-sdk-secretsmanager-1.11.408-sources.jar!/com/amazonaws/services/secretsmanager/AWSSecretsManager.java">
+    <entry file="file://$PROJECT_DIR$/../../nconn-v2/client-dsl/src/test/kotlin/TestClient.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="750" column="40" selection-start-line="750" selection-start-column="15" selection-end-line="750" selection-end-column="40" />
+        <state relative-caret-position="1386">
+          <caret line="88" column="14" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/SecretsClient.kt">
+    <entry file="file://$PROJECT_DIR$/../../nconn-v2/docker/report/src/test/kotlin/nexstra/service/echo/TestReport.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+        <state relative-caret-position="162">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/sun/net/www/protocol/secrets/Secrets.kt">
+    <entry file="file://$PROJECT_DIR$/../../nconn-v2/client-dsl/build.gradle.kts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        <state relative-caret-position="1062">
+          <caret line="63" column="71" selection-start-line="63" selection-start-column="71" selection-end-line="63" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/sun/net/www/protocol/cloudformation/CloudFormation.kt">
+    <entry file="jar://$USER_HOME$/.gradle/caches/4.10.2/generated-gradle-jars/gradle-test-kit-4.10.2.jar!/org/gradle/testkit/runner/GradleRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        <state relative-caret-position="576">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../docstore/docstore-lib/src/main/kotlin/nexstra/services/docstore/DocStoreClient.kt">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.kts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/steps/reportemail.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-core/1.11.417/427c466ec5c3084d821d2a68d399a67fc72571f3/aws-java-sdk-core-1.11.417-sources.jar!/com/amazonaws/auth/profile/internal/AbstractProfilesConfigFileScanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
+        <state relative-caret-position="153">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-core/1.11.417/427c466ec5c3084d821d2a68d399a67fc72571f3/aws-java-sdk-core-1.11.417-sources.jar!/com/amazonaws/auth/profile/internal/BasicProfileConfigLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../nconn-v2/stepdsl/src/main/kotlin/nexstra/activities/stepdsl/Workflow.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/steps/reportsync.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.61/bb8aafdddb6c895ba1a9646eddabdb844eb544fb/kotlin-stdlib-common-1.2.61-sources.jar!/kotlin/util/Standard.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="59" column="25" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/steps/report.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.7/26d2e8a615ae6d766bbaed952a9cc286f6860faf/jackson-databind-2.9.7-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="2275" selection-start-line="2275" selection-end-line="2275" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gradle-4.10.2-src.zip/04f2bbd0b0e014bdc20ec1de3d309b4e/gradle-4.10.2/subprojects/core/src/main/java/org/gradle/api/internal/tasks/execution/CatchExceptionTaskExecuter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gradle-4.10.2-src.zip/04f2bbd0b0e014bdc20ec1de3d309b4e/gradle-4.10.2/subprojects/core/src/main/java/org/gradle/api/internal/AbstractTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="800" selection-start-line="800" selection-end-line="800" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gradle-4.10.2-src.zip/04f2bbd0b0e014bdc20ec1de3d309b4e/gradle-4.10.2/subprojects/core/src/main/java/org/gradle/api/internal/project/taskfactory/StandardTaskAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gradle-4.10.2-src.zip/04f2bbd0b0e014bdc20ec1de3d309b4e/gradle-4.10.2/subprojects/core/src/main/java/org/gradle/api/internal/tasks/execution/ExecuteActionsTaskExecuter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/latest.8/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/latest.8/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="497" selection-start-line="497" selection-end-line="497" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.7/26d2e8a615ae6d766bbaed952a9cc286f6860faf/jackson-databind-2.9.7-sources.jar!/com/fasterxml/jackson/databind/deser/BeanDeserializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="287" selection-start-line="287" selection-end-line="287" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.7/26d2e8a615ae6d766bbaed952a9cc286f6860faf/jackson-databind-2.9.7-sources.jar!/com/fasterxml/jackson/databind/deser/impl/MergingSettableBeanProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/latest.8/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gradle-4.10.2-src.zip/04f2bbd0b0e014bdc20ec1de3d309b4e/gradle-4.10.2/subprojects/base-services/src/main/java/org/gradle/internal/reflect/JavaMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.7/26d2e8a615ae6d766bbaed952a9cc286f6860faf/jackson-databind-2.9.7-sources.jar!/com/fasterxml/jackson/databind/introspect/AnnotatedMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="184" selection-start-line="184" selection-end-line="184" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/ValueProvider.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        <state relative-caret-position="166">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../docstore/config/src/test/kotlin/nexstra/services/config/TestSecretsProvider.kt">
+    <entry file="file://$PROJECT_DIR$/../../nconn-v2/client-dsl/src/main/kotlin/nexstra/client/Client.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-654">
-          <caret line="144" column="66" selection-start-line="144" selection-start-column="66" selection-end-line="144" selection-end-column="66" />
+        <state relative-caret-position="234">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/Resource.kt">
+    <entry file="file://$PROJECT_DIR$/../../nconn-v2/client/src/main/kotlin/nexstra/client/workflow/Steps.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="151" column="1" selection-start-line="151" selection-start-column="1" selection-end-line="151" selection-end-column="1" />
+        <state relative-caret-position="108">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_144/src.zip!/java/lang/ClassLoader.java">
+    <entry file="file://$PROJECT_DIR$/../../nconn-v2/client/src/main/kotlin/nexstra/client/workflow/RunReportAndSyncSteps.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="487" selection-start-line="487" selection-end-line="487" />
+        <state relative-caret-position="270">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_144/src.zip!/java/util/HashMap.java">
+    <entry file="file://$PROJECT_DIR$/../../nconn-v2/client/src/main/kotlin/nexstra/client/workflow/RunReportAndEmailSteps.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="610" selection-start-line="610" selection-end-line="610" />
+        <state relative-caret-position="165">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../nconn-v2/client/src/main/kotlin/nexstra/client/workflow/RunReportSteps.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../nconn-v2/activities/api/src/main/kotlin/nexstra/activities/api/mail/Request.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/steps/reportsync.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/steps/reportemail.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/steps/report.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/steps/anotherreport.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../nconn-v2/lambda/sftp/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" selection-start-line="14" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../nconn-v2/lambda/steputil/src/main/kotlin/nexstra/lambda/steputil/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../nconn-v2/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../nconn-v2/lambda/lambda.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="289" selection-start-line="289" selection-end-line="289" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../nconn-v2/lambda/steputil/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="29" column="6" selection-start-line="29" selection-end-line="29" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildSrc/src/main/kotlin/Reports.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" selection-end-column="18" />
           <folding>
-            <element signature="e#24363#24364#0" expanded="true" />
+            <element signature="e#0#502#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.60/e5c7258c893cd3fa12b85eb535dcc5d0961ba4c7/kotlin-stdlib-1.2.60-sources.jar!/kotlin/jvm/internal/Intrinsics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.60/e5c7258c893cd3fa12b85eb535dcc5d0961ba4c7/kotlin-stdlib-1.2.60-sources.jar!/kotlin/jvm/internal/Reflection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#1839#1840#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-runner-jvm/3.1.10/67ea92bf85e6c357ca1aa43847a04cae70248af4/kotlintest-runner-jvm-3.1.10-sources.jar!/io/kotlintest/runner/jvm/TestCaseExecutor.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.60/e5c7258c893cd3fa12b85eb535dcc5d0961ba4c7/kotlin-stdlib-1.2.60-sources.jar!/kotlin/io/Console.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_144/src.zip!/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="406" selection-start-line="406" selection-end-line="406" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.univocity/univocity-parsers/2.6.1/529316542d7fa9d92ef0e73522b4975f84cb24bd/univocity-parsers-2.6.1-sources.jar!/com/univocity/parsers/common/processor/core/AbstractBeanProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.8.22/8292b7eb9fbb4a9463a8c6a461e4497f76ad01c9/byte-buddy-1.8.22-sources.jar!/net/bytebuddy/matcher/FilterableList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.8.22/8292b7eb9fbb4a9463a8c6a461e4497f76ad01c9/byte-buddy-1.8.22-sources.jar!/net/bytebuddy/description/type/TypeList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="308" selection-start-line="308" selection-end-line="308" />
-          <folding>
-            <element signature="e#10645#10646#0" expanded="true" />
-            <element signature="e#11830#11831#0" expanded="true" />
-            <element signature="e#11880#11881#0" expanded="true" />
-            <element signature="e#12103#12104#0" expanded="true" />
-            <element signature="e#12154#12155#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../docstore/build/repo/content-services/config/1.4.53/config-1.4.53.jar!/nexstra/ddata/DataSources.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_144/src.zip!/javax/script/CompiledScript.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.2.60/98ce8533623aaa36e121844ffddee04fdf401e90/kotlin-compiler-embeddable-1.2.60.jar!/org/jetbrains/kotlin/cli/common/repl/KotlinJsr223JvmScriptEngineBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="14" column="75" lean-forward="true" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/buildSrc/src/main/kotlin/Templates.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../docstore/kscript/src/main/kotlin/nexstra/services/scripting/KScript.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.8.22/8292b7eb9fbb4a9463a8c6a461e4497f76ad01c9/byte-buddy-1.8.22-sources.jar!/net/bytebuddy/implementation/LoadedTypeInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_144/src.zip!/java/lang/reflect/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="62" column="6" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../docstore/kscript/src/test/kotlin/nexstra/services/scripting/TestSerialize.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="63" column="35" lean-forward="true" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.8.22/8292b7eb9fbb4a9463a8c6a461e4497f76ad01c9/byte-buddy-1.8.22-sources.jar!/net/bytebuddy/description/modifier/Ownership.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.8.22/8292b7eb9fbb4a9463a8c6a461e4497f76ad01c9/byte-buddy-1.8.22-sources.jar!/net/bytebuddy/agent/builder/AgentBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-820">
-          <caret line="6697" column="27" selection-start-line="6697" selection-start-column="27" selection-end-line="6697" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../docstore/config/src/test/kotlin/nexstra/services/config/TestValueProvider.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="80" column="42" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.8.22/8292b7eb9fbb4a9463a8c6a461e4497f76ad01c9/byte-buddy-1.8.22-sources.jar!/net/bytebuddy/implementation/FieldAccessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.8.22/8292b7eb9fbb4a9463a8c6a461e4497f76ad01c9/byte-buddy-1.8.22-sources.jar!/net/bytebuddy/description/ModifierReviewable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="95" column="12" lean-forward="true" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.8.22/8292b7eb9fbb4a9463a8c6a461e4497f76ad01c9/byte-buddy-1.8.22-sources.jar!/net/bytebuddy/implementation/Implementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="53" column="20" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-core/0.7.1/4085809f9a16449fa64cd3f741623bae7c67e227/arrow-core-0.7.1-sources.jar!/arrow/core/Try.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.60/226d12b950313e0a17bfacef8d13ab4af819063d/kotlin-reflect-1.2.60-sources.jar!/kotlin/reflect/jvm/internal/ReflectProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state>
           <folding>
-            <element signature="e#1107#1108#0" expanded="true" />
+            <element signature="e#0#308#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.60/226d12b950313e0a17bfacef8d13ab4af819063d/kotlin-reflect-1.2.60-sources.jar!/kotlin/reflect/jvm/internal/KClassImpl.kt">
+    <entry file="file://$PROJECT_DIR$/../../nconn-v2/buildSrc/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../nconn-v2/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="220" selection-start-line="220" selection-end-line="220" />
+        <state relative-caret-position="-796">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.60/d1717ea2b34537140fe051ef0e2e8cbd91c650b8/kotlin-stdlib-common-1.2.60-sources.jar!/generated/_Collections.kt">
+    <entry file="file://$PROJECT_DIR$/buildSrc/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildSrc/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../nconn-v2/buildSrc/src/main/kotlin/LambdaUtil.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="528" column="3" lean-forward="true" selection-start-line="528" selection-start-column="3" selection-end-line="528" selection-end-column="3" />
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.8.22/8292b7eb9fbb4a9463a8c6a461e4497f76ad01c9/byte-buddy-1.8.22-sources.jar!/net/bytebuddy/dynamic/TypeResolutionStrategy.java">
+    <entry file="file://$PROJECT_DIR$/../../nconn-v2/buildSrc/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="306">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.60/226d12b950313e0a17bfacef8d13ab4af819063d/kotlin-reflect-1.2.60-sources.jar!/kotlin/reflect/full/KClasses.kt">
+    <entry file="file://$PROJECT_DIR$/../../nconn-v2/buildSrc/build/tmp/jar/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../nconn-v2/buildSrc/src/main/kotlin/LambdaClient.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="280" selection-start-line="280" selection-end-line="280" />
+        <state relative-caret-position="522">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/KSchema.kt">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="93" column="41" selection-start-line="93" selection-start-column="41" selection-end-line="93" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_144/src.zip!/java/lang/annotation/Annotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="134" column="46" selection-start-line="134" selection-start-column="32" selection-end-line="134" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.8.22/8292b7eb9fbb4a9463a8c6a461e4497f76ad01c9/byte-buddy-1.8.22-sources.jar!/net/bytebuddy/description/annotation/AnnotationDescription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1440">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_144/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/annotations/Config.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.60/e5c7258c893cd3fa12b85eb535dcc5d0961ba4c7/kotlin-stdlib-1.2.60-sources.jar!/kotlin/jvm/JvmClassMapping.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="103" column="86" selection-start-line="103" selection-start-column="86" selection-end-line="103" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.8.22/8292b7eb9fbb4a9463a8c6a461e4497f76ad01c9/byte-buddy-1.8.22-sources.jar!/net/bytebuddy/ByteBuddy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="569" column="53" selection-start-line="569" selection-start-column="53" selection-end-line="569" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_144/jre/lib/rt.jar!/sun/reflect/annotation/AnnotationType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_144/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="3528" column="36" selection-start-line="3528" selection-start-column="36" selection-end-line="3528" selection-end-column="36" />
-          <folding>
-            <element signature="e#139547#139548#0" expanded="true" />
-            <element signature="e#139624#139625#0" expanded="true" />
-            <element signature="e#144390#144391#0" expanded="true" />
-            <element signature="e#144427#144428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/ByteBuddyBean.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="99" column="7" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
-          <folding>
-            <element signature="e#34#531#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.8.22/8292b7eb9fbb4a9463a8c6a461e4497f76ad01c9/byte-buddy-1.8.22-sources.jar!/net/bytebuddy/dynamic/DynamicType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="578" column="31" selection-start-line="578" selection-start-column="19" selection-end-line="578" selection-end-column="31" />
-          <folding>
-            <element signature="e#91333#91334#0" expanded="true" />
-            <element signature="e#91423#91424#0" expanded="true" />
-            <element signature="e#163007#163008#0" expanded="true" />
-            <element signature="e#163085#163086#0" expanded="true" />
-            <element signature="e#257166#257167#0" expanded="true" />
-            <element signature="e#257242#257243#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../docstore/kscript/src/test/kotlin/nexstra/services/scripting/TestKScript.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-904">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/Config.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        <state relative-caret-position="18">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
         </state>
       </provider>
     </entry>

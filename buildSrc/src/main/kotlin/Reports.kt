@@ -1,41 +1,30 @@
 import com.fasterxml.jackson.databind.JsonNode
+import com.fasterxml.jackson.databind.node.ObjectNode
+import com.fasterxml.jackson.module.kotlin.convertValue
+import com.fasterxml.jackson.module.kotlin.readValue
+import com.fasterxml.jackson.module.kotlin.treeToValue
 import nexstra.ddata.*
 import java.io.*
-import java.sql.ResultSet
-import java.util.*
-import kotlin.coroutines.experimental.buildIterator
-import kotlin.reflect.KClass
 import nexstra.services.config.*
 import nexstra.services.toJson
-import kotlin.reflect.KProperty
+import nexstra.generated.*
+import org.gradle.internal.impldep.com.google.gson.JsonObject
+import java.sql.ResultSet
+import java.util.*
 
-data class Report (
-  val report_id : Long,
-  val name : String ,
-  val description: String ?,
-  val report_type: String ,
-  val dbname : String ?,
-  val sql_query : String
-)
-
-data class ReportsInput(
-  val col: Int ,
-  val name: String ,
-  val description: String?,
-  val type: String ,
-  val def_value: String?
-)
+inline fun <reified BEAN> ResultSet.asBean() : BEAN = objectMapper.convertValue<BEAN>( asJsonObject() )
 
 
 fun extractReports( outdir: java.io.File , datasource: File  ){
+  val mapper = objectMapper.writerWithDefaultPrettyPrinter()
   outdir.mkdirs()
   val jdbc = source( datasource )
-
+  val reportMap = mutableMapOf<String,Map<String,Any>>()
   jdbc.withConnection {
     val all = query( "SELECT * from reports" ).toList<JsonNode> { asJsonNode() }
 
   for( n in all ) {
-    val report : Report = configure { from ( n ) }
+    val report : reports = configure { from ( n ) }
     println(report.name)
     val fname = report.name.replace("[^a-zA-Z_0-9-]".toRegex(), "_")
     val metaname = "${fname}.report"
@@ -64,9 +53,48 @@ fun extractReports( outdir: java.io.File , datasource: File  ){
          }
 
         )
-
-    File( outdir,"${metaname}").writeText( meta.toJson() )
+    reportMap[metaname] = meta
+    File( outdir,"${metaname}").writeText( mapper.writeValueAsString(meta) )
   }
+
+  val connReports = query("SELECT * from connectors WHERE name like '%report%'").toList<connectors>{  asBean() }
+  val typeMap = query("SELECT connector_type_id , name FROM connector_types").toList {  getInt(1) to getString(2) }.toMap()
+    val clientMap = query("SELECT * from client").toList<client>{ asBean() }.map{ it.client_id to it }.toMap()
+    val partnerMap = query("SELECT partner_id, code from partners").toList { getInt(1) to getString(2) }.toMap()
+println( mapper.writeValueAsString(clientMap ) )
+    println( mapper.writeValueAsString(partnerMap ) )
+
+
+    for( c : connectors in connReports) {
+     val props = propertyMapper.readTree( c.properties.byteInputStream())
+     val meta =  objectMapper.valueToTree(c) as ObjectNode
+     println("client: ${c.client_id}, ${clientMap[c.client_id.toString()]} ")
+     val client =clientMap[ c.client_id.toString() ]
+
+      meta["properties"] = props
+     meta.remove("log_data")
+     meta.remove("connector_id")
+     meta["connector_type"] = nodeFactory.textNode( typeMap[ c.connector_type_id.toString() ] )
+     meta.remove("connector_type_id")
+     meta["client" ] = nodeFactory.textNode(client ?.let {  partnerMap[ it.partner_id.toString()] + " / " + it.name  } ?: c.client_id.toString())
+     meta.remove("state")
+     meta.remove("running")
+      val metaname = "${c.name}.rpt"
+      meta.remove("client_id")
+
+
+      File( outdir,"${metaname}").writeText( mapper.writeValueAsString(meta) )
+
+
+    }
+
+
+
+
+
+
+
+
   }
 }
 

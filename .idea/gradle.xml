@@ -3,35 +3,12 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <compositeConfiguration>
-          <compositeBuild compositeDefinitionSource="SCRIPT">
-            <builds>
-              <build path="$PROJECT_DIR$/../../docstore">
-                <projects>
-                  <project path="$PROJECT_DIR$/../../docstore" />
-                  <project path="$PROJECT_DIR$/../../docstore/cli" />
-                  <project path="$PROJECT_DIR$/../../docstore/config" />
-                  <project path="$PROJECT_DIR$/../../docstore/docrun" />
-                  <project path="$PROJECT_DIR$/../../docstore/docstore-dsl" />
-                  <project path="$PROJECT_DIR$/../../docstore/docstore-lib" />
-                  <project path="$PROJECT_DIR$/../../docstore/kscript" />
-                </projects>
-              </build>
-            </builds>
-          </compositeBuild>
-        </compositeConfiguration>
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="/Java/gradle" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/../../docstore" />
-            <option value="$PROJECT_DIR$/../../docstore/cli" />
-            <option value="$PROJECT_DIR$/../../docstore/config" />
-            <option value="$PROJECT_DIR$/../../docstore/docrun" />
-            <option value="$PROJECT_DIR$/../../docstore/docstore-dsl" />
-            <option value="$PROJECT_DIR$/../../docstore/docstore-lib" />
-            <option value="$PROJECT_DIR$/../../docstore/kscript" />
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/buildSrc" />
           </set>
