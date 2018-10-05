@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:amazon-sqs-java-extended-client-lib:1.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/amazon-sqs-java-extended-client-lib/1.0.1/daab1817fc7f25894eda46152a6569bcf52f3ea1/amazon-sqs-java-extended-client-lib-1.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/amazon-sqs-java-extended-client-lib/1.0.1/86183d421dee4377395791cb969ac1a776cdc686/amazon-sqs-java-extended-client-lib-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

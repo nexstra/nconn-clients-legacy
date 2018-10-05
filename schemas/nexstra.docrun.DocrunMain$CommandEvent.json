@@ -1,0 +1,14 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "title" : "Command Event",
+  "type" : "object",
+  "additionalProperties" : false,
+  "properties" : {
+    "event" : {
+      "type" : "string"
+    },
+    "file" : {
+      "type" : "string"
+    }
+  }
+}

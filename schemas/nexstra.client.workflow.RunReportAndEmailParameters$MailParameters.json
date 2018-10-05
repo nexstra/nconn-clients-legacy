@@ -1,0 +1,34 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "title" : "Mail Parameters",
+  "type" : "object",
+  "additionalProperties" : false,
+  "properties" : {
+    "to" : {
+      "propertyOrder" : 1,
+      "type" : "string",
+      "title" : "To"
+    },
+    "cc" : {
+      "propertyOrder" : 2,
+      "type" : "string",
+      "title" : "Cc"
+    },
+    "bcc" : {
+      "propertyOrder" : 3,
+      "type" : "string",
+      "title" : "Bcc"
+    },
+    "subject" : {
+      "propertyOrder" : 4,
+      "type" : "string",
+      "title" : "Subject"
+    },
+    "from" : {
+      "propertyOrder" : 5,
+      "type" : "string",
+      "title" : "From"
+    }
+  },
+  "required" : [ "to" ]
+}

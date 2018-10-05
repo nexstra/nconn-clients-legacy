@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-nio/0.22.5/a4154f51fed51fa210275095bb3eb77d7af73c62/kotlinx-coroutines-nio-0.22.5.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-nio/0.22.5/cc690aef95c7d945be72d7ea9ab4df398709e29a/kotlinx-coroutines-nio-0.22.5-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-nio/0.22.5/63d7ca90e2d171a811904734fb7ae3ad8546283a/kotlinx-coroutines-nio-0.22.5-sources.jar!/" />
     </SOURCES>

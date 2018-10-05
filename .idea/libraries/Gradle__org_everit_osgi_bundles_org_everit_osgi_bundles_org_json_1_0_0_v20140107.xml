@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.everit.osgi.bundles:org.everit.osgi.bundles.org.json:1.0.0-v20140107">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.everit.osgi.bundles/org.everit.osgi.bundles.org.json/1.0.0-v20140107/24c49dc32af1063c681d29263e0bedbef8078cf3/org.everit.osgi.bundles.org.json-1.0.0-v20140107.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.everit.osgi.bundles/org.everit.osgi.bundles.org.json/1.0.0-v20140107/7be526ea7f41b5089cf0d87a7787c732a58d9a02/org.everit.osgi.bundles.org.json-1.0.0-v20140107-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

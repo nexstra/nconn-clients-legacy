@@ -20,13 +20,15 @@ dependencies {
   repositories {
     jcenter()
     maven {
-      //url "${rootProject.projectDir}/../repo"
-      url "/nexstra/docstore/build/repo"
+      url "${rootProject.projectDir}/../repo"
     }
   }
   // compile "org.jetbrains.exposed:exposed:0.10.4"
     compile "mysql:mysql-connector-java:5.1.33"
     compile "content-services:config:1.4.+"
+    compile  "nexstra.nconnect:client:0.1.+"
+    compile "nexstra.nconnect:activities-api:0.1.+"
+    
 }
 compileKotlin {
   sourceCompatibility = JavaVersion.VERSION_1_8

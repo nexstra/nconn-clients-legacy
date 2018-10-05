@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.james:apache-mime4j-examples:0.8.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.james/apache-mime4j-examples/0.8.0/70b487137f70598d3b6dca2ad14b41a6e943b7b2/apache-mime4j-examples-0.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.james/apache-mime4j-examples/0.8.0/a81798cc5d5a8ea8c9f3530d5edec5477da3bea/apache-mime4j-examples-0.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

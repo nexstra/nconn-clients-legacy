@@ -1,9 +1,17 @@
 pluginManagement {
   repositories{
     //maven { url "${rootProject.projectDir}/repo" }
-    maven { url "${rootProject.projectDir}/repo" }
+    maven { url "${rootProject.projectDir}/../repo" }
     gradlePluginPortal()
   }
 }
 
-//includeBuild "../../../docstore"
+// Not supported as of gradle 4.10
+/* 
+if(hasProperty("includedev")) {
+  //includeBuild("../../core-dsl")
+  includeBuild "../../../docstore"
+  //includeBuild "../../portal-sys"
+  includeBuild "../../../nconn-v2"
+}
+*/

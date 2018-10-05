@@ -1,0 +1,103 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "title" : "Compose Mail Request",
+  "type" : "object",
+  "additionalProperties" : false,
+  "properties" : {
+    "formatOptions" : {
+      "propertyOrder" : 1,
+      "type" : "object",
+      "additionalProperties" : {
+        "type" : "string"
+      },
+      "title" : "Format Options"
+    },
+    "bcc" : {
+      "propertyOrder" : 2,
+      "type" : "string",
+      "title" : "Bcc"
+    },
+    "replyTo" : {
+      "propertyOrder" : 3,
+      "type" : "string",
+      "title" : "Reply To"
+    },
+    "inlineAttachments" : {
+      "propertyOrder" : 4,
+      "type" : "array",
+      "format" : "table",
+      "items" : {
+        "type" : "string"
+      },
+      "title" : "Inline Attachments"
+    },
+    "cc" : {
+      "propertyOrder" : 5,
+      "type" : "string",
+      "title" : "Cc"
+    },
+    "flowUUID" : {
+      "propertyOrder" : 6,
+      "type" : "string",
+      "title" : "Flow UUID"
+    },
+    "bodyRef" : {
+      "propertyOrder" : 7,
+      "type" : "string",
+      "title" : "Body Ref"
+    },
+    "mimeType" : {
+      "propertyOrder" : 8,
+      "type" : "string",
+      "title" : "Mime Type"
+    },
+    "prefix" : {
+      "propertyOrder" : 9,
+      "type" : "string",
+      "title" : "Prefix"
+    },
+    "from" : {
+      "propertyOrder" : 10,
+      "type" : "string",
+      "title" : "From"
+    },
+    "to" : {
+      "propertyOrder" : 11,
+      "type" : "string",
+      "title" : "To"
+    },
+    "subject" : {
+      "propertyOrder" : 12,
+      "type" : "string",
+      "title" : "Subject"
+    },
+    "attachments" : {
+      "propertyOrder" : 13,
+      "type" : "array",
+      "format" : "table",
+      "items" : {
+        "type" : "string"
+      },
+      "title" : "Attachments"
+    },
+    "body" : {
+      "propertyOrder" : 14,
+      "type" : "string",
+      "title" : "Body"
+    },
+    "format" : {
+      "propertyOrder" : 15,
+      "type" : "string",
+      "title" : "Format"
+    },
+    "headers" : {
+      "propertyOrder" : 16,
+      "type" : "object",
+      "additionalProperties" : {
+        "type" : "string"
+      },
+      "title" : "Headers"
+    }
+  },
+  "required" : [ "formatOptions", "from", "to", "subject" ]
+}

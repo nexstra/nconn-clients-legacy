@@ -1,0 +1,19 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "title" : "Sync Parameters",
+  "type" : "object",
+  "additionalProperties" : false,
+  "properties" : {
+    "auth" : {
+      "propertyOrder" : 1,
+      "type" : "string",
+      "title" : "Auth"
+    },
+    "root" : {
+      "propertyOrder" : 2,
+      "type" : "string",
+      "title" : "Root"
+    }
+  },
+  "required" : [ "auth", "root" ]
+}

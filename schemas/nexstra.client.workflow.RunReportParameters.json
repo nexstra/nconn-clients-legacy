@@ -1,0 +1,63 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "title" : "Report",
+  "type" : "object",
+  "additionalProperties" : false,
+  "properties" : {
+    "type" : {
+      "type" : "string",
+      "enum" : [ "Report" ],
+      "default" : "Report",
+      "options" : {
+        "hidden" : true
+      }
+    },
+    "report" : {
+      "propertyOrder" : 1,
+      "$ref" : "#/definitions/ReportRunRequest",
+      "title" : "Report"
+    }
+  },
+  "required" : [ "type", "report" ],
+  "definitions" : {
+    "ReportRunRequest" : {
+      "type" : "object",
+      "additionalProperties" : false,
+      "properties" : {
+        "dataSource" : {
+          "propertyOrder" : 1,
+          "title" : "Data Source"
+        },
+        "query" : {
+          "propertyOrder" : 2,
+          "title" : "Query"
+        },
+        "params" : {
+          "propertyOrder" : 3,
+          "type" : "object",
+          "additionalProperties" : {
+            "type" : "string"
+          },
+          "title" : "Params"
+        },
+        "prefix" : {
+          "propertyOrder" : 4,
+          "type" : "string",
+          "title" : "Prefix"
+        },
+        "format" : {
+          "propertyOrder" : 5,
+          "type" : "string",
+          "title" : "Format"
+        },
+        "formatOptions" : {
+          "propertyOrder" : 6,
+          "type" : "object",
+          "additionalProperties" : { },
+          "title" : "Format Options"
+        }
+      },
+      "required" : [ "dataSource", "query", "params", "format", "formatOptions" ]
+    }
+  }
+}

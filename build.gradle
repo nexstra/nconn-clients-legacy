@@ -8,25 +8,37 @@ buildscript {
     dependencies {  
         classpath 'com.bmuschko:gradle-tomcat-plugin:2.2.5'  
         classpath "content-services:config:1.4.44"
+    //  classpath 'org.jsonschema2pojo:jsonschema2pojo-gradle-plugin:1.0.0-beta1'
+
     }  
 }  
 plugins {
-  id "org.gradle.kotlin.kotlin-dsl" version "1.0-rc-5"
+  // id "org.gradle.kotlin.kotlin-dsl" version "1.0-rc-5"
   id 'org.jetbrains.kotlin.jvm' version '1.2.61'
   id 'nexstra.docstore-dsl' version "1.0.6"
-  id 'nexstra.core-dsl' version "1.0.2"
-  id 'nexstra.client-dsl' version "1.0.2"
+  id 'nexstra.core-dsl' version "1.0.3"
+  id 'nexstra.client-dsl' version "1.0.3"
+  //id 'json-validator' version "1.2.1"
+  id "cz.alenkacz.gradle.jsonvalidator" version "1.2.1"
+}
+
+//apply plugin: 'jsonschema2pojo'
+def getAwsBucket() {
+  if( rootProject.hasProperty('awsBucket') ) rootProject.getProperty('awsBucket') else
+  if( awsEnv == "dev" ) "nexstra-com-dev-res-us-west-2" else "nexstra-com-main-us-east-1"
+  //{ println ("runnng subproc"); "awscmd get-export $awsEnv:resource:bucket".execute().text.trim() }
 }
 ext {
     if( project.hasProperty("datasource" ) ) datasource = file(project.getProperty("datasource"))
-    else  datasource = file("system/datasource/cds-dev.ds" ) 
+    else  datasource = "@s3://nexstra-com-dev-config-us-west-2/system/datasource/cds-dev.ds"
    templateDir = "${projectDir}/templates"
    cftemplate = "${buildDir}/cloud/cftemplate.yml"
-   workflowDir = "${projectDir}/workflow"
+   workflowDir = "${buildDir}/workflow"
 }
 
-apply plugin: 'kotlin'
-apply plugin: 'java'
+//apply plugin: 'kotlin'
+//apply plugin: 'java'
+/*
 dependencies {
    def log4j_version = "2.8+"
   // compile "org.jetbrains.exposed:exposed:0.10.4"
@@ -45,8 +57,8 @@ compileKotlin {
     languageVersion = "1.2"
   }
 }
+*/
 
-import TemplatesKt
 task templates( type: Task ) {
   group = 'nconnect'
   outputs.dir file("${buildDir}/templates")
@@ -64,6 +76,15 @@ task reports( type: Task ) {
         datasource )
   }
 }
+
+task connectors( type: Task ) {
+  group = 'nconnect'
+  outputs.dir file("${buildDir}/connectors")
+  doLast {
+    ConnectorsKt.convertConnectors(file("${buildDir}/connectors"), datasource )
+  }
+}
+
 putDocuments {
   dependsOn templates
   group = 'nconnect'
@@ -78,21 +99,23 @@ task putReports(type:nexstra.PutTask) {
   source reports.outputs.files // file("${buildDir}/reports/")
   docuri 's3://nexstra-com-dev-config-us-west-2/system/config/reports/'
 }
-
-
+cloud {
+  bucket = "${->getAwsBucket()}"
+}
 stepFunction {
     outputDir = file("build/steps/")
-    source = file("steps/")
+    //source = file("${buildDir}/connectors/ReportAndEmail")
+    source=file("${projectDir}/steps")
+    include "*.steps"
 }
-/*
 createPackage {
-     dependsOn("mergeTemplate")
+     dependsOn mergeTemplate
+     template = file(cftemplate)
  }
 
-  "deployPackage"(DeployPackageTask::class) {
-     dependsOn("createPackage")
+deployPackage {
+     dependsOn createPackage
   }
-*/
 mergeTemplate {
      dependsOn createTemplate
     templateFile =file("${templateDir}/cloudformation-template.yml")
@@ -106,4 +129,74 @@ createTemplate {
       templateFile =file("${templateDir}/step-template.yml")
       tag="STEPS"
       extension = "yml"
+}
+
+import cz.alenkacz.gradle.jsonvalidator.ValidateJsonTask
+tasks.addRule("Pattern: validateSteps<ID>") { taskName ->
+  if( taskName.startsWith("validateSteps") ){
+    task(taskName,type:  ValidateJsonTask) {
+      String id = taskName - "validateSteps"
+      outputs.upToDateWhen { false } 
+      targetJsonFile = file("steps/${id}.steps")
+      jsonSchema = file("schemas/nexstra.client.workflow.Run${id}Parameters.json")
+    }
+  }
+}
+task validateAll { 
+    ["Report","ReportAndEmail"].each {
+      dependsOn  tasks["validateSteps${it}"]
+
+      } 
+
+}
+
+/*
+task validateStepsReport(type: ValidateJsonTask) {
+  outputs.upToDateWhen { false } 
+  targetJsonFile = file("steps/Report.steps")
+  jsonSchema = file("schemas/nexstra.client.workflow.RunReportParameters.json")
+}
+task validateStepsReportAndSync(type: ValidateJsonTask) {
+  outputs.upToDateWhen { false } 
+  targetJsonDirectory = file("steps/ReportAndSyncSFTP.steps")
+  jsonSchema = file("schemas/nexstra.client.workflow.RunReportAndSyncSFTPParameters.json")
+}
+task validateStepsReportAndEmail(type: ValidateJsonTask) {
+  outputs.upToDateWhen { false } 
+  targetJsonDirectory = file("steps/ReportAndMail")
+  jsonSchema = file("schemas/nexstra.client.workflow.RunReportAndEmailParameters.json")
+}
+task validateSteps {
+   dependsOn validateStepsReport
+   dependsOn validateStepsReportAndSync
+   dependsOn validateStepsReportAndEmail
+}
+
+
+/*
+jsonSchema2Pojo {
+  source = files("${project.buildDir}/connectors")
+targetDirectory = file("${project.buildDir}/generated-sources")
+  sourceType="json"
+
+}
+*/
+
+
+build.enabled = false
+build.dependsOn validateSteps
+
+task dimensions(type: Task ) {
+  def dir =  file("${buildDir}/system")
+  outputs.dir dir
+  doLast {
+      DimensionsKt.extractDimensions( dir ) 
+  }
+
+}
+
+task datasources(type:Copy) {
+  from("${systemDir}/datasources.json")
+  into("${buildDir}/system")
+
 }

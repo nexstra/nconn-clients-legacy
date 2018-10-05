@@ -1,0 +1,10 @@
+StateMachine@@NAME@@:
+  Type: "AWS::StepFunctions::StateMachine"
+  Properties:
+    StateMachineName: @@NAME@@
+    DefinitionString: |-
+      @@STEPS@@
+    RoleArn: !GetAtt [StatesExecutionRole, Arn]
+
+
+

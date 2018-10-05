@@ -1,0 +1,64 @@
+{
+    "cds-dev" : {
+      "dimensions" : {
+        "app" : "cds",
+        "env" : "dev",
+        "region" : "us-west-2",
+        "user" : null,
+        "partition" : "system",
+        "scope" : "global",
+        "type" : "config"
+      },
+      "path" : "datasources/cds-dev.ds"
+    },
+    "cds-prod-cds3" : {
+      "dimensions" : {
+        "app" : "cds",
+        "tenant" : "cds3",
+        "env" : "prod",
+        "region" : "us-east-1",
+        "user" : null,
+        "partition" : "system",
+        "scope" : "global",
+        "type" : "config"
+      },
+      "path" : "datasources/cds-prod-cds3.ds"
+    },
+    "cds-prod-ssi" : {
+      "dimensions" : {
+        "app" : "cds",
+        "env" : "prod",
+        "tenant" : "ssi",
+        "region" : "us-east-1",
+        "user" : null,
+        "partition" : "system",
+        "scope" : "global",
+        "type" : "config"
+      },
+      "path" : "datasources/cds-dev.ds"
+    },
+    "odd-dev-demo" : {
+      "dimensions" : {
+        "app" : "odd",
+        "env" : "qa",
+        "tenant" : "demo",
+        "region" : "us-west-2",
+        "partition" : "system",
+        "scope" : "global",
+        "type" : "config"
+      },
+      "path" : "datasources/odd-dev-demo.ds"
+    },
+    "odd-prod-store" : {
+      "dimensions" : {
+        "app" : "odd",
+        "env" : "prod",
+        "tenant" : "store",
+        "region" : "us-east-1",
+        "partition" : "system",
+        "scope" : "global",
+        "type" : "config"
+      },
+      "path" : "datasources/odd-prod-store.ds"
+    }
+}

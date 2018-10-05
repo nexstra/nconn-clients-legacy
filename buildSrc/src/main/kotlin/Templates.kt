@@ -9,13 +9,9 @@ import nexstra.services.config.*
 import nexstra.services.toJson
 import kotlin.reflect.KProperty
 
-data class Template(
-  val template_id : Long,
-  val client : String,
-  val name : String,
-  val description : String,
-  val body : String,
-  val template_type : String )
+class Template : nexstra.generated.template() {
+  val client : String =""
+}
 
 fun ResultSet.asJsonObject() : JSONObject = metaData.let {meta ->
   @Suppress("UNCHECKED_CAST")
@@ -33,11 +29,12 @@ operator fun <T> JsonNode.getValue(thisRef: Nothing?, property: KProperty<*>): T
 fun source( secret: String  , database: String ) =
   DataSources.getJDBCSource(DataSource("mysql" , "hpe" , secret ))
 
-fun source( datasource: File ) =
-    DataSources.getJDBCSource( configure<DataSource>{ from(datasource) } )
+fun source( datasource: DRef<DataSource> ) =
+    DataSources.getJDBCSource(  DataSource.fromSource("@" + datasource.ref ) )
 
-fun extractTemplates( outdir: java.io.File , datasource: File ){
+fun extractTemplates( outdir: java.io.File , _datasource: String ){
   outdir.mkdirs()
+  val datasource = - DRef.fromRef<DataSource>(_datasource)
   val jdbc = source( datasource )
 
   val all = jdbc.withConnection {

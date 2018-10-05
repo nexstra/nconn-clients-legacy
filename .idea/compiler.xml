@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="activities-api_main" target="1.8" />
       <module name="activities-api_test" target="1.8" />
@@ -19,6 +22,8 @@
       <module name="cli_test" target="1.8" />
       <module name="client-dsl_main" target="1.8" />
       <module name="client-dsl_test" target="1.8" />
+      <module name="client_main" target="1.8" />
+      <module name="client_test" target="1.8" />
       <module name="cognito-api_integrationTest" target="1.8" />
       <module name="cognito-api_main" target="1.8" />
       <module name="cognito-api_test" target="1.8" />
@@ -46,8 +51,6 @@
       <module name="docstore-kscript_test" target="1.8" />
       <module name="docstore-lib_main" target="1.8" />
       <module name="docstore-lib_test" target="1.8" />
-      <module name="docstore-main_main" target="1.8" />
-      <module name="docstore-main_test" target="1.8" />
       <module name="docstore_main" target="1.8" />
       <module name="docstore_test" target="1.8" />
       <module name="echo-service_main" target="1.8" />
@@ -59,8 +62,6 @@
       <module name="github-api_integrationTest" target="1.8" />
       <module name="github-api_main" target="1.8" />
       <module name="github-api_test" target="1.8" />
-      <module name="kscript_main" target="1.8" />
-      <module name="kscript_test" target="1.8" />
       <module name="lambda-api_main" target="1.8" />
       <module name="lambda-api_test" target="1.8" />
       <module name="lambda_main" target="1.8" />
@@ -75,14 +76,10 @@
       <module name="nconn-legacy_buildSrc_test" target="1.8" />
       <module name="nconn-legacy_main" target="1.8" />
       <module name="nconn-legacy_test" target="1.8" />
-      <module name="nconnect-v2-client_main" target="1.8" />
-      <module name="nconnect-v2-client_test" target="1.8" />
       <module name="nconnect-v2_main" target="1.8" />
       <module name="nconnect-v2_test" target="1.8" />
       <module name="nexstra.nconnect_buildSrc_main" target="1.8" />
       <module name="nexstra.nconnect_buildSrc_test" target="1.8" />
-      <module name="portal-sys_main" target="1.8" />
-      <module name="portal-sys_test" target="1.8" />
       <module name="report-api_integrationTest" target="1.8" />
       <module name="report-api_main" target="1.8" />
       <module name="report-api_test" target="1.8" />
@@ -111,9 +108,6 @@
       <module name="thumb_integrationTest" target="1.8" />
       <module name="thumb_main" target="1.8" />
       <module name="thumb_test" target="1.8" />
-      <module name="workflow_integrationTest" target="1.8" />
-      <module name="workflow_main" target="1.8" />
-      <module name="workflow_test" target="1.8" />
       <module name="xmlsh_integrationTest" target="1.8" />
       <module name="xmlsh_main" target="1.8" />
       <module name="xmlsh_test" target="1.8" />

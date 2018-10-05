@@ -1,0 +1,38 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "title" : "Send Mail Request",
+  "type" : "object",
+  "additionalProperties" : false,
+  "properties" : {
+    "messageTags" : {
+      "propertyOrder" : 1,
+      "type" : "string",
+      "title" : "Message Tags"
+    },
+    "configurationSet" : {
+      "propertyOrder" : 2,
+      "type" : "string",
+      "title" : "Configuration Set"
+    },
+    "sender" : {
+      "propertyOrder" : 3,
+      "type" : "string",
+      "title" : "Sender"
+    },
+    "flowUUID" : {
+      "propertyOrder" : 4,
+      "type" : "string",
+      "title" : "Flow UUID"
+    },
+    "bodyRef" : {
+      "propertyOrder" : 5,
+      "type" : "string",
+      "title" : "Body Ref"
+    },
+    "body" : {
+      "propertyOrder" : 6,
+      "type" : "string",
+      "title" : "Body"
+    }
+  }
+}

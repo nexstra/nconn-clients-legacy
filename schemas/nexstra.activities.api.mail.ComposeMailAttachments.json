@@ -1,0 +1,9 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "title" : "Compose Mail Attachments",
+  "type" : "array",
+  "format" : "table",
+  "items" : {
+    "type" : "string"
+  }
+}

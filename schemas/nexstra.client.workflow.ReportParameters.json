@@ -1,0 +1,41 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "title" : "Report Parameters",
+  "type" : "object",
+  "additionalProperties" : false,
+  "properties" : {
+    "source" : {
+      "propertyOrder" : 1,
+      "type" : "string",
+      "title" : "Source"
+    },
+    "query" : {
+      "propertyOrder" : 2,
+      "type" : "string",
+      "title" : "Query"
+    },
+    "format" : {
+      "propertyOrder" : 3,
+      "type" : "string",
+      "pattern" : "[a-z]{3,5}",
+      "default" : "csv",
+      "title" : "Format"
+    },
+    "params" : {
+      "propertyOrder" : 4,
+      "type" : "array",
+      "format" : "table",
+      "items" : {
+        "type" : "string"
+      },
+      "title" : "Params"
+    },
+    "formatOptions" : {
+      "propertyOrder" : 5,
+      "type" : "object",
+      "additionalProperties" : { },
+      "title" : "Format Options"
+    }
+  },
+  "required" : [ "source", "query", "formatOptions" ]
+}

@@ -1,0 +1,17 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "title" : "Command Watch",
+  "type" : "object",
+  "additionalProperties" : false,
+  "properties" : {
+    "watchSQS" : {
+      "type" : "string"
+    },
+    "announceURL" : {
+      "type" : "string"
+    },
+    "announceRoots" : {
+      "type" : "string"
+    }
+  }
+}

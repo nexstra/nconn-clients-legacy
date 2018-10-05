@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.nexstra:jcommander:1.73">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/nexstra/jcommander/1.73/jcommander-1.73.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/nexstra/jcommander/1.73/jcommander-1.73-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

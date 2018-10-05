@@ -1,0 +1,37 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "title" : "Sync",
+  "type" : "object",
+  "additionalProperties" : false,
+  "properties" : {
+    "type" : {
+      "type" : "string",
+      "enum" : [ "Sync" ],
+      "default" : "Sync",
+      "options" : {
+        "hidden" : true
+      }
+    },
+    "auth" : {
+      "propertyOrder" : 1,
+      "type" : "string",
+      "title" : "Auth"
+    },
+    "root" : {
+      "propertyOrder" : 2,
+      "type" : "string",
+      "title" : "Root"
+    },
+    "matching" : {
+      "propertyOrder" : 3,
+      "type" : "string",
+      "title" : "Matching"
+    },
+    "syncTemp" : {
+      "propertyOrder" : 4,
+      "type" : "string",
+      "title" : "Sync Temp"
+    }
+  },
+  "required" : [ "type", "auth", "root", "matching", "syncTemp" ]
+}

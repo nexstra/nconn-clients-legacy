@@ -1,0 +1,231 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "title" : "Workflow Template Parameters",
+  "oneOf" : [ {
+    "$ref" : "#/definitions/RunReportParameters"
+  }, {
+    "$ref" : "#/definitions/RunReportAndSyncParameters"
+  }, {
+    "$ref" : "#/definitions/RunSyncSFTPParameters"
+  }, {
+    "$ref" : "#/definitions/RunReportAndEmailParameters"
+  } ],
+  "definitions" : {
+    "RunReportParameters" : {
+      "type" : "object",
+      "additionalProperties" : false,
+      "properties" : {
+        "type" : {
+          "type" : "string",
+          "enum" : [ "Report" ],
+          "default" : "Report",
+          "options" : {
+            "hidden" : true
+          }
+        },
+        "report" : {
+          "propertyOrder" : 1,
+          "$ref" : "#/definitions/ReportRunRequest",
+          "title" : "Report"
+        }
+      },
+      "title" : "Report",
+      "required" : [ "type", "report" ]
+    },
+    "ReportRunRequest" : {
+      "type" : "object",
+      "additionalProperties" : false,
+      "properties" : {
+        "dataSource" : {
+          "propertyOrder" : 1,
+          "title" : "Data Source"
+        },
+        "query" : {
+          "propertyOrder" : 2,
+          "title" : "Query"
+        },
+        "params" : {
+          "propertyOrder" : 3,
+          "type" : "object",
+          "additionalProperties" : {
+            "type" : "string"
+          },
+          "title" : "Params"
+        },
+        "prefix" : {
+          "propertyOrder" : 4,
+          "type" : "string",
+          "title" : "Prefix"
+        },
+        "format" : {
+          "propertyOrder" : 5,
+          "type" : "string",
+          "title" : "Format"
+        },
+        "formatOptions" : {
+          "propertyOrder" : 6,
+          "type" : "object",
+          "additionalProperties" : { },
+          "title" : "Format Options"
+        }
+      },
+      "required" : [ "dataSource", "query", "params", "format", "formatOptions" ]
+    },
+    "RunReportAndSyncParameters" : {
+      "type" : "object",
+      "additionalProperties" : false,
+      "properties" : {
+        "type" : {
+          "type" : "string",
+          "enum" : [ "ReportAndSync" ],
+          "default" : "ReportAndSync",
+          "options" : {
+            "hidden" : true
+          }
+        },
+        "report" : {
+          "propertyOrder" : 1,
+          "$ref" : "#/definitions/ReportRunRequest",
+          "title" : "Report"
+        },
+        "sync" : {
+          "propertyOrder" : 2,
+          "$ref" : "#/definitions/SyncSFTPParameters",
+          "title" : "Sync"
+        }
+      },
+      "title" : "ReportAndSync",
+      "required" : [ "type" ]
+    },
+    "SyncSFTPParameters" : {
+      "type" : "object",
+      "additionalProperties" : false,
+      "properties" : {
+        "auth" : {
+          "propertyOrder" : 1,
+          "type" : "string",
+          "default" : "@secrets://${region}/dev/cds/mocksftp",
+          "title" : "Auth"
+        },
+        "root" : {
+          "propertyOrder" : 2,
+          "type" : "string",
+          "title" : "Root"
+        },
+        "dest" : {
+          "propertyOrder" : 3,
+          "type" : "string",
+          "title" : "Dest"
+        }
+      },
+      "required" : [ "auth", "root" ]
+    },
+    "RunSyncSFTPParameters" : {
+      "type" : "object",
+      "additionalProperties" : false,
+      "properties" : {
+        "type" : {
+          "type" : "string",
+          "enum" : [ "Sync" ],
+          "default" : "Sync",
+          "options" : {
+            "hidden" : true
+          }
+        },
+        "auth" : {
+          "propertyOrder" : 1,
+          "type" : "string",
+          "default" : "@secrets://${region}/dev/cds/mocksftp",
+          "title" : "Auth"
+        },
+        "root" : {
+          "propertyOrder" : 2,
+          "type" : "string",
+          "title" : "Root"
+        },
+        "dest" : {
+          "propertyOrder" : 3,
+          "type" : "string",
+          "title" : "Dest"
+        },
+        "matching" : {
+          "propertyOrder" : 4,
+          "type" : "string",
+          "title" : "Matching"
+        }
+      },
+      "title" : "Sync",
+      "required" : [ "type", "auth", "root", "matching" ]
+    },
+    "RunReportAndEmailParameters" : {
+      "type" : "object",
+      "additionalProperties" : false,
+      "properties" : {
+        "type" : {
+          "type" : "string",
+          "enum" : [ "ReportAndEmail" ],
+          "default" : "ReportAndEmail",
+          "options" : {
+            "hidden" : true
+          }
+        },
+        "report" : {
+          "propertyOrder" : 1,
+          "$ref" : "#/definitions/ReportRunRequest",
+          "title" : "Report"
+        },
+        "mail" : {
+          "propertyOrder" : 2,
+          "$ref" : "#/definitions/MailParameters",
+          "title" : "Mail"
+        }
+      },
+      "title" : "ReportAndEmail",
+      "required" : [ "type" ]
+    },
+    "MailParameters" : {
+      "type" : "object",
+      "additionalProperties" : false,
+      "properties" : {
+        "to" : {
+          "propertyOrder" : 1,
+          "type" : "string",
+          "title" : "To"
+        },
+        "cc" : {
+          "propertyOrder" : 2,
+          "type" : "string",
+          "title" : "Cc"
+        },
+        "bcc" : {
+          "propertyOrder" : 3,
+          "type" : "string",
+          "title" : "Bcc"
+        },
+        "subject" : {
+          "propertyOrder" : 4,
+          "type" : "string",
+          "title" : "Subject"
+        },
+        "from" : {
+          "propertyOrder" : 5,
+          "type" : "string",
+          "title" : "From"
+        },
+        "format" : {
+          "propertyOrder" : 6,
+          "type" : "string",
+          "default" : "html",
+          "title" : "Format"
+        },
+        "body" : {
+          "propertyOrder" : 7,
+          "type" : "string",
+          "default" : "<html/>",
+          "title" : "Body"
+        }
+      },
+      "required" : [ "to" ]
+    }
+  }
+}

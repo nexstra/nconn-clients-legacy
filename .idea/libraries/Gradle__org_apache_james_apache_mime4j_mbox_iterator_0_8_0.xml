@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.james:apache-mime4j-mbox-iterator:0.8.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.james/apache-mime4j-mbox-iterator/0.8.0/9a0f07c4f02c09eee3ef411ded09378c6a8af40a/apache-mime4j-mbox-iterator-0.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.james/apache-mime4j-mbox-iterator/0.8.0/50f827e0efc6e83a7d6055c1402437c9e1db2c81/apache-mime4j-mbox-iterator-0.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

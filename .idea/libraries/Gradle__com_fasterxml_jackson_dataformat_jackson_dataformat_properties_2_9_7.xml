@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-properties/2.9.7/4456fb995f856afc7fa75ab2cfcce2aee20f8fea/jackson-dataformat-properties-2.9.7.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-properties/2.9.7/bce0e3724c22a190a38cd73d9cfac853001b871f/jackson-dataformat-properties-2.9.7-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-properties/2.9.7/be5c2a8f174b9c8e9a149b18fa8433d7eb0923c/jackson-dataformat-properties-2.9.7-sources.jar!/" />
     </SOURCES>

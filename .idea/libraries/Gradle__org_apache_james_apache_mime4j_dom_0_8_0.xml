@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.james:apache-mime4j-dom:0.8.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.james/apache-mime4j-dom/0.8.0/6720c93d14225c3e12c4a69768a0370c80e376a3/apache-mime4j-dom-0.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.james/apache-mime4j-dom/0.8.0/328f6d8724fd2979104171b9cee54f6932862ca1/apache-mime4j-dom-0.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

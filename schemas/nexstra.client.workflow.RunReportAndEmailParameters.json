@@ -1,0 +1,112 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "title" : "ReportAndEmail",
+  "type" : "object",
+  "additionalProperties" : false,
+  "properties" : {
+    "type" : {
+      "type" : "string",
+      "enum" : [ "ReportAndEmail" ],
+      "default" : "ReportAndEmail",
+      "options" : {
+        "hidden" : true
+      }
+    },
+    "report" : {
+      "propertyOrder" : 1,
+      "$ref" : "#/definitions/ReportRunRequest",
+      "title" : "Report"
+    },
+    "mail" : {
+      "propertyOrder" : 2,
+      "$ref" : "#/definitions/MailParameters",
+      "title" : "Mail"
+    }
+  },
+  "required" : [ "type" ],
+  "definitions" : {
+    "ReportRunRequest" : {
+      "type" : "object",
+      "additionalProperties" : false,
+      "properties" : {
+        "dataSource" : {
+          "propertyOrder" : 1,
+          "title" : "Data Source"
+        },
+        "query" : {
+          "propertyOrder" : 2,
+          "title" : "Query"
+        },
+        "params" : {
+          "propertyOrder" : 3,
+          "type" : "object",
+          "additionalProperties" : {
+            "type" : "string"
+          },
+          "title" : "Params"
+        },
+        "prefix" : {
+          "propertyOrder" : 4,
+          "type" : "string",
+          "title" : "Prefix"
+        },
+        "format" : {
+          "propertyOrder" : 5,
+          "type" : "string",
+          "title" : "Format"
+        },
+        "formatOptions" : {
+          "propertyOrder" : 6,
+          "type" : "object",
+          "additionalProperties" : { },
+          "title" : "Format Options"
+        }
+      },
+      "required" : [ "dataSource", "query", "params", "format", "formatOptions" ]
+    },
+    "MailParameters" : {
+      "type" : "object",
+      "additionalProperties" : false,
+      "properties" : {
+        "to" : {
+          "propertyOrder" : 1,
+          "type" : "string",
+          "title" : "To"
+        },
+        "cc" : {
+          "propertyOrder" : 2,
+          "type" : "string",
+          "title" : "Cc"
+        },
+        "bcc" : {
+          "propertyOrder" : 3,
+          "type" : "string",
+          "title" : "Bcc"
+        },
+        "subject" : {
+          "propertyOrder" : 4,
+          "type" : "string",
+          "title" : "Subject"
+        },
+        "from" : {
+          "propertyOrder" : 5,
+          "type" : "string",
+          "title" : "From"
+        },
+        "format" : {
+          "propertyOrder" : 6,
+          "type" : "string",
+          "default" : "html",
+          "title" : "Format"
+        },
+        "body" : {
+          "propertyOrder" : 7,
+          "type" : "string",
+          "default" : "<html/>",
+          "title" : "Body"
+        }
+      },
+      "required" : [ "to" ]
+    }
+  }
+}
