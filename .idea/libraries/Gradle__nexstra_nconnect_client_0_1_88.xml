@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: nexstra.nconnect:client:0.1.88">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/repo/nexstra/nconnect/client/0.1.88/client-0.1.88.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/repo/nexstra/nconnect/client/0.1.88/client-0.1.88-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

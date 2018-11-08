@@ -17,6 +17,7 @@ import nexstra.services.config.*
 
 class Connector : connectors() {
   val client : String = ""
+  val partner: String = ""
   val type : String = ""
   val classname : String =""
 }
@@ -40,8 +41,10 @@ class ReportConnector {
   val cc: String? = null
 }
 data class RunConfig(
+  val type : String,
+  val name : String ,
   val target  : String ,
-  val input : AnyMapR
+  val input : AnyMapR  = mapOf()
   )
 
 object Connectors {
@@ -62,39 +65,49 @@ object Connectors {
     return null
   }
 
-  fun reportType(connector : Connector, _outdir : File, stepType : String, datasource : DRef<DataSource>) : RunConfig? {
+  fun reportType(connector : Connector, _outdir : File, stepType : String, datasource : DRef<DataSource>)  {
     println("REPORT type: ${connector.name} ${connector.type}")
-    val outdir = File(_outdir, stepType)
-    outdir.mkdirs()
+
     val factory = JavaPropsFactory()
     val parser = factory.createParser(connector.properties.byteInputStream())
     val props = JavaPropsMapper(factory).readTree(parser)
 
-    val fname = connector.name.replace("[^a-zA-Z_0-9-]".toRegex(), "_")
-    val ext = ".steps"
+    val fname =connector.name.toFileName("steps")
 
     val rc = configure<ReportConnector> {from(props as JsonNode)}
+    val tdir = File(_outdir,tenant(connector.partner,connector.client))
+    val stepDir = File(tdir,"steps")
+    val reportDir = File(tdir,"reports")
+    val runDir = File(tdir,"run")
 
-    if (rc.ftp != null) {
-      val run = nexstra.client.workflow.RunReportAndSyncSFTPParameters().apply {
+    stepDir.mkdirs()
+    runDir.mkdirs()
+    reportDir.mkdirs()
+    val steps = if (rc.ftp != null) {
+      nexstra.client.workflow.RunReportAndSyncSFTPParameters().apply {
         report = reportParameters(rc, datasource)
         sftp = syncParameters(rc)
+      }.also {
+        File(reportDir,connector.name.toFileName("report")).writeText( mapper.writeValueAsString(it.report))
       }
-      File(outdir, "${fname}.${ext}").writeText(objectMapper.writeValueAsString(run))
-      return null
     }
     else {
-      val run = nexstra.client.workflow.RunReportAndEmailParameters().apply {
+      nexstra.client.workflow.RunReportAndEmailParameters().apply {
         report = reportParameters(rc, datasource)
         mail = mailParameters(rc)
+      }.also {
+        File(reportDir, connector.name.toFileName("report")).writeText(mapper.writeValueAsString(it.report))
       }
-      File(outdir, "${fname}.${ext}").writeText(objectMapper.writeValueAsString(run))
-      return null
     }
+    File(stepDir,fname).writeText(mapper.writeValueAsString(steps))
+
+    val run =  RunConfig("stepfunctions",connector.name,"@steps/" + fname)
+    File(runDir,connector.name.toFileName("run")).writeText( mapper.writeValueAsString(run))
+
   }
 
   fun syncParameters(rc : ReportConnector) = SyncSFTPParameters().apply {
-    auth = ""
+    auth = "@FIXME:host:" + rc.ftp?.host ?:""
     //  this.dest = rc.ftp?.root
     root = (rc.ftp?.root) ?: "/"
     dest = rc.output_file
@@ -103,7 +116,7 @@ object Connectors {
   fun reportParameters(rc : ReportConnector, datasource : DRef<DataSource>) = ReportParameters(
       format = "csv",
       params = rc.input,
-      query = DRef(rc.report + ".report"),
+      query = DRef( "queries/" + rc.report.toFileName("query")),
       dataSource = datasource
   )
 
@@ -121,8 +134,9 @@ object Connectors {
 
     val all = jdbc.withConnection {
       query("""
-      SELECT connectors.*, client.name as 'client' , connector_types.name as 'type' , connector_types.classname
+      SELECT connectors.*, client.name as 'client', partners.code as 'partner', connector_types.name as 'type' , connector_types.classname
       FROM connectors JOIN client USING(client_id)
+           JOIN partners USING(partner_id)
            JOIN connector_types USING(connector_type_id)
       """).toList<JsonNode> {asJsonNode()}
     }
@@ -130,7 +144,7 @@ object Connectors {
       val connector : Connector = configure {from(n)}
       println(connector.name)
 
-      val runConfig :RunConfig? = when(connector.classname) {
+      when(connector.classname) {
         "nexstra.cds.client.ss.Load_SSConnector",
         "nexstra.cds.client.ss.LoadServiceSourceSampleConnector",
         "nexstra.cds.client.strategy.LoadSymantecDistConnector",
@@ -156,6 +170,7 @@ object Connectors {
       if( connector.run_type == "EVERY" ) {
 
       }
+
 
     }
   }

@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.8.22/4d65fdf7d9755ef7c75f2213f356119d0e68c2cd/byte-buddy-1.8.22.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.8.22/a42e9aa751c8aa0fcbe86c119a6d855d99b4327f/byte-buddy-1.8.22-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.8.22/8292b7eb9fbb4a9463a8c6a461e4497f76ad01c9/byte-buddy-1.8.22-sources.jar!/" />
     </SOURCES>

@@ -7,7 +7,7 @@ buildscript {
     }  
     dependencies {  
         classpath 'com.bmuschko:gradle-tomcat-plugin:2.2.5'  
-        classpath "content-services:config:1.4.+"
+        classpath "content-services:config:1.4.79"
     }  
 }  
 plugins {
@@ -25,7 +25,7 @@ dependencies {
   }
   // compile "org.jetbrains.exposed:exposed:0.10.4"
     compile "mysql:mysql-connector-java:5.1.33"
-    compile "content-services:config:1.4.+"
+    compile "content-services:config:1.4.79"
     compile  "nexstra.nconnect:client:0.1.+"
     compile "nexstra.nconnect:activities-api:0.1.+"
     

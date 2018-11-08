@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.netty/netty-reactive-streams/1.0.8/afe9907657050156b4b204abdcbb16d15c98ad41/netty-reactive-streams-1.0.8.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.netty/netty-reactive-streams/1.0.8/280cfe9b078e84990180307d7dd1fc6e9f624ecc/netty-reactive-streams-1.0.8-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.netty/netty-reactive-streams/1.0.8/526f0714d9e50ee3115e8e43fddf3cb6dae11c10/netty-reactive-streams-1.0.8-sources.jar!/" />
     </SOURCES>

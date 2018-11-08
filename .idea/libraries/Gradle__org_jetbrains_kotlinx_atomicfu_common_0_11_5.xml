@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-common/0.11.5/a14c4e4a2c0232878dcdf592b48bc3e50decfddf/atomicfu-common-0.11.5.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-common/0.11.5/ccaf498aba2af6699b6caec8b5db40f614050caf/atomicfu-common-0.11.5-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-common/0.11.5/7d45529132e909f65b2e073a4d9ca12a2151db3f/atomicfu-common-0.11.5-sources.jar!/" />
     </SOURCES>

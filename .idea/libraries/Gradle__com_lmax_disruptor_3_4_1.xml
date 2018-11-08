@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lmax/disruptor/3.4.1/72fabfe8a183f53bf61e0303921b7a89d2e8daed/disruptor-3.4.1.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lmax/disruptor/3.4.1/7a2f16d8216c0069fdc08971d00eee9e4710afb4/disruptor-3.4.1-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lmax/disruptor/3.4.1/f3e292824932464dd9b5e3b5b4ac1f92a5250fe1/disruptor-3.4.1-sources.jar!/" />
     </SOURCES>

@@ -2,11 +2,12 @@ pluginManagement {
   repositories{
     maven { url "${rootProject.projectDir}/repo" }
     gradlePluginPortal()
+    jcenter()
   }
 }
 //if(hasProperty("includedev")) {
   //includeBuild("../../core-dsl")
-  includeBuild "../../docstore"
-  //includeBuild "../../portal-sys"
-  includeBuild "../../nconn-v2"
+  includeBuild "../docstore"
+  //includeBuild "../portal-sys"
+  //includeBuild "../../nconn-v2"
 //}

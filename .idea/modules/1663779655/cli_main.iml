@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="docstore:cli:main" external.linked.project.path="$MODULE_DIR$/../../../../../docstore/cli" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="content-services" external.system.module.type="sourceSet" external.system.module.version="1.4.69" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="docstore:cli:main" external.linked.project.path="$MODULE_DIR$/../../../../docstore/cli" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="content-services" external.system.module.type="sourceSet" external.system.module.version="1.4.79" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
       <configuration version="3" platform="JVM 1.8" useProjectSettings="false">
         <compilerSettings />
         <compilerArguments>
-          <option name="destination" value="$MODULE_DIR$/../../../../../docstore/cli/build/classes/kotlin/main" />
+          <option name="destination" value="$MODULE_DIR$/../../../../docstore/cli/build/classes/kotlin/main" />
           <option name="noStdlib" value="true" />
           <option name="noReflect" value="true" />
           <option name="moduleName" value="cli" />
@@ -33,47 +33,37 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output url="file://$MODULE_DIR$/../../../../../docstore/cli/out/production/classes" />
+    <output url="file://$MODULE_DIR$/../../../../docstore/cli/out/production/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../../../docstore/cli/src/main">
-      <sourceFolder url="file://$MODULE_DIR$/../../../../../docstore/cli/src/main/kotlin" isTestSource="false" />
+    <content url="file://$MODULE_DIR$/../../../../docstore/cli/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../docstore/cli/src/main/kotlin" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="docstore-lib_main" />
     <orderEntry type="module" module-name="config_main" />
-    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-dynamodb:1.11.421" level="project" />
-    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-s3:1.11.421" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-dynamodb:1.11.428" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-s3:1.11.428" level="project" />
     <orderEntry type="module-library" scope="RUNTIME">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../../../../docstore/cli/build/generated-resources/main" />
+          <root url="file://$MODULE_DIR$/../../../../docstore/cli/build/generated-resources/main" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-ssm:1.11.421" level="project" />
-    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-secretsmanager:1.11.421" level="project" />
-    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-sts:1.11.421" level="project" />
-    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-cloudformation:1.11.421" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-ssm:1.11.428" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-secretsmanager:1.11.428" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-sts:1.11.428" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-cloudformation:1.11.428" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.9.7" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.2.61" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:0.22.5" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-nio:0.22.5" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:0.22.5" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.61" level="project" />
-    <orderEntry type="module-library">
-      <library name="Gradle: com.nexstra:jcommander:1.73">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nexstra/jcommander/1.73/903830c1631321e6562b85ec461c290cbb4152db/jcommander-1.73.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nexstra/jcommander/1.73/fc19d35d824322d3ac5d8d90407db4ae491a9a85/jcommander-1.73-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="Gradle: com.nexstra:jcommander:1.73" level="project" />
     <orderEntry type="library" name="Gradle: javax.mail:javax.mail-api:1.6.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-slf4j-impl:2.11.0" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.9.7" level="project" />
@@ -84,12 +74,12 @@
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-core:2.11.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-jcl:2.11.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-api:2.11.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-kms:1.11.421" level="project" />
-    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-cloudwatch:1.11.421" level="project" />
-    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-logs:1.11.421" level="project" />
-    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-events:1.11.421" level="project" />
-    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-core:1.11.421" level="project" />
-    <orderEntry type="library" name="Gradle: com.amazonaws:jmespath-java:1.11.421" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-kms:1.11.428" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-cloudwatch:1.11.428" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-logs:1.11.428" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-events:1.11.428" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-core:1.11.428" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:jmespath-java:1.11.428" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.61" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.61" level="project" />
     <orderEntry type="library" name="Gradle: com.lmax:disruptor:3.4.1" level="project" />

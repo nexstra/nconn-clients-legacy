@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="docstore:docrun" external.linked.project.path="$MODULE_DIR$/../../../../../docstore/docrun" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="content-services" external.system.module.version="1.4.69" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="docstore:docrun" external.linked.project.path="$MODULE_DIR$/../../../../docstore/docrun" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="content-services" external.system.module.version="1.4.79" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../../../docstore/docrun">
-      <excludeFolder url="file://$MODULE_DIR$/../../../../../docstore/docrun/.gradle" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../../../docstore/docrun/build" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../../../docstore/docrun/out" />
+    <content url="file://$MODULE_DIR$/../../../../docstore/docrun">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../docstore/docrun/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../docstore/docrun/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../docstore/docrun/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -6,56 +6,15 @@
         <compositeConfiguration>
           <compositeBuild compositeDefinitionSource="SCRIPT">
             <builds>
-              <build path="$PROJECT_DIR$/../../docstore">
+              <build path="$PROJECT_DIR$/../docstore">
                 <projects>
-                  <project path="$PROJECT_DIR$/../../docstore" />
-                  <project path="$PROJECT_DIR$/../../docstore/cli" />
-                  <project path="$PROJECT_DIR$/../../docstore/config" />
-                  <project path="$PROJECT_DIR$/../../docstore/docrun" />
-                  <project path="$PROJECT_DIR$/../../docstore/docstore-dsl" />
-                  <project path="$PROJECT_DIR$/../../docstore/docstore-lib" />
-                  <project path="$PROJECT_DIR$/../../docstore/kscript" />
-                </projects>
-              </build>
-              <build path="$PROJECT_DIR$/../../nconn-v2">
-                <projects>
-                  <project path="$PROJECT_DIR$/../../nconn-v2" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/activities" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/activities/api" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/activities/client" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/activities/gindex" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/activities/mail/compose" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/activities/mail/sendmail" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/activities/report" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/activities/sftp" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/activities/split" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/activity-util" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/client" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/client-dsl" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/docker" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/docker/echo" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/docker/report" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/format-util" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/lambda" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/lambda/api" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/lambda/cognito" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/lambda/common" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/lambda/docstore" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/lambda/github" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/lambda/mail" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/lambda/mail/composemail" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/lambda/mail/sendmail" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/lambda/report" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/lambda/script" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/lambda/script/bash" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/lambda/script/kscript" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/lambda/script/xmlsh" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/lambda/sftp" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/lambda/steputil" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/lambda/thumb" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/metrics" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/metrics/logutil" />
-                  <project path="$PROJECT_DIR$/../../nconn-v2/stepdsl" />
+                  <project path="$PROJECT_DIR$/../docstore" />
+                  <project path="$PROJECT_DIR$/../docstore/cli" />
+                  <project path="$PROJECT_DIR$/../docstore/config" />
+                  <project path="$PROJECT_DIR$/../docstore/docrun" />
+                  <project path="$PROJECT_DIR$/../docstore/docstore-dsl" />
+                  <project path="$PROJECT_DIR$/../docstore/docstore-lib" />
+                  <project path="$PROJECT_DIR$/../docstore/kscript" />
                 </projects>
               </build>
             </builds>
@@ -67,53 +26,15 @@
         <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/../../docstore" />
-            <option value="$PROJECT_DIR$/../../docstore/cli" />
-            <option value="$PROJECT_DIR$/../../docstore/config" />
-            <option value="$PROJECT_DIR$/../../docstore/docrun" />
-            <option value="$PROJECT_DIR$/../../docstore/docstore-dsl" />
-            <option value="$PROJECT_DIR$/../../docstore/docstore-lib" />
-            <option value="$PROJECT_DIR$/../../docstore/kscript" />
+            <option value="$PROJECT_DIR$/../docstore" />
+            <option value="$PROJECT_DIR$/../docstore/cli" />
+            <option value="$PROJECT_DIR$/../docstore/config" />
+            <option value="$PROJECT_DIR$/../docstore/docrun" />
+            <option value="$PROJECT_DIR$/../docstore/docstore-dsl" />
+            <option value="$PROJECT_DIR$/../docstore/docstore-lib" />
+            <option value="$PROJECT_DIR$/../docstore/kscript" />
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/buildSrc" />
-            <option value="$PROJECT_DIR$/../../nconn-v2" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/activities" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/activities/api" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/activities/client" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/activities/gindex" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/activities/mail/compose" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/activities/mail/sendmail" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/activities/report" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/activities/sftp" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/activities/split" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/activity-util" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/buildSrc" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/client" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/client-dsl" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/docker" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/docker/echo" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/docker/report" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/format-util" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/lambda" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/lambda/api" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/lambda/cognito" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/lambda/common" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/lambda/docstore" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/lambda/github" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/lambda/mail" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/lambda/mail/composemail" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/lambda/mail/sendmail" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/lambda/report" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/lambda/script" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/lambda/script/bash" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/lambda/script/kscript" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/lambda/script/xmlsh" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/lambda/sftp" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/lambda/steputil" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/lambda/thumb" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/metrics" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/metrics/logutil" />
-            <option value="$PROJECT_DIR$/../../nconn-v2/stepdsl" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />

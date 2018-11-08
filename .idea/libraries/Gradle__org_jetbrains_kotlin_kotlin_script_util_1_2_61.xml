@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-util/1.2.61/a9d86fa6ff70eb4a27b407786cde113e901ee5a8/kotlin-script-util-1.2.61.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-util/1.2.61/f3eac6d4f301b6bdc5e7b1ba57488d36dc692903/kotlin-script-util-1.2.61-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-util/1.2.61/ed04ce90cb2365537547056d5ffb6bab3b607f90/kotlin-script-util-1.2.61-sources.jar!/" />
     </SOURCES>

@@ -42,26 +42,26 @@
           "format" : "utc-millisec",
           "title" : "Mtime"
         },
-        "docuri" : {
-          "propertyOrder" : 3,
-          "type" : "string",
-          "title" : "Docuri"
-        },
         "dir" : {
-          "propertyOrder" : 4,
+          "propertyOrder" : 3,
           "type" : "boolean",
           "title" : "Dir"
         },
-        "extra" : {
+        "docuri" : {
+          "propertyOrder" : 4,
+          "type" : "string",
+          "title" : "Docuri"
+        },
+        "contentType" : {
           "propertyOrder" : 5,
+          "type" : "string",
+          "title" : "Content Type"
+        },
+        "extra" : {
+          "propertyOrder" : 6,
           "type" : "object",
           "additionalProperties" : { },
           "title" : "Extra"
-        },
-        "contentType" : {
-          "propertyOrder" : 6,
-          "type" : "string",
-          "title" : "Content Type"
         },
         "uri" : {
           "propertyOrder" : 7,
@@ -84,7 +84,7 @@
           "title" : "Path"
         }
       },
-      "required" : [ "rootUri", "docuri", "dir", "extra", "contentType", "uri", "name", "path" ]
+      "required" : [ "rootUri", "dir", "docuri", "contentType", "extra", "uri", "name", "path" ]
     }
   }
 }

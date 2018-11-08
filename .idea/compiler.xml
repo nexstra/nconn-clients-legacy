@@ -62,6 +62,8 @@
       <module name="github-api_integrationTest" target="1.8" />
       <module name="github-api_main" target="1.8" />
       <module name="github-api_test" target="1.8" />
+      <module name="kscript_main" target="1.8" />
+      <module name="kscript_test" target="1.8" />
       <module name="lambda-api_main" target="1.8" />
       <module name="lambda-api_test" target="1.8" />
       <module name="lambda_main" target="1.8" />

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$/../../docstore" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../docstore" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../nconn-v2" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../portal-sys" vcs="Git" />
   </component>
 </project>

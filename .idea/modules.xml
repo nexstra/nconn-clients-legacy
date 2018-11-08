@@ -2,159 +2,33 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1801783872/activities.iml" filepath="$PROJECT_DIR$/.idea/modules/1801783872/activities.iml" group="activities" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1049837109/activities-api.iml" filepath="$PROJECT_DIR$/.idea/modules/-1049837109/activities-api.iml" group="activities/activities-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1049837109/activities-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1049837109/activities-api_main.iml" group="activities/activities-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1049837109/activities-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1049837109/activities-api_test.iml" group="activities/activities-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/308200058/activities-client.iml" filepath="$PROJECT_DIR$/.idea/modules/308200058/activities-client.iml" group="activities/activities-client" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/308200058/activities-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/308200058/activities-client_main.iml" group="activities/activities-client" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/308200058/activities-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/308200058/activities-client_test.iml" group="activities/activities-client" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/731390947/activities-report.iml" filepath="$PROJECT_DIR$/.idea/modules/731390947/activities-report.iml" group="activities/report" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/731390947/activities-report_main.iml" filepath="$PROJECT_DIR$/.idea/modules/731390947/activities-report_main.iml" group="activities/report" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/731390947/activities-report_test.iml" filepath="$PROJECT_DIR$/.idea/modules/731390947/activities-report_test.iml" group="activities/report" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1801783872/activities_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1801783872/activities_main.iml" group="activities" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1801783872/activities_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1801783872/activities_test.iml" group="activities" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1151410995/activity-util.iml" filepath="$PROJECT_DIR$/.idea/modules/-1151410995/activity-util.iml" group="activity-util" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1151410995/activity-util_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1151410995/activity-util_main.iml" group="activity-util" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1151410995/activity-util_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1151410995/activity-util_test.iml" group="activity-util" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1726196061/bash.iml" filepath="$PROJECT_DIR$/.idea/modules/-1726196061/bash.iml" group="lambda/script/bash" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1726196061/bash_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1726196061/bash_integrationTest.iml" group="lambda/script/bash" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1726196061/bash_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1726196061/bash_main.iml" group="lambda/script/bash" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1726196061/bash_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1726196061/bash_test.iml" group="lambda/script/bash" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1663779655/cli.iml" filepath="$PROJECT_DIR$/.idea/modules/1663779655/cli.iml" group="cli" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1663779655/cli_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1663779655/cli_main.iml" group="cli" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1663779655/cli_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1663779655/cli_test.iml" group="cli" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2108759138/client.iml" filepath="$PROJECT_DIR$/.idea/modules/-2108759138/client.iml" group="client" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/854449934/client-dsl.iml" filepath="$PROJECT_DIR$/.idea/modules/854449934/client-dsl.iml" group="client-dsl" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/854449934/client-dsl_main.iml" filepath="$PROJECT_DIR$/.idea/modules/854449934/client-dsl_main.iml" group="client-dsl" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/854449934/client-dsl_test.iml" filepath="$PROJECT_DIR$/.idea/modules/854449934/client-dsl_test.iml" group="client-dsl" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2108759138/client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-2108759138/client_main.iml" group="client" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2108759138/client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-2108759138/client_test.iml" group="client" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1425157116/cognito-api.iml" filepath="$PROJECT_DIR$/.idea/modules/1425157116/cognito-api.iml" group="lambda/cognito-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1425157116/cognito-api_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1425157116/cognito-api_integrationTest.iml" group="lambda/cognito-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1425157116/cognito-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1425157116/cognito-api_main.iml" group="lambda/cognito-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1425157116/cognito-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1425157116/cognito-api_test.iml" group="lambda/cognito-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/461792768/common.iml" filepath="$PROJECT_DIR$/.idea/modules/461792768/common.iml" group="lambda/common" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/461792768/common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/461792768/common_main.iml" group="lambda/common" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/461792768/common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/461792768/common_test.iml" group="lambda/common" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1645005766/composemail.iml" filepath="$PROJECT_DIR$/.idea/modules/1645005766/composemail.iml" group="lambda/mail/composemail" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1486627671/composemail-activity.iml" filepath="$PROJECT_DIR$/.idea/modules/-1486627671/composemail-activity.iml" group="activities/composemail-activity" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1486627671/composemail-activity_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1486627671/composemail-activity_main.iml" group="activities/composemail-activity" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1486627671/composemail-activity_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1486627671/composemail-activity_test.iml" group="activities/composemail-activity" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1645005766/composemail_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1645005766/composemail_integrationTest.iml" group="lambda/mail/composemail" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1645005766/composemail_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1645005766/composemail_main.iml" group="lambda/mail/composemail" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1645005766/composemail_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1645005766/composemail_test.iml" group="lambda/mail/composemail" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1740127163/config.iml" filepath="$PROJECT_DIR$/.idea/modules/1740127163/config.iml" group="config" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1740127163/config_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1740127163/config_main.iml" group="config" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1740127163/config_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1740127163/config_test.iml" group="config" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2077532685/docker.iml" filepath="$PROJECT_DIR$/.idea/modules/-2077532685/docker.iml" group="docker" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1813041360/docker-report.iml" filepath="$PROJECT_DIR$/.idea/modules/1813041360/docker-report.iml" group="docker/report" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1813041360/docker-report_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1813041360/docker-report_main.iml" group="docker/report" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1813041360/docker-report_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1813041360/docker-report_test.iml" group="docker/report" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2077532685/docker_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-2077532685/docker_main.iml" group="docker" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2077532685/docker_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-2077532685/docker_test.iml" group="docker" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1768440524/docrun.iml" filepath="$PROJECT_DIR$/.idea/modules/1768440524/docrun.iml" group="docrun" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1768440524/docrun_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1768440524/docrun_main.iml" group="docrun" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1768440524/docrun_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1768440524/docrun_test.iml" group="docrun" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-96522314/docstore.iml" filepath="$PROJECT_DIR$/.idea/modules/-96522314/docstore.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1431535234/docstore-api.iml" filepath="$PROJECT_DIR$/.idea/modules/-1431535234/docstore-api.iml" group="lambda/docstore-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1431535234/docstore-api_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1431535234/docstore-api_integrationTest.iml" group="lambda/docstore-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1431535234/docstore-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1431535234/docstore-api_main.iml" group="lambda/docstore-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1431535234/docstore-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1431535234/docstore-api_test.iml" group="lambda/docstore-api" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl.iml" filepath="$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl.iml" group="docstore-dsl" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl_main.iml" group="docstore-dsl" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl_test.iml" group="docstore-dsl" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1019145117/docstore-kscript.iml" filepath="$PROJECT_DIR$/.idea/modules/1019145117/docstore-kscript.iml" group="kscript" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1019145117/docstore-kscript_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1019145117/docstore-kscript_main.iml" group="kscript" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1019145117/docstore-kscript_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1019145117/docstore-kscript_test.iml" group="kscript" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib.iml" filepath="$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib.iml" group="docstore-lib" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib_main.iml" group="docstore-lib" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib_test.iml" group="docstore-lib" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-96522314/docstore_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-96522314/docstore_main.iml" group="docstore" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-96522314/docstore_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-96522314/docstore_test.iml" group="docstore" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1294590783/echo-service.iml" filepath="$PROJECT_DIR$/.idea/modules/-1294590783/echo-service.iml" group="docker/echo-service" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1294590783/echo-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1294590783/echo-service_main.iml" group="docker/echo-service" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1294590783/echo-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1294590783/echo-service_test.iml" group="docker/echo-service" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1944029147/format-util.iml" filepath="$PROJECT_DIR$/.idea/modules/-1944029147/format-util.iml" group="format-util" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1944029147/format-util_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1944029147/format-util_main.iml" group="format-util" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1944029147/format-util_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1944029147/format-util_test.iml" group="format-util" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/420093818/gindex-activity.iml" filepath="$PROJECT_DIR$/.idea/modules/420093818/gindex-activity.iml" group="activities/gindex-activity" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/420093818/gindex-activity_main.iml" filepath="$PROJECT_DIR$/.idea/modules/420093818/gindex-activity_main.iml" group="activities/gindex-activity" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/420093818/gindex-activity_test.iml" filepath="$PROJECT_DIR$/.idea/modules/420093818/gindex-activity_test.iml" group="activities/gindex-activity" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/570972152/github-api.iml" filepath="$PROJECT_DIR$/.idea/modules/570972152/github-api.iml" group="lambda/github-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/570972152/github-api_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/570972152/github-api_integrationTest.iml" group="lambda/github-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/570972152/github-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/570972152/github-api_main.iml" group="lambda/github-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/570972152/github-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/570972152/github-api_test.iml" group="lambda/github-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1861139558/lambda.iml" filepath="$PROJECT_DIR$/.idea/modules/-1861139558/lambda.iml" group="lambda" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1497939493/lambda-api.iml" filepath="$PROJECT_DIR$/.idea/modules/1497939493/lambda-api.iml" group="lambda/lambda-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1497939493/lambda-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1497939493/lambda-api_main.iml" group="lambda/lambda-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1497939493/lambda-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1497939493/lambda-api_test.iml" group="lambda/lambda-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1861139558/lambda_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1861139558/lambda_main.iml" group="lambda" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1861139558/lambda_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1861139558/lambda_test.iml" group="lambda" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1285092985/logutil.iml" filepath="$PROJECT_DIR$/.idea/modules/-1285092985/logutil.iml" group="metrics/logutil" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1285092985/logutil_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1285092985/logutil_main.iml" group="metrics/logutil" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1285092985/logutil_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1285092985/logutil_test.iml" group="metrics/logutil" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-808172788/mail.iml" filepath="$PROJECT_DIR$/.idea/modules/-808172788/mail.iml" group="lambda/mail" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-808172788/mail_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-808172788/mail_main.iml" group="lambda/mail" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-808172788/mail_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-808172788/mail_test.iml" group="lambda/mail" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-851784880/metrics.iml" filepath="$PROJECT_DIR$/.idea/modules/-851784880/metrics.iml" group="metrics" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-851784880/metrics_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-851784880/metrics_main.iml" group="metrics" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-851784880/metrics_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-851784880/metrics_test.iml" group="metrics" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1019145117/kscript.iml" filepath="$PROJECT_DIR$/.idea/modules/1019145117/kscript.iml" group="kscript" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1019145117/kscript_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1019145117/kscript_main.iml" group="kscript" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1019145117/kscript_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1019145117/kscript_test.iml" group="kscript" />
       <module fileurl="file://$PROJECT_DIR$/nconn-legacy.iml" filepath="$PROJECT_DIR$/nconn-legacy.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/nconn-legacy_buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/nconn-legacy_buildSrc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/nconn-legacy_buildSrc_main.iml" filepath="$PROJECT_DIR$/.idea/modules/nconn-legacy_buildSrc_main.iml" group="nconn-legacy_buildSrc" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/nconn-legacy_buildSrc_test.iml" filepath="$PROJECT_DIR$/.idea/modules/nconn-legacy_buildSrc_test.iml" group="nconn-legacy_buildSrc" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/nconn-legacy_main.iml" filepath="$PROJECT_DIR$/.idea/modules/nconn-legacy_main.iml" group="nconn-legacy" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/nconn-legacy_test.iml" filepath="$PROJECT_DIR$/.idea/modules/nconn-legacy_test.iml" group="nconn-legacy" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1569707620/nconnect-v2.iml" filepath="$PROJECT_DIR$/.idea/modules/-1569707620/nconnect-v2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1569707620/nconnect-v2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1569707620/nconnect-v2_main.iml" group="nconnect-v2" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1569707620/nconnect-v2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1569707620/nconnect-v2_test.iml" group="nconnect-v2" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nexstra.nconnect_buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/nexstra.nconnect_buildSrc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nexstra.nconnect_buildSrc_main.iml" filepath="$PROJECT_DIR$/.idea/modules/nexstra.nconnect_buildSrc_main.iml" group="nexstra.nconnect_buildSrc" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nexstra.nconnect_buildSrc_test.iml" filepath="$PROJECT_DIR$/.idea/modules/nexstra.nconnect_buildSrc_test.iml" group="nexstra.nconnect_buildSrc" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/882086217/report-api.iml" filepath="$PROJECT_DIR$/.idea/modules/882086217/report-api.iml" group="lambda/report-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/882086217/report-api_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/882086217/report-api_integrationTest.iml" group="lambda/report-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/882086217/report-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/882086217/report-api_main.iml" group="lambda/report-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/882086217/report-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/882086217/report-api_test.iml" group="lambda/report-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/908922080/script.iml" filepath="$PROJECT_DIR$/.idea/modules/908922080/script.iml" group="lambda/script" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1564868921/script-kscript.iml" filepath="$PROJECT_DIR$/.idea/modules/-1564868921/script-kscript.iml" group="lambda/script/kscript" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1564868921/script-kscript_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1564868921/script-kscript_integrationTest.iml" group="lambda/script/kscript" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1564868921/script-kscript_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1564868921/script-kscript_main.iml" group="lambda/script/kscript" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1564868921/script-kscript_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1564868921/script-kscript_test.iml" group="lambda/script/kscript" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/908922080/script_main.iml" filepath="$PROJECT_DIR$/.idea/modules/908922080/script_main.iml" group="lambda/script" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/908922080/script_test.iml" filepath="$PROJECT_DIR$/.idea/modules/908922080/script_test.iml" group="lambda/script" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-307323678/sendmail.iml" filepath="$PROJECT_DIR$/.idea/modules/-307323678/sendmail.iml" group="lambda/mail/sendmail" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1288255224/sendmail-activity.iml" filepath="$PROJECT_DIR$/.idea/modules/-1288255224/sendmail-activity.iml" group="activities/sendmail-activity" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1288255224/sendmail-activity_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1288255224/sendmail-activity_main.iml" group="activities/sendmail-activity" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1288255224/sendmail-activity_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1288255224/sendmail-activity_test.iml" group="activities/sendmail-activity" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-307323678/sendmail_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-307323678/sendmail_integrationTest.iml" group="lambda/mail/sendmail" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-307323678/sendmail_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-307323678/sendmail_main.iml" group="lambda/mail/sendmail" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-307323678/sendmail_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-307323678/sendmail_test.iml" group="lambda/mail/sendmail" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1815315070/sftp.iml" filepath="$PROJECT_DIR$/.idea/modules/1815315070/sftp.iml" group="activities/sftp" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-807988892/sftp-api.iml" filepath="$PROJECT_DIR$/.idea/modules/-807988892/sftp-api.iml" group="lambda/sftp-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-807988892/sftp-api_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-807988892/sftp-api_integrationTest.iml" group="lambda/sftp-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-807988892/sftp-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-807988892/sftp-api_main.iml" group="lambda/sftp-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-807988892/sftp-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-807988892/sftp-api_test.iml" group="lambda/sftp-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1815315070/sftp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1815315070/sftp_main.iml" group="activities/sftp" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1815315070/sftp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1815315070/sftp_test.iml" group="activities/sftp" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/440482443/split.iml" filepath="$PROJECT_DIR$/.idea/modules/440482443/split.iml" group="activities/split" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/440482443/split_main.iml" filepath="$PROJECT_DIR$/.idea/modules/440482443/split_main.iml" group="activities/split" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/440482443/split_test.iml" filepath="$PROJECT_DIR$/.idea/modules/440482443/split_test.iml" group="activities/split" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/593790462/stepdsl.iml" filepath="$PROJECT_DIR$/.idea/modules/593790462/stepdsl.iml" group="stepdsl" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/593790462/stepdsl_main.iml" filepath="$PROJECT_DIR$/.idea/modules/593790462/stepdsl_main.iml" group="stepdsl" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/593790462/stepdsl_test.iml" filepath="$PROJECT_DIR$/.idea/modules/593790462/stepdsl_test.iml" group="stepdsl" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-862110813/steputil.iml" filepath="$PROJECT_DIR$/.idea/modules/-862110813/steputil.iml" group="lambda/steputil" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-862110813/steputil_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-862110813/steputil_integrationTest.iml" group="lambda/steputil" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-862110813/steputil_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-862110813/steputil_main.iml" group="lambda/steputil" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-862110813/steputil_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-862110813/steputil_test.iml" group="lambda/steputil" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/723132193/thumb.iml" filepath="$PROJECT_DIR$/.idea/modules/723132193/thumb.iml" group="lambda/thumb" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/723132193/thumb_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/723132193/thumb_integrationTest.iml" group="lambda/thumb" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/723132193/thumb_main.iml" filepath="$PROJECT_DIR$/.idea/modules/723132193/thumb_main.iml" group="lambda/thumb" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/723132193/thumb_test.iml" filepath="$PROJECT_DIR$/.idea/modules/723132193/thumb_test.iml" group="lambda/thumb" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1951801667/xmlsh.iml" filepath="$PROJECT_DIR$/.idea/modules/-1951801667/xmlsh.iml" group="lambda/script/xmlsh" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1951801667/xmlsh_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1951801667/xmlsh_integrationTest.iml" group="lambda/script/xmlsh" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1951801667/xmlsh_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1951801667/xmlsh_main.iml" group="lambda/script/xmlsh" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1951801667/xmlsh_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1951801667/xmlsh_test.iml" group="lambda/script/xmlsh" />
     </modules>
   </component>
 </project>

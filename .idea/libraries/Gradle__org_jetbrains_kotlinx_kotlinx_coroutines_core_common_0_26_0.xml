@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-common/0.26.0/6f25c51f09a961ac02a835a63f082f496ecb8e1f/kotlinx-coroutines-core-common-0.26.0.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-common/0.26.0/8207a3c8de7ab3ab88586e4b1abf4e020b65e8a0/kotlinx-coroutines-core-common-0.26.0-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-common/0.26.0/50618bd3a240992393cecfd954b0ec4100761c7f/kotlinx-coroutines-core-common-0.26.0-sources.jar!/" />
     </SOURCES>
