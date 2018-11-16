@@ -9,11 +9,13 @@ import nexstra.client.workflow.MailParameters
 import nexstra.client.workflow.ReportParameters
 import nexstra.client.workflow.SyncSFTPParameters
 import nexstra.ddata.*
+import nexstra.ddata.DataSources
 import nexstra.generated.connectors
 import nexstra.services.AnyMapR
 import nexstra.services.annotations.Config
 import java.io.*
 import nexstra.services.config.*
+import nexstra.activities.api.report.ReportFormat
 
 class Connector : connectors() {
   val client : String = ""
@@ -65,7 +67,7 @@ object Connectors {
     return null
   }
 
-  fun reportType(connector : Connector, _outdir : File, stepType : String, datasource : DRef<DataSource>)  {
+  fun reportType(connector : Connector, _outdir : File, stepType : String, datasource : DRef<JDBCSource>)  {
     println("REPORT type: ${connector.name} ${connector.type}")
 
     val factory = JavaPropsFactory()
@@ -113,10 +115,10 @@ object Connectors {
     dest = rc.output_file
   }
 
-  fun reportParameters(rc : ReportConnector, datasource : DRef<DataSource>) = ReportParameters(
-      format = "csv",
+  fun reportParameters(rc : ReportConnector, datasource : DRef<JDBCSource>) = ReportParameters(
+      format = ReportFormat.csv,
       params = rc.input,
-      query = DRef( "queries/" + rc.report.toFileName("query")),
+      query = SRef( "queries/" + rc.report.toFileName("query")),
       dataSource = datasource
   )
 
@@ -129,7 +131,7 @@ object Connectors {
 
   fun convertConnectors( outdir: java.io.File , _datasource: String ) {
     outdir.mkdirs()
-    val datasource = DRef.fromRef<DataSource>(_datasource.removePrefix("@"))
+    val datasource = DRef.fromRef<JDBCSource>(_datasource.removePrefix("@"))
     val jdbc = source( datasource )
 
     val all = jdbc.withConnection {

@@ -1,6 +1,5 @@
 package nexstra.kv
 
-import com.amazonaws.services.dynamodbv2.xspec.BS
 import nexstra.ddata.*
 import java.io.File
 import java.sql.Connection
@@ -9,12 +8,6 @@ import java.sql.ResultSet
 import javax.print.attribute.IntegerSyntax
 import kotlin.system.measureNanoTime
 import kotlin.system.measureTimeMillis
-
-fun source( secret: String  , database: String ) =
-  DataSources.getJDBCSource(DataSource("mysql" , "hpe" , secret ))
-
-fun source( datasource: DRef<DataSource> ) =
-  DataSources.getJDBCSource(  DataSource.fromSource("@" + datasource.ref ) )
 
 class KV( val id: Long , val key: String , val value: String )
 
@@ -57,10 +50,10 @@ fun ResultSet.copyTo( ps: PreparedStatement ) {
 }
 fun loadKVS( table: String , dsSource: String , dsTarget: String , sql : String ) {
 
-  val src = DRef.fromRef<DataSource>(dsSource.removePrefix("@"))
-  val target = DRef.fromRef<DataSource>(dsTarget.removePrefix("@"))
-  val jdbcSrc = source(src)
-  val jdbcTarget = source(target)
+  val jdbcSrc = DRef.fromRef<JDBCSource>(dsSource.removePrefix("@")).deref()
+  val jdbcTarget = DRef.fromRef<JDBCSource>(dsTarget.removePrefix("@")).deref()
+
+
   jdbcSrc.withConnection {
     val s = this
     jdbcTarget.withConnection {

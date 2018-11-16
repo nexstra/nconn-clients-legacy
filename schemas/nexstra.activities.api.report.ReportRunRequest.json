@@ -28,6 +28,7 @@
     "format" : {
       "propertyOrder" : 5,
       "type" : "string",
+      "enum" : [ "csv", "xls", "xlsx", "xlsm", "xltx", "xltm", "txt", "html", "pdf", "ods", "xml", "xlsb", "mht", "xps", "tiff", "pptx", "docx", "svg", "dif", "doc", "ppt", "msg", "bin", "vsd", "vsdx", "docm", "dotx", "dotm", "pptm", "potx", "potm", "ppsx", "ppsm", "xlt", "ots" ],
       "title" : "Format"
     },
     "formatOptions" : {

@@ -8,6 +8,8 @@ import kotlin.reflect.KClass
 import nexstra.services.config.*
 import nexstra.services.toJson
 import kotlin.reflect.KProperty
+import nexstra.ddata.DataSource
+
 
 class Template : nexstra.generated.template() {
   val client : String =""
@@ -24,17 +26,11 @@ fun ResultSet.asJsonNode() : JsonNode = objectMapper.valueToTree( asJsonObject()
 operator fun <T> JsonNode.getValue(thisRef: Nothing?, property: KProperty<*>): T =
    objectMapper.convertValue( get(property.name), property.klass!!.java ) as T
 
-@Suppress("UNUSED_PARAMETER")
-
-fun source( secret: String  , database: String ) =
-  DataSources.getJDBCSource(DataSource("mysql" , "hpe" , secret ))
-
-fun source( datasource: DRef<DataSource> ) =
-    DataSources.getJDBCSource(  DataSource.fromSource("@" + datasource.ref ) )
+fun source( datasource: DRef<JDBCSource> ) =  datasource.deref()
 
 fun extractTemplates( outdir: java.io.File , _datasource: String ){
   outdir.mkdirs()
-  val datasource = - DRef.fromRef<DataSource>(_datasource)
+  val datasource = DRef.fromRef<JDBCSource>(_datasource)
   val jdbc = source( datasource )
 
   val all = jdbc.withConnection {

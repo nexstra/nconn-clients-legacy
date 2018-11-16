@@ -4,35 +4,35 @@
   "type" : "object",
   "additionalProperties" : false,
   "properties" : {
-    "bodyRef" : {
+    "body" : {
       "propertyOrder" : 1,
+      "type" : "string",
+      "title" : "Body"
+    },
+    "bodyRef" : {
+      "propertyOrder" : 2,
       "type" : "string",
       "title" : "Body Ref"
     },
     "configurationSet" : {
-      "propertyOrder" : 2,
+      "propertyOrder" : 3,
       "type" : "string",
       "title" : "Configuration Set"
     },
     "messageTags" : {
-      "propertyOrder" : 3,
+      "propertyOrder" : 4,
       "type" : "string",
       "title" : "Message Tags"
     },
     "sender" : {
-      "propertyOrder" : 4,
+      "propertyOrder" : 5,
       "type" : "string",
       "title" : "Sender"
     },
     "flowUUID" : {
-      "propertyOrder" : 5,
-      "type" : "string",
-      "title" : "Flow UUID"
-    },
-    "body" : {
       "propertyOrder" : 6,
       "type" : "string",
-      "title" : "Body"
+      "title" : "Flow UUID"
     }
   }
 }

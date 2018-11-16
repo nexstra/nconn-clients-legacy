@@ -22,12 +22,12 @@ fun tenant( partnerCode: String? , clientName: String? ) = if( partnerCode != nu
 fun extractReports( outdir: java.io.File , _datasource: String  ){
   val queryDir = File(outdir,"queries")
   queryDir.mkdirs()
-  val datasource = DRef.fromRef<DataSource>(_datasource.removePrefix("@"))
+  val datasource = DRef.fromRef<JDBCSource>(_datasource.removePrefix("@"))
   val jdbc = source( datasource )
   val queryMap = mutableMapOf<String,Map<String,Any>>()
   val sqlMap = mutableMapOf<String,Pair<String,String>>()
   val all = jdbc.withConnection {
-    query("SELECT * from reports WHERE report_type = 'SQL'").toList<JsonNode> {asJsonNode()}
+    this.query("SELECT * from reports WHERE report_type = 'SQL'").toList<JsonNode> {asJsonNode()}
   }
 
   for( n in all ) {
@@ -144,7 +144,7 @@ fun extractReports( outdir: java.io.File , _datasource: String  ){
          dir.mkdirs()
 
         queryMap[report]?.let {rpt->
-          File(dir, report.toFileName("query")).writeText(mapper.writeValueAsString(rpt))
+          File(dir, report?.toFileName("query") ).writeText(mapper.writeValueAsString(rpt))
           queryMap.remove(report)
         }
         sqlMap[report]?.let {(fname, sql)->

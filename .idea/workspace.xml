@@ -21,411 +21,245 @@
     <option name="SHOW_CLOSE_PROMPT" value="true" />
     <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
-    <treeState key="project">
-      <selectedPath>
-        <pathElement>
-          <option name="myNodeId" value="helperText" />
-          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.LinkedTextDescriptor" />
-        </pathElement>
-      </selectedPath>
-    </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="401e8a23-1b45-4240-aa06-4a2cde0ea055" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_cloudformation_1_11_427.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_cloudformation_1_11_428.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_ec2_1_11_428.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_kms_1_11_428.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_s3_1_11_428.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_secretsmanager_1_11_427.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_secretsmanager_1_11_428.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_ses_1_11_428.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_sqs_1_11_428.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_ssm_1_11_427.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_ssm_1_11_428.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_stepfunctions_1_11_428.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_sts_1_11_427.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_sts_1_11_428.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_jmespath_java_1_11_428.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__content_services_config_1_4_79.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__content_services_docstore_lib_1_4_79.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__content_services_mailutil_1_2_94.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__mysql_mysql_connector_java_5_1_33.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__nexstra_nconnect_activities_api_0_1_88.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__nexstra_nconnect_client_0_1_88.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__nexstra_nconnect_stepdsl_0_1_88.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/1019145117/kscript.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/1019145117/kscript_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/1019145117/kscript_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localsecret.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source-dev.ds" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/nexstra/kv/BasicKV.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/nexstra/kv/RedisKV" afterDir="false" />
+    <list default="true" id="9f0518cc-34a5-40e5-bb5a-9a08cead4fc4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/34ed8653-68d9-4774-85b8-a0bc70baaefa.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/34ed8653-68d9-4774-85b8-a0bc70baaefa/storage_v2/_src_/schema/ssi-new.3K-HjQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/34ed8653-68d9-4774-85b8-a0bc70baaefa/storage_v2/_src_/schema/ssi-new.3K-HjQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9b509de-92f2-44fa-a4cb-29b0dcfdaf51.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9b509de-92f2-44fa-a4cb-29b0dcfdaf51/storage_v2/_src_/schema/hpe.XZQBAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9b509de-92f2-44fa-a4cb-29b0dcfdaf51/storage_v2/_src_/schema/hpe.XZQBAA.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_amazon_sqs_java_extended_client_lib_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_amazon_sqs_java_extended_client_lib_1_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_cloudformation_1_11_421.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_cloudwatch_1_11_421.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_cloudwatch_1_11_428.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_core_1_11_421.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_core_1_11_428.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_dynamodb_1_11_421.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_dynamodb_1_11_428.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_ec2_1_11_421.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_events_1_11_421.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_events_1_11_428.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_kms_1_11_421.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_lambda_1_11_421.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_lambda_1_11_428.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_logs_1_11_421.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_logs_1_11_428.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_s3_1_11_421.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_secretsmanager_1_11_421.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_ses_1_11_421.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_sqs_1_11_421.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_ssm_1_11_421.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_stepfunctions_1_11_421.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_sts_1_11_421.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_dynamodb_lock_client_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_dynamodb_lock_client_1_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_jmespath_java_1_11_421.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_aspose_aspose_cells_18_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_aspose_aspose_email_jdk16_18_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_aspose_aspose_imaging_jdk16_18_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_aspose_aspose_words_jdk16_18_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_9_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_csv_2_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_csv_2_9_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_properties_2_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_properties_2_9_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_9_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_jsonSchema_2_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_kotlin_2_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_kotlin_2_9_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_woodstox_woodstox_core_5_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_20_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_kjetland_mbknor_jackson_jsonschema_2_12_1_0_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_lmax_disruptor_3_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_lmax_disruptor_3_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_moandjiezana_toml_toml4j_0_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_nexstra_jcommander_1_73.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_nexstra_jcommander_1_73.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_mail_javax_mail_1_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_mail_javax_mail_1_6_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_thaiopensource_jing_20091111.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_thaiopensource_trang_20091111.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_typesafe_config_1_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_typesafe_netty_netty_reactive_streams_1_0_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_typesafe_netty_netty_reactive_streams_1_0_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_uchuhimo_konf_0_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_uchuhimo_kotlinx_bimap_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_univocity_univocity_parsers_2_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_univocity_univocity_parsers_2_6_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__content_services_mailutil_1_2_87.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__dnsjava_dnsjava_2_1_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__dnsjava_dnsjava_2_1_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_arrow_kt_arrow_annotations_0_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_arrow_kt_arrow_annotations_0_7_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_arrow_kt_arrow_core_0_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_arrow_kt_arrow_core_0_7_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_classgraph_classgraph_4_1_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kindedj_kindedj_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kindedj_kindedj_1_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kotlintest_kotlintest_assertions_3_1_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kotlintest_kotlintest_assertions_3_1_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kotlintest_kotlintest_core_3_1_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kotlintest_kotlintest_core_3_1_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kotlintest_kotlintest_runner_junit5_3_1_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kotlintest_kotlintest_runner_junit5_3_1_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kotlintest_kotlintest_runner_jvm_3_1_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kotlintest_kotlintest_runner_jvm_3_1_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_macgyver_okrest3_okrest_3_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_macgyver_okrest3_okrest_3_0_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_buffer_4_0_52_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_buffer_4_0_52_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_4_0_52_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_4_0_52_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_http_4_0_52_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_http_4_0_52_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_common_4_0_52_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_common_4_0_52_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_handler_4_0_52_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_handler_4_0_52_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_4_0_52_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_4_0_52_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_native_epoll_linux_x86_64_4_0_52_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_native_epoll_linux_x86_64_4_0_52_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__isorelax_isorelax_20030108.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_annotation_javax_annotation_api_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_mail_javax_mail_api_1_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_mail_javax_mail_api_1_6_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_servlet_javax_servlet_api_4_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_websocket_javax_websocket_api_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_websocket_javax_websocket_client_api_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jaxen_jaxen_1_1_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__mysql_mysql_connector_java_5_1_45.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__mysql_mysql_connector_java_6_0_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_8_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_8_22.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_json_smart_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_saxon_Saxon_HE_9_8_0_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_saxon_Saxon_HE_9_8_0_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_supercsv_super_csv_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_text_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_text_1_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_core_2_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_core_2_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_jcl_2_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_jcl_2_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_asynchttpclient_async_http_client_2_0_37.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_asynchttpclient_async_http_client_2_0_37.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_asynchttpclient_async_http_client_netty_utils_2_0_37.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_asynchttpclient_async_http_client_netty_utils_2_0_37.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_asynchttpclient_netty_codec_dns_2_0_37.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_asynchttpclient_netty_codec_dns_2_0_37.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_asynchttpclient_netty_resolver_2_0_37.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_asynchttpclient_netty_resolver_2_0_37.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_asynchttpclient_netty_resolver_dns_2_0_37.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_asynchttpclient_netty_resolver_dns_2_0_37.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bouncycastle_bcmail_jdk15on_1_58.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bouncycastle_bcpkix_jdk15on_1_58.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bouncycastle_bcprov_jdk15on_1_58.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_woodstox_stax2_api_3_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_woodstox_stax2_api_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_conscrypt_conscrypt_openjdk_uber_1_0_0_RC11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_dom4j_dom4j_2_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_dynalang_dynalink_0_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_http2_http2_common_9_4_11_v20180605.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_http2_http2_hpack_9_4_11_v20180605.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_http2_http2_server_9_4_11_v20180605.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_alpn_conscrypt_server_9_4_11_v20180605.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_alpn_server_9_4_11_v20180605.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_annotations_9_4_11_v20180605.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_client_9_4_11_v20180605.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_http_9_4_11_v20180605.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_io_9_4_11_v20180605.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_jndi_9_4_11_v20180605.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_plus_9_4_11_v20180605.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_security_9_4_11_v20180605.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_server_9_4_11_v20180605.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_servlet_9_4_11_v20180605.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_util_9_4_11_v20180605.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_webapp_9_4_11_v20180605.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_xml_9_4_11_v20180605.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_websocket_javax_websocket_client_impl_9_4_11_v20180605.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_websocket_javax_websocket_server_impl_9_4_11_v20180605.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_websocket_websocket_api_9_4_11_v20180605.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_websocket_websocket_client_9_4_11_v20180605.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_websocket_websocket_common_9_4_11_v20180605.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_websocket_websocket_server_9_4_11_v20180605.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_websocket_websocket_servlet_9_4_11_v20180605.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jgit_org_eclipse_jgit_5_0_1_201806211838_r.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_fusesource_jansi_jansi_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4k_http4k_client_apache_3_36_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4k_http4k_core_3_36_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4k_http4k_server_jetty_3_36_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_javassist_javassist_3_21_0_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_compiler_embeddable_1_2_61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_compiler_embeddable_1_2_61.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_daemon_client_1_2_61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_daemon_client_1_2_61.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_2_61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_2_61.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_script_runtime_1_2_61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_script_runtime_1_2_61.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_script_util_1_2_61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_script_util_1_2_61.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_2_61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_2_61.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_2_61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_2_61.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_2_61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_2_61.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_2_61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_2_61.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_atomicfu_common_0_11_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_atomicfu_common_0_11_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_0_26_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_0_26_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_common_0_26_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_common_0_26_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_jdk8_0_22_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_jdk8_0_22_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_nio_0_22_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_nio_0_22_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_launcher_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_launcher_1_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_suite_api_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_suite_api_1_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mortbay_jetty_alpn_alpn_boot_8_1_12_v20180117.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_5_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_analysis_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_commons_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_tree_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_18_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reflections_reflections_0_9_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reflections_reflections_0_9_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_library_2_12_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_8_0_beta2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_xmlsh_jline2_2_14_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_xmlsh_stax_utils_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__saxon_saxon_6_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__software_amazon_ion_ion_java_1_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__software_amazon_ion_ion_java_1_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__xalan_xalan_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__xerces_xercesImpl_2_12_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__xml_apis_xml_apis_1_4_01.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__xml_resolver_xml_resolver_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__xmlsh_xmlsh_core_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__xom_xom_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsonSchemas.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_amazon_sqs_java_extended_client_lib_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_cloudformation_1_11_427.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_cloudformation_1_11_428.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_cloudwatch_1_11_428.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_core_1_11_428.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_dynamodb_1_11_428.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_ec2_1_11_428.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_events_1_11_428.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_kms_1_11_428.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_lambda_1_11_428.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_logs_1_11_428.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_s3_1_11_428.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_secretsmanager_1_11_427.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_secretsmanager_1_11_428.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_ses_1_11_428.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_sqs_1_11_428.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_ssm_1_11_427.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_ssm_1_11_428.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_stepfunctions_1_11_428.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_sts_1_11_427.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_sts_1_11_428.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_lambda_java_core_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_lambda_java_events_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_lambda_java_log4j2_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_dynamodb_lock_client_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_jmespath_java_1_11_428.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_dr_ktjsonschema_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_6_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_csv_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_properties_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_kotlin_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_mrbean_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_fge_btf_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_fge_jackson_coreutils_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_fge_json_schema_core_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_fge_json_schema_validator_2_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_fge_msg_simple_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_fge_uri_template_0_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_20_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_googlecode_libphonenumber_libphonenumber_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_gradle_publish_plugin_publish_plugin_0_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jcraft_jsch_0_1_54.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jcraft_jzlib_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_lmax_disruptor_3_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_nexstra_jcommander_1_73.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_mail_javax_mail_1_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_typesafe_netty_netty_reactive_streams_1_0_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_univocity_univocity_parsers_2_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__content_services_config_1_4_79.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__content_services_docstore_lib_1_4_79.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__content_services_mailutil_1_2_94.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__dnsjava_dnsjava_2_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_arrow_kt_arrow_annotations_0_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_arrow_kt_arrow_core_0_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kindedj_kindedj_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kotlintest_kotlintest_assertions_3_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kotlintest_kotlintest_core_3_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kotlintest_kotlintest_runner_junit5_3_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kotlintest_kotlintest_runner_jvm_3_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_macgyver_okrest3_okrest_3_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_buffer_4_0_52_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_4_0_52_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_http_4_0_52_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_common_4_0_52_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_handler_4_0_52_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_4_0_52_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_native_epoll_linux_x86_64_4_0_52_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_activation_activation_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_mail_javax_mail_api_1_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_mail_mailapi_1_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_validation_validation_api_2_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__joda_time_joda_time_2_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__mysql_mysql_connector_java_5_1_33.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_8_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_jopt_simple_jopt_simple_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__nexstra_nconnect_activities_api_0_1_88.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__nexstra_nconnect_client_0_1_88.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__nexstra_nconnect_stepdsl_0_1_88.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_text_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_james_apache_mime4j_benchmark_0_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_james_apache_mime4j_core_0_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_james_apache_mime4j_dom_0_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_james_apache_mime4j_examples_0_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_james_apache_mime4j_mbox_iterator_0_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_james_apache_mime4j_storage_0_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_core_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_core_2_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_jcl_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_jcl_2_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_slf4j_impl_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_model_3_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_asynchttpclient_async_http_client_2_0_37.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_asynchttpclient_async_http_client_netty_utils_2_0_37.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_asynchttpclient_netty_codec_dns_2_0_37.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_asynchttpclient_netty_resolver_2_0_37.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_asynchttpclient_netty_resolver_dns_2_0_37.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jgit_org_eclipse_jgit_5_0_2_201807311906_r.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_everit_json_org_everit_json_schema_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_everit_osgi_bundles_org_everit_osgi_bundles_org_json_1_0_0_v20140107.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_javassist_javassist_3_21_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_compiler_embeddable_1_2_61.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_daemon_client_1_2_61.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_2_61.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_script_runtime_1_2_61.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_script_util_1_2_61.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_scripting_common_1_2_61.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_scripting_jvm_1_2_61.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_scripting_jvm_host_1_2_61.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_scripting_misc_1_2_61.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_2_61.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_2_61.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_2_61.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_2_61.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_atomicfu_common_0_11_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_0_22_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_0_26_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_common_0_26_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_jdk8_0_22_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_nio_0_22_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_launcher_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_launcher_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_runner_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_suite_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_suite_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_vintage_junit_vintage_engine_5_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_1_10_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mozilla_rhino_1_7R4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reflections_reflections_0_9_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_8_0_alpha2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__software_amazon_ion_ion_java_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__systems_manifold_manifold_0_12_alpha.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__systems_manifold_manifold_bootstrap_plugin_0_12_alpha.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__systems_manifold_manifold_ext_0_12_alpha.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__systems_manifold_manifold_json_0_12_alpha.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__systems_manifold_manifold_util_0_12_alpha.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1049837109/activities-api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1049837109/activities-api_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1049837109/activities-api_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1151410995/activity-util.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1151410995/activity-util_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1151410995/activity-util_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1285092985/logutil.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1285092985/logutil_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1285092985/logutil_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1288255224/sendmail-activity.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1288255224/sendmail-activity_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1288255224/sendmail-activity_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1294590783/echo-service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1294590783/echo-service_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1294590783/echo-service_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1431535234/docstore-api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1431535234/docstore-api_integrationTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1431535234/docstore-api_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1431535234/docstore-api_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1486627671/composemail-activity.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1486627671/composemail-activity_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1486627671/composemail-activity_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1564868921/script-kscript.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1564868921/script-kscript_integrationTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1564868921/script-kscript_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1564868921/script-kscript_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1569707620/nconnect-v2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1569707620/nconnect-v2_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1569707620/nconnect-v2_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1726196061/bash.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1726196061/bash_integrationTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1726196061/bash_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1726196061/bash_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1861139558/lambda.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1861139558/lambda_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1861139558/lambda_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1944029147/format-util.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1944029147/format-util_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1944029147/format-util_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1951801667/xmlsh.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1951801667/xmlsh_integrationTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1951801667/xmlsh_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1951801667/xmlsh_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-2077532685/docker.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-2077532685/docker_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-2077532685/docker_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-2108759138/client.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-2108759138/client_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-2108759138/client_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-307323678/sendmail.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-307323678/sendmail_integrationTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-307323678/sendmail_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-307323678/sendmail_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-807988892/sftp-api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-807988892/sftp-api_integrationTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-807988892/sftp-api_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-807988892/sftp-api_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-808172788/mail.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-808172788/mail_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-808172788/mail_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-851784880/metrics.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-851784880/metrics_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-851784880/metrics_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-862110813/steputil.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-862110813/steputil_integrationTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-862110813/steputil_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-862110813/steputil_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-96522314/docstore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/-96522314/docstore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-96522314/docstore_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/-96522314/docstore_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-96522314/docstore_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/-96522314/docstore_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1019145117/docstore-kscript.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1019145117/docstore-kscript_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1019145117/docstore-kscript_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1425157116/cognito-api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1425157116/cognito-api_integrationTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1425157116/cognito-api_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1425157116/cognito-api_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1497939493/lambda-api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1497939493/lambda-api_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1497939493/lambda-api_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1645005766/composemail.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1645005766/composemail_integrationTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1645005766/composemail_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1645005766/composemail_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1663779655/cli.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/1663779655/cli.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1663779655/cli_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/1663779655/cli_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1663779655/cli_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/1663779655/cli_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1740127163/config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/1740127163/config.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1740127163/config_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/1740127163/config_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1740127163/config_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/1740127163/config_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1768440524/docrun.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/1768440524/docrun.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1768440524/docrun_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/1768440524/docrun_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1768440524/docrun_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/1768440524/docrun_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1801783872/activities.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1801783872/activities_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1801783872/activities_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1813041360/docker-report.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1813041360/docker-report_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1813041360/docker-report_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1815315070/sftp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1815315070/sftp_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1815315070/sftp_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/308200058/activities-client.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/308200058/activities-client_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/308200058/activities-client_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/420093818/gindex-activity.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/420093818/gindex-activity_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/420093818/gindex-activity_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/440482443/split.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/440482443/split_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/440482443/split_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/461792768/common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/461792768/common_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/461792768/common_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/570972152/github-api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/570972152/github-api_integrationTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/570972152/github-api_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/570972152/github-api_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/593790462/stepdsl.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/593790462/stepdsl_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/593790462/stepdsl_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/723132193/thumb.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/723132193/thumb_integrationTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/723132193/thumb_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/723132193/thumb_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/731390947/activities-report.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/731390947/activities-report_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/731390947/activities-report_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/854449934/client-dsl.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/854449934/client-dsl_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/854449934/client-dsl_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/882086217/report-api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/882086217/report-api_integrationTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/882086217/report-api_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/882086217/report-api_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/908922080/script.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/908922080/script_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/908922080/script_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/nconn-legacy_buildSrc_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/nconn-legacy_buildSrc_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/nconn-legacy_buildSrc_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/nconn-legacy_buildSrc_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/nconn-legacy_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/nconn-legacy_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/nconn-legacy_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/nconn-legacy_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/nexstra.nconnect_buildSrc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/nexstra.nconnect_buildSrc_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/nexstra.nconnect_buildSrc_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/-96522314/docstore.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/-96522314/docstore_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/-96522314/docstore_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1019145117/kscript.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1019145117/kscript_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1019145117/kscript_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1663779655/cli.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1663779655/cli_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1663779655/cli_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1740127163/config.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1740127163/config_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1740127163/config_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1768440524/docrun.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1768440524/docrun_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/1768440524/docrun_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/nconn-legacy_buildSrc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/nconn-legacy_buildSrc_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/nconn-legacy_buildSrc_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/nconn-legacy_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/nconn-legacy_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildSrc/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/gradlew.bat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/buildSrc/src/main/kotlin/Connectors.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/Connectors.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/kotlin/Dimensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/Dimensions.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildSrc/src/main/kotlin/Reports.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/Reports.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/kotlin/Templates.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/Templates.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/tc.build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/tc.build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schemas/nexstra.activities.api.mail.ComposeMailRequest.json" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/nexstra.activities.api.mail.ComposeMailRequest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schemas/nexstra.activities.api.mail.ComposeMailResponse.json" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/nexstra.activities.api.mail.ComposeMailResponse.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schemas/nexstra.activities.api.mail.SendMailRequest.json" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/nexstra.activities.api.mail.SendMailRequest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/nexstra.activities.api.report.ReportRunRequest.json" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/nexstra.activities.api.report.ReportRunRequest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schemas/nexstra.activities.api.report.ReportRunResponse.json" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/nexstra.activities.api.report.ReportRunResponse.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/steps/Report.steps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/steps/ReportAndEmail.steps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/steps/ReportAndSyncSFTP.steps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/nexstra/kv/BasicKV.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/nexstra/kv/BasicKV.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tc.build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/tc.build.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -433,187 +267,11 @@
     <ignored path="$PROJECT_DIR$/buildSrc/.gradle/" />
     <ignored path="$PROJECT_DIR$/buildSrc/build/" />
     <ignored path="$PROJECT_DIR$/buildSrc/out/" />
-    <ignored path="$PROJECT_DIR$/../../docstore/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../docstore/build/" />
-    <ignored path="$PROJECT_DIR$/../../docstore/out/" />
-    <ignored path="$PROJECT_DIR$/../../docstore/cli/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../docstore/cli/build/" />
-    <ignored path="$PROJECT_DIR$/../../docstore/cli/out/" />
-    <ignored path="$PROJECT_DIR$/../../docstore/config/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../docstore/config/build/" />
-    <ignored path="$PROJECT_DIR$/../../docstore/config/out/" />
-    <ignored path="$PROJECT_DIR$/../../docstore/docrun/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../docstore/docrun/build/" />
-    <ignored path="$PROJECT_DIR$/../../docstore/docrun/out/" />
-    <ignored path="$PROJECT_DIR$/../../docstore/docstore-dsl/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../docstore/docstore-dsl/build/" />
-    <ignored path="$PROJECT_DIR$/../../docstore/docstore-dsl/out/" />
-    <ignored path="$PROJECT_DIR$/../../docstore/docstore-lib/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../docstore/docstore-lib/build/" />
-    <ignored path="$PROJECT_DIR$/../../docstore/docstore-lib/out/" />
-    <ignored path="$PROJECT_DIR$/../../docstore/kscript/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../docstore/kscript/build/" />
-    <ignored path="$PROJECT_DIR$/../../docstore/kscript/out/" />
-    <ignored path="$PROJECT_DIR$/../../portal-sys/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../portal-sys/build/" />
-    <ignored path="$PROJECT_DIR$/../../portal-sys/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activity-util/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activity-util/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activity-util/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/client/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/client/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/client/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/client-dsl/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/client-dsl/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/client-dsl/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/docker/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/docker/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/docker/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/format-util/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/format-util/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/format-util/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/metrics/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/metrics/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/metrics/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/stepdsl/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/stepdsl/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/stepdsl/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/api/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/api/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/api/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/client/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/client/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/client/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/mail/compose/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/mail/compose/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/mail/compose/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/gindex/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/gindex/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/gindex/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/report/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/report/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/report/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/mail/sendmail/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/mail/sendmail/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/mail/sendmail/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/sftp/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/sftp/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/sftp/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/split/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/split/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/activities/split/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/docker/echo/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/docker/echo/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/docker/echo/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/docker/report/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/docker/report/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/docker/report/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/cognito/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/cognito/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/cognito/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/common/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/common/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/common/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/docstore/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/docstore/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/docstore/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/github/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/github/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/github/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/api/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/api/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/api/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/mail/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/mail/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/mail/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/report/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/report/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/report/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/sftp/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/sftp/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/sftp/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/steputil/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/steputil/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/steputil/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/thumb/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/thumb/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/thumb/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/metrics/logutil/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/metrics/logutil/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/metrics/logutil/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/mail/composemail/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/mail/composemail/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/mail/composemail/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/mail/sendmail/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/mail/sendmail/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/mail/sendmail/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/bash/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/bash/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/bash/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/kscript/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/kscript/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/kscript/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/workflow/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/workflow/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/workflow/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/xmlsh/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/xmlsh/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/lambda/script/xmlsh/out/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/buildSrc/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/buildSrc/build/" />
-    <ignored path="$PROJECT_DIR$/../../nconn-v2/buildSrc/out/" />
-    <ignored path="$PROJECT_DIR$/../docstore/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../docstore/build/" />
-    <ignored path="$PROJECT_DIR$/../docstore/out/" />
-    <ignored path="$PROJECT_DIR$/../docstore/cli/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../docstore/cli/build/" />
-    <ignored path="$PROJECT_DIR$/../docstore/cli/out/" />
-    <ignored path="$PROJECT_DIR$/../docstore/config/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../docstore/config/build/" />
-    <ignored path="$PROJECT_DIR$/../docstore/config/out/" />
-    <ignored path="$PROJECT_DIR$/../docstore/docrun/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../docstore/docrun/build/" />
-    <ignored path="$PROJECT_DIR$/../docstore/docrun/out/" />
-    <ignored path="$PROJECT_DIR$/../docstore/docstore-dsl/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../docstore/docstore-dsl/build/" />
-    <ignored path="$PROJECT_DIR$/../docstore/docstore-dsl/out/" />
-    <ignored path="$PROJECT_DIR$/../docstore/docstore-lib/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../docstore/docstore-lib/build/" />
-    <ignored path="$PROJECT_DIR$/../docstore/docstore-lib/out/" />
-    <ignored path="$PROJECT_DIR$/../docstore/kscript/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../docstore/kscript/build/" />
-    <ignored path="$PROJECT_DIR$/../docstore/kscript/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -623,81 +281,12 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/../../docstore">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/../../docstore/docstore-dsl">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/../../docstore/cli">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/../../nconn-v2/lambda">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/../../nconn-v2/lambda/sftp">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/../../nconn-v2/lambda/mail">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/../../nconn-v2/activities/client">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/../../nconn-v2/client">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/../../nconn-v2">
-          <activation />
-        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="nconn-legacy" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="nconn-legacy" type="f1a62948:ProjectNode" />
-                <item name="nconn-legacy" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="nconn-legacy" type="f1a62948:ProjectNode" />
-                <item name="nconn-legacy" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="nconn-legacy" type="f1a62948:ProjectNode" />
-                <item name="nconn-legacy" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="nconn-legacy" type="f1a62948:ProjectNode" />
-                <item name="nconn-legacy" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="cloud" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="nconn-legacy" type="f1a62948:ProjectNode" />
-                <item name="nconn-legacy" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="nconnect" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="nconn-legacy" type="f1a62948:ProjectNode" />
-                <item name="nconn-legacy" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -706,218 +295,125 @@
       </state>
     </system>
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="nconn-legacy" />
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../docstore/config/src/test/kotlin/nexstra/services/config/TestConfigure.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="116" column="5" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../docstore/config/src/main/kotlin/nexstra/services/config/ValueProvider.kt">
+        <entry file="file://$PROJECT_DIR$/buildSrc/src/main/kotlin/Connectors.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../docstore/config/src/main/kotlin/nexstra/services/config/Config.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="96" selection-start-line="96" selection-end-line="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../docstore/config/src/main/kotlin/nexstra/services/config/ByteBuddyBean.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2214">
-              <caret line="143" selection-start-line="143" selection-end-line="143" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5146b44c50f5e853d6d77150089b6281d72fe736/kotlin-stdlib-1.2.61-sources.jar!/kotlin/jvm/internal/Intrinsics.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1656">
-              <caret line="114" selection-start-line="114" selection-end-line="114" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-core/0.7.1/4085809f9a16449fa64cd3f741623bae7c67e227/arrow-core-0.7.1-sources.jar!/arrow/core/Try.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5146b44c50f5e853d6d77150089b6281d72fe736/kotlin-stdlib-1.2.61-sources.jar!/kotlin/util/LazyJVM.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/java/latest.8/src.zip!/java/util/concurrent/FutureTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1764">
-              <caret line="131" selection-start-line="131" selection-end-line="131" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-runner-jvm/3.1.10/67ea92bf85e6c357ca1aa43847a04cae70248af4/kotlintest-runner-jvm-3.1.10-sources.jar!/io/kotlintest/runner/jvm/TestCaseExecutor.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/java/latest.8/src.zip!/java/util/concurrent/AbstractExecutorService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="101" selection-start-line="101" selection-end-line="101" />
+            <state relative-caret-position="936">
+              <caret line="69" column="56" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
               <folding>
-                <element signature="e#2990#2991#0" expanded="true" />
+                <element signature="e#0#707#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/nexstra/kv/BasicKV.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="61" column="24" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="24" />
+              <folding>
+                <element signature="e#20#268#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buildSrc/src/main/kotlin/Templates.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#340#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../nconn-v2/activities/report/src/main/kotlin/nexstra/activities/report/RunReport.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="49" selection-start-line="9" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buildSrc/src/main/kotlin/Dimensions.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../docstore/config/src/main/kotlin/nexstra/ddata/DataSources.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/repo/content-services/config/1.4.101/config-1.4.101.jar!/nexstra/ddata/JDBCSource.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/buildSrc/src/main/kotlin/Reports.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Kotlin File" />
-      </list>
-    </option>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fetchMoreRows</find>
-      <find>next(</find>
-      <find>createStreamingResultSet</find>
-      <find>execute</find>
-      <find>fetchRowsViaCursor</find>
-      <find>.execute(</find>
-      <find>doStreaming</find>
-      <find>native</find>
-      <find>intrinsic</find>
-      <find>platform</find>
-      <find>char</find>
-      <find>Int</find>
-      <find>javafy</find>
-      <find>Class</find>
-      <find>Type</find>
-      <find>primi</find>
-      <find>primitive</find>
-      <find>primitiv</find>
-      <find>.TYPE</find>
-      <find>name()</find>
-      <find>getName</find>
-      <find>Primitive</find>
-      <find>unbox</find>
-      <find>getPrimitiveClass</find>
-      <find>TYPE</find>
-      <find>kc</find>
-      <find>View</find>
-      <find>instance()</find>
-      <find>concrete</find>
-      <find>readValue</find>
+      <find>ReportFormat</find>
+      <find>.query</find>
+      <find>DimensionName</find>
+      <find>values</find>
+      <find>fromSource</find>
+      <find>getJDBCSource</find>
+      <find>JDBCSource</find>
+      <find>DataSource</find>
+      <find>source</find>
+      <find>withConnection</find>
     </findStrings>
     <replaceStrings>
-      <replace>queryMap</replace>
+      <replace>JDBCSource</replace>
     </replaceStrings>
     <dirStrings>
-      <dir>$PROJECT_DIR$/../../nconn-v2/client</dir>
-      <dir>$PROJECT_DIR$/../../nconn-v2/</dir>
-      <dir>$PROJECT_DIR$/../../docstore/</dir>
-      <dir>$PROJECT_DIR$/../../nconn-v2</dir>
-      <dir>$PROJECT_DIR$/../../docstore</dir>
-      <dir>$PROJECT_DIR$/../../</dir>
-      <dir>$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config</dir>
       <dir>$PROJECT_DIR$/../nconn-v2</dir>
+      <dir>$PROJECT_DIR$/../docstore</dir>
+      <dir>$PROJECT_DIR$/..</dir>
+      <dir>$PROJECT_DIR$/../docstore/</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../docstore" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../../nconn-v2/lambda/report/src/integrationTest/resources/request-2.json" />
-        <option value="$PROJECT_DIR$/../../nconn-v2/lambda/report/src/test/kotlin/nexstra/lambda/report/TestReport.kt" />
-        <option value="$PROJECT_DIR$/buildSrc/src/main/java/nexstra/generated/reports.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/schema/Generate POJOs NoCamel.groovy" />
-        <option value="$PROJECT_DIR$/buildSrc/src/main/java/nexstra/generated/reports_input.java" />
-        <option value="$PROJECT_DIR$/buildSrc/settings.gradle" />
         <option value="$PROJECT_DIR$/buildSrc/src/main/kotlin/Templates.kt" />
-        <option value="$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/ddata/DataSources.kt" />
-        <option value="$PROJECT_DIR$/../../docstore/docstore-lib/src/test/kotlin/nexstra/docstore/TestURLDocStore.kt" />
-        <option value="$PROJECT_DIR$/../../docstore/docstore-lib/src/test/kotlin/nexstra/services/config/TestDocStoreConfig.kt" />
-        <option value="$PROJECT_DIR$/../../docstore/cli/src/test/kotlin/nexstra/docrun/TestMain.kt" />
-        <option value="$PROJECT_DIR$/../../docstore/cli/src/main/kotlin/nexstra/docstore/cli/Main.kt" />
-        <option value="$PROJECT_DIR$/../../docstore/config/src/main/kotlin/sun/net/www/protocol/secrets/Secrets.kt" />
-        <option value="$PROJECT_DIR$/../../docstore/config/src/main/kotlin/sun/net/www/protocol/arn/ARNHandler.kt" />
-        <option value="$PROJECT_DIR$/../../docstore/config/src/main/kotlin/sun/net/www/protocol/ssm/SSM.kt" />
-        <option value="$PROJECT_DIR$/../../docstore/config/src/main/kotlin/sun/net/www/protocol/cloudformation/CloudFormation.kt" />
-        <option value="$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/Resource.kt" />
-        <option value="$PROJECT_DIR$/../../docstore/docstore-lib/src/main/kotlin/nexstra/services/docstore/DocStoreFactory.kt" />
-        <option value="$PROJECT_DIR$/../../docstore/docstore-lib/src/main/kotlin/nexstra/services/docstore/s3/S3Storage.kt" />
-        <option value="$PROJECT_DIR$/../../nconn-v2/buildSrc/src/main/kotlin/LambdaClient.kt" />
-        <option value="$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/SSMClient.kt" />
-        <option value="$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/SecretsClient.kt" />
-        <option value="$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/ddata/NamedParameters.kt" />
-        <option value="$PROJECT_DIR$/buildSrc/src/main/kotlin/Dimensions.kt" />
-        <option value="$PROJECT_DIR$/../../docstore/docstore-lib/src/main/kotlin/nexstra/docstore/DocStoreContext.kt" />
-        <option value="$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/Config.kt" />
-        <option value="$PROJECT_DIR$/system/scopes.json" />
-        <option value="$PROJECT_DIR$/system/datasources.json" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a9b509de-92f2-44fa-a4cb-29b0dcfdaf51/console.sql" />
         <option value="$PROJECT_DIR$/buildSrc/src/main/kotlin/Reports.kt" />
+        <option value="$PROJECT_DIR$/buildSrc/src/main/kotlin/Dimensions.kt" />
         <option value="$PROJECT_DIR$/buildSrc/src/main/kotlin/Connectors.kt" />
-        <option value="$PROJECT_DIR$/../nconn-v2/client-dsl/src/main/kotlin/nexstra/client/Client.kt" />
-        <option value="$PROJECT_DIR$/buildSrc/build.gradle" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/target.ds" />
-        <option value="$PROJECT_DIR$/localsecret.json" />
-        <option value="$PROJECT_DIR$/source.ds" />
-        <option value="$PROJECT_DIR$/source-prod.ds" />
         <option value="$PROJECT_DIR$/src/main/kotlin/nexstra/kv/BasicKV.kt" />
-        <option value="$PROJECT_DIR$/../docstore/config/src/main/kotlin/KotlinDup.kt" />
-        <option value="$PROJECT_DIR$/../docstore/config/src/main/java/util/JavaDup.java" />
-        <option value="$PROJECT_DIR$/../docstore/config/src/main/kotlin/nexstra/ddata/KotlinDup.kt" />
-        <option value="$PROJECT_DIR$/../docstore/config/src/test/kotlin/nexstra/services/config/TestByteBuddy.kt" />
-        <option value="$PROJECT_DIR$/../docstore/config/src/main/kotlin/nexstra/services/config/ValueProvider.kt" />
-        <option value="$PROJECT_DIR$/../docstore/config/src/main/kotlin/nexstra/services/config/Config.kt" />
-        <option value="$PROJECT_DIR$/../docstore/config/src/main/kotlin/nexstra/services/config/DataMapping.kt" />
-        <option value="$PROJECT_DIR$/../docstore/config/src/main/kotlin/nexstra/services/config/PropertyConfig.kt" />
-        <option value="$PROJECT_DIR$/../docstore/docstore-lib/src/main/kotlin/nexstra/services/docstore/DocStore.kt" />
-        <option value="$PROJECT_DIR$/../docstore/config/src/main/kotlin/nexstra/services/config/ByteBuddyBean.kt" />
-        <option value="$PROJECT_DIR$/../docstore/config/src/test/kotlin/nexstra/services/config/TestConfigure.kt" />
       </list>
     </option>
   </component>
@@ -925,90 +421,44 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="2042" />
-    <option name="height" value="1032" />
+    <option name="y" value="29" />
+    <option name="width" value="1440" />
+    <option name="height" value="838" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+      <pane id="ProjectPane">
+        <subPane>
           <expand>
             <path>
-              <item name="nconn-legacy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="nconn-legacy" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nconn-legacy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="nconn-legacy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="nconn-legacy" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="build/steps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="nconnect-v2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="nconnect-v2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="nconnect-v2_main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nconn-legacy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/build/connectors/FSecure_Enduser_Report_Connector..json&#10;/nexstra/nconn-clients/nconn-legacy/build/reports/CA_Bad_records.report&#10;/nexstra/nconnect-clients/nconn-legacy/build/reports/ATP.report&#10;/nexstra/nconnect-clients/nconn-legacy/build/reports/ATP.sql&#10;/nexstra/nconn-clients/nconn-legacy/build/templates/demo_print_IN.template&#10;/nexstra/nconn-clients/nconn-legacy/build/steps/anotherreport.json" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="kotlin" />
-    <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../docstore/config" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/steps" />
-      <recent name="$PROJECT_DIR$/../../nconn-v2" />
-      <recent name="$PROJECT_DIR$/../../nconn-v2/client/src/main/kotlin/nexstra/client/workflow" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/buildSrc/src/main/kotlin" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
-      <recent name="nexstra.ddata" />
-    </key>
-    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/../../nconn-v2/lambda/report/src" />
-      <recent name="$PROJECT_DIR$/../../nconn-v2/lambda/report/src/integrationTest/resources" />
-      <recent name="$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/schema" />
-      <recent name="$PROJECT_DIR$/buildSrc/src/main/kotlin" />
-    </key>
-  </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="deepCheck" />
-    </option>
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1022,7 +472,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestConfigureSpec">
+  <component name="RunManager">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -1055,68 +505,9 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="nconn-legacy [reports]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--info --rerun-tasks" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="reports" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="nconn-legacy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestConfigureSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="config_test" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="PACKAGE_NAME" value="nexstra.services.config" />
-      <option name="MAIN_CLASS_NAME" value="nexstra.services.config.TestConfigureSpec" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="nexstra.kv.BasicKVKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="nconn-legacy_main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="nexstra.kv.BasicKVKt" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1130,435 +521,92 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Gradle.nconn-legacy" />
-      <item itemvalue="Gradle.nconn-legacy [reports]" />
-      <item itemvalue="Gradle.nconn-legacy [build]" />
-      <item itemvalue="JUnit.TestConfigureSpec" />
-      <item itemvalue="Kotlin.nexstra.kv.BasicKVKt" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestConfigureSpec" />
-        <item itemvalue="Kotlin.nexstra.kv.BasicKVKt" />
-        <item itemvalue="Gradle.nconn-legacy [reports]" />
         <item itemvalue="Gradle.nconn-legacy [build]" />
-        <item itemvalue="Gradle.nconn-legacy" />
       </list>
     </recent_temporary>
   </component>
-  <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED,KOTLIN_SHOW_NON_PUBLIC" />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="401e8a23-1b45-4240-aa06-4a2cde0ea055" name="Default Changelist" comment="" />
-      <created>1536192789570</created>
+      <changelist id="9f0518cc-34a5-40e5-bb5a-9a08cead4fc4" name="Default Changelist" comment="" />
+      <created>1541785117313</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1536192789570</updated>
+      <updated>1541785117313</updated>
     </task>
-    <servers>
-      <YouTrack url="https://youtrack.nexstra.com/youtrack">
-        <password>df9bdfcedfcfdfd8dfccdfdfdfc6df8b</password>
-        <username>build</username>
-      </YouTrack>
-    </servers>
-  </component>
-  <component name="TestHistory">
-    <history-entry file="TestConfigureSpec - 2018.10.16 at 19h 52m 29s.xml">
-      <configuration name="TestConfigureSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConfigureSpec - 2018.10.16 at 19h 56m 19s.xml">
-      <configuration name="TestConfigureSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConfigureSpec - 2018.10.16 at 19h 58m 04s.xml">
-      <configuration name="TestConfigureSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConfigureSpec - 2018.10.16 at 20h 05m 48s.xml">
-      <configuration name="TestConfigureSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConfigureSpec - 2018.10.16 at 20h 07m 49s.xml">
-      <configuration name="TestConfigureSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConfigureSpec - 2018.10.16 at 20h 10m 55s.xml">
-      <configuration name="TestConfigureSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConfigureSpec - 2018.10.16 at 20h 12m 43s.xml">
-      <configuration name="TestConfigureSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConfigureSpec - 2018.10.16 at 20h 14m 53s.xml">
-      <configuration name="TestConfigureSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConfigureSpec - 2018.10.16 at 20h 15m 08s.xml">
-      <configuration name="TestConfigureSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConfigureSpec - 2018.10.16 at 20h 16m 51s.xml">
-      <configuration name="TestConfigureSpec" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="2042" height="1032" extended-state="0" />
+    <frame x="0" y="29" width="1440" height="838" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4831579" visible="true" weight="0.19162561" />
-      <window_info id="Structure" order="1" sideWeight="0.530086" side_tool="true" weight="0.26656628" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.40820312" visible="true" weight="0.24066092" />
+      <window_info id="Structure" order="1" sideWeight="0.5917969" side_tool="true" weight="0.19261476" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Learn" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5168421" side_tool="true" weight="0.22640562" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Image Layers" order="7" />
-      <window_info id="Web" order="8" sideWeight="0.5107991" side_tool="true" weight="0.24974975" />
+      <window_info id="Web" order="8" sideWeight="0.31881532" side_tool="true" weight="0.29091817" />
       <window_info id="DB Browser" order="9" weight="0.32984033" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4763547" weight="0.33407325" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8586207" weight="0.60932297" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.6184739" weight="0.3270242" />
-      <window_info anchor="bottom" id="Docker" order="6" sideWeight="0.49786097" weight="0.3290398" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49698794" weight="0.3270242" />
-      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.14433497" side_tool="true" weight="0.36514983" />
-      <window_info anchor="bottom" id="Amazon EC2" order="9" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4861386" weight="0.5184017" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.52364534" side_tool="true" weight="0.33851278" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.33152708" weight="0.27192008" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" />
-      <window_info anchor="bottom" id="Database Console" order="15" sideWeight="0.498004" weight="0.22494887" />
-      <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.32937366" />
-      <window_info anchor="bottom" id="Database Changes" order="17" sideWeight="0.499002" weight="0.32879582" />
-      <window_info anchor="bottom" id="Sequence" order="18" />
-      <window_info anchor="bottom" id="DB Execution Console" order="19" />
-      <window_info anchor="bottom" id="YouTrack" order="20" sideWeight="0.498503" weight="0.32984293" />
-      <window_info anchor="bottom" id="Analyze Dataflow to" order="21" weight="0.32991803" />
-      <window_info anchor="bottom" id="Thumbnails" order="22" weight="0.32991803" />
-      <window_info anchor="bottom" id="Problems" order="23" weight="0.32991803" />
-      <window_info anchor="bottom" id="SQL Generator" order="24" weight="0.28742516" />
-      <window_info anchor="bottom" id="TeamCity" order="25" sideWeight="0.498004" weight="0.32879582" />
-      <window_info anchor="bottom" id="JProfiler" order="26" sideWeight="0.499501" weight="0.3294979" />
-      <window_info anchor="bottom" id="Debug" order="27" sideWeight="0.7714286" weight="0.39400667" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.3720703" weight="0.4462641" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5004883" weight="0.33162743" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.35986328" weight="0.59877175" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49550897" weight="0.3249476" />
+      <window_info anchor="bottom" id="Docker" order="7" sideWeight="0.49786097" weight="0.3290398" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49600798" weight="0.32704404" />
+      <window_info active="true" anchor="bottom" id="Build" order="9" sideWeight="0.6279297" side_tool="true" visible="true" weight="0.44494048" />
+      <window_info anchor="bottom" id="Amazon EC2" order="10" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.5708583" weight="0.32704404" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.34228516" side_tool="true" weight="0.44642857" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.5126953" weight="0.31013307" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" sideWeight="0.499501" weight="0.098802395" />
+      <window_info anchor="bottom" id="Database Console" order="16" visible="true" weight="0.3243513" />
+      <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.32937366" />
+      <window_info anchor="bottom" id="Database Changes" order="18" sideWeight="0.498503" weight="0.32809225" />
+      <window_info anchor="bottom" id="Sequence" order="19" />
+      <window_info anchor="bottom" id="DB Execution Console" order="20" weight="0.32934132" />
+      <window_info anchor="bottom" id="YouTrack" order="21" weight="0.28542915" />
+      <window_info anchor="bottom" id="Analyze Dataflow to" order="22" weight="0.32991803" />
+      <window_info anchor="bottom" id="Thumbnails" order="23" weight="0.32991803" />
+      <window_info anchor="bottom" id="Problems" order="24" weight="0.32991803" />
+      <window_info anchor="bottom" id="SQL Generator" order="25" weight="0.28742516" />
+      <window_info active="true" anchor="bottom" id="REST Client" order="26" visible="true" weight="0.6447106" />
+      <window_info anchor="bottom" id="TeamCity" order="27" sideWeight="0.49658203" weight="0.37154555" />
+      <window_info anchor="bottom" id="JProfiler" order="28" sideWeight="0.49151698" weight="0.32914045" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.05982906" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.31884766" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Connector for AWS Lambda" order="5" side_tool="true" />
-      <window_info anchor="right" id="Database" order="6" weight="0.1596059" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.4984472" weight="0.16766468" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Gradle" order="8" visible="true" weight="0.19014779" />
+      <window_info anchor="right" id="Gradle" order="8" weight="0.29166666" />
       <window_info anchor="right" id="sbt" order="9" />
       <window_info anchor="right" id="CBT" order="10" />
       <window_info anchor="right" id="Maven Projects" order="11" />
-      <window_info anchor="right" id="SBT" order="12" />
-      <window_info anchor="right" id="Bean Validation" order="13" />
+      <window_info anchor="right" id="Bean Validation" order="12" weight="0.1497006" />
+      <window_info anchor="right" id="SBT" order="13" />
       <window_info anchor="right" id="Theme Preview" order="14" />
       <window_info anchor="right" id="Dynamic Properties" order="15" />
       <window_info anchor="right" id="PlantUML" order="16" />
-      <window_info anchor="right" id="JWT" order="17" />
+      <window_info anchor="right" id="JWT" order="17" weight="0.32984033" />
       <window_info anchor="right" id="Swagger UI" order="18" />
-      <window_info anchor="right" id="Kotlin Bytecode" order="19" visible="true" />
-      <window_info anchor="right" id="Maven" order="20" />
+      <window_info anchor="right" id="Kotlin Bytecode" order="19" weight="0.21357286" />
+      <window_info anchor="right" x="0" y="0" width="373" height="807" id="Documentation" order="20" sideWeight="0.5015528" side_tool="true" visible="true" weight="0.1680929" />
+      <window_info anchor="right" id="com.vaadin.designer2.intellij.palette.PaletteToolWindowManager.toolWindow" order="21" sideWeight="0.499002" weight="0.40403423" />
+      <window_info anchor="right" id="com.vaadin.designer2.intellij.outline.OutlineToolWindowManager.toolWindow" order="22" sideWeight="0.500998" side_tool="true" weight="0.32984033" />
+      <window_info anchor="right" id="Maven" order="23" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/../../docstore" />
-      <path value="$PROJECT_DIR$/../../nconn-v2" />
-      <path value="$PROJECT_DIR$/../../portal-sys" />
-    </ignored-roots>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint type="java-exception">
-          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
-          <option name="timeStamp" value="8" />
-        </breakpoint>
-        <breakpoint type="java-exception">
-          <properties class="java.lang.ClassCastException" package="java.lang" />
-          <option name="timeStamp" value="34" />
-        </breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../nconn-v2/client/src/main/kotlin/nexstra/client/workflow/Steps.kt</url>
-          <line>66</line>
-          <properties />
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../nconn-v2/client-dsl/src/main/kotlin/nexstra/client/Client.kt</url>
-          <line>110</line>
-          <properties />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../nconn-v2/activities/report/src/main/kotlin/nexstra/activities/report/RunReport.kt</url>
-          <line>124</line>
-          <properties />
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/ddata/DataSources.kt</url>
-          <line>218</line>
-          <properties />
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../nconn-v2/lambda/report/src/test/kotlin/nexstra/lambda/report/TestReport.kt</url>
-          <line>53</line>
-          <properties />
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/ddata/DataSources.kt</url>
-          <line>217</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/ddata/NamedParameters.kt</url>
-          <line>105</line>
-          <properties />
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/sun/net/www/protocol/ssm/SSM.kt</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/SSMClient.kt</url>
-          <line>12</line>
-          <properties />
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/SSMClient.kt</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/SSMClient.kt</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/SSMClient.kt</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/SSMClient.kt</url>
-          <line>57</line>
-          <properties />
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/SSMClient.kt</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/SSMClient.kt</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/sun/net/www/protocol/s3/S3Handler.kt</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../docstore/cli/src/main/kotlin/nexstra/docstore/cli/Main.kt</url>
-          <line>180</line>
-          <properties />
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../docstore/cli/src/main/kotlin/nexstra/docstore/cli/Main.kt</url>
-          <line>68</line>
-          <properties />
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../docstore/docstore-lib/src/main/kotlin/nexstra/services/docstore/s3/S3Storage.kt</url>
-          <line>332</line>
-          <properties />
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../docstore/docstore-lib/src/main/kotlin/nexstra/services/docstore/s3/S3Storage.kt</url>
-          <line>336</line>
-          <properties />
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../docstore/docstore-lib/src/main/kotlin/nexstra/services/docstore/DocStore.kt</url>
-          <line>153</line>
-          <properties />
-          <option name="timeStamp" value="83" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../docstore/docstore-lib/src/main/kotlin/nexstra/services/docstore/DocStore.kt</url>
-          <line>154</line>
-          <properties />
-          <option name="timeStamp" value="84" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../docstore/docstore-lib/src/main/kotlin/nexstra/services/docstore/DocStore.kt</url>
-          <line>155</line>
-          <properties />
-          <option name="timeStamp" value="85" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../docstore/docstore-lib/src/main/kotlin/nexstra/services/docstore/DocStore.kt</url>
-          <line>156</line>
-          <properties />
-          <option name="timeStamp" value="86" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/resource/Resource.kt</url>
-          <line>96</line>
-          <properties />
-          <option name="timeStamp" value="87" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/Config.kt</url>
-          <line>215</line>
-          <properties />
-          <option name="timeStamp" value="90" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/Config.kt</url>
-          <line>219</line>
-          <properties />
-          <option name="timeStamp" value="91" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/Config.kt</url>
-          <line>216</line>
-          <properties />
-          <option name="timeStamp" value="92" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/ddata/NamedParameters.kt</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="106" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../docstore/config/src/main/kotlin/nexstra/ddata/DataSources.kt</url>
-          <line>239</line>
-          <properties />
-          <option name="timeStamp" value="125" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../docstore/config/src/main/kotlin/nexstra/ddata/DataSources.kt</url>
-          <line>356</line>
-          <properties />
-          <option name="timeStamp" value="131" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../docstore/config/src/main/kotlin/nexstra/ddata/DataSources.kt</url>
-          <line>361</line>
-          <properties />
-          <option name="timeStamp" value="132" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../docstore/config/src/main/kotlin/nexstra/services/config/KSchema.kt</url>
-          <line>136</line>
-          <properties />
-          <option name="timeStamp" value="135" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../docstore/config/src/test/kotlin/nexstra/services/config/TestConfigure.kt</url>
-          <line>115</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="140" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/../docstore/config/src/test/kotlin/nexstra/services/config/TestConfigure.kt</url>
-          <line>117</line>
-          <properties />
-          <option name="timeStamp" value="141" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/schema/Generate POJOs NoCamel.groovy</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.33/66b8902a7a3130908edb4f453f7a3d04cbb57f88/mysql-connector-java-5.1.33-sources.jar!/com/mysql/jdbc/RowDataCursor.java</url>
-          <line>284</line>
-          <properties />
-          <option name="timeStamp" value="121" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.33/66b8902a7a3130908edb4f453f7a3d04cbb57f88/mysql-connector-java-5.1.33-sources.jar!/com/mysql/jdbc/RowDataCursor.java</url>
-          <line>337</line>
-          <properties />
-          <option name="timeStamp" value="122" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.33/66b8902a7a3130908edb4f453f7a3d04cbb57f88/mysql-connector-java-5.1.33-sources.jar!/com/mysql/jdbc/StatementImpl.java</url>
-          <line>688</line>
-          <properties />
-          <option name="timeStamp" value="123" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-field">
-          <url>file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/Config.kt</url>
-          <line>195</line>
-          <properties myFieldName="values" myClassName="nexstra.services.config.DimensionName" />
-          <option name="timeStamp" value="88" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-field">
-          <url>file://$PROJECT_DIR$/../../docstore/config/src/main/kotlin/nexstra/services/config/Config.kt</url>
-          <line>218</line>
-          <properties myFieldName="values" myClassName="nexstra.services.config.Dimension.Scope.Companion" />
-          <option name="timeStamp" value="89" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="XPathView.XPathProjectComponent">
-    <history />
-    <find-history>
-      <element expression="//*" />
-    </find-history>
   </component>
   <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
     <option name="sizePresets">
@@ -1581,458 +629,100 @@
       </list>
     </option>
   </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="breakpointCondition">
-      <expression>
-        <expression-string>report.name == &quot;SS Red Hat Message URL report&quot;</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>report.name=&quot;SS Red Hat Message URL report&quot;</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>blacklisted(kcc)</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>kcc.isAbstract</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>parsed.sql.length</expression-string>
-        <language-id>kotlin</language-id>
-        <custom-info>import nexstra.ddata.NamedParameters.ParseResult</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
   <component name="designer2.settings">
     <option name="autodetectServerAddress" value="true" />
     <option name="serverIp" value="localhost" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/java/latest.8/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="2324" column="44" selection-start-line="2324" selection-start-column="27" selection-end-line="2324" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../docstore/config/src/main/java/util/JavaDup.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5146b44c50f5e853d6d77150089b6281d72fe736/kotlin-stdlib-1.2.61-sources.jar!/kotlin/jvm/PurelyImplements.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5146b44c50f5e853d6d77150089b6281d72fe736/kotlin-stdlib-1.2.61-sources.jar!/kotlin/jvm/annotations/JvmFlagAnnotations.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5146b44c50f5e853d6d77150089b6281d72fe736/kotlin-stdlib-1.2.61-sources.jar!/kotlin/jvm/JvmDefault.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5146b44c50f5e853d6d77150089b6281d72fe736/kotlin-stdlib-1.2.61-sources.jar!/kotlin/jvm/KotlinReflectionNotSupportedError.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5146b44c50f5e853d6d77150089b6281d72fe736/kotlin-stdlib-1.2.61-sources.jar!/kotlin/annotation/Annotations.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="95" column="24" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.61/bb8aafdddb6c895ba1a9646eddabdb844eb544fb/kotlin-stdlib-common-1.2.61-sources.jar!/kotlin/text/Typography.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1278">
-          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.61/bb8aafdddb6c895ba1a9646eddabdb844eb544fb/kotlin-stdlib-common-1.2.61-sources.jar!/kotlin/text/regex/MatchResult.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.61/bb8aafdddb6c895ba1a9646eddabdb844eb544fb/kotlin-stdlib-common-1.2.61-sources.jar!/kotlin/util/Tuples.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="66" column="15" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../docstore/config/src/main/kotlin/nexstra/ddata/KotlinDup.kt" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5146b44c50f5e853d6d77150089b6281d72fe736/kotlin-stdlib-1.2.61-sources.jar!/kotlin/jvm/annotations/JvmPlatformAnnotations.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="127" column="24" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../docstore/config/src/main/kotlin/nexstra/ddata/DBProvider.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1021">
-          <caret line="213" column="4" selection-start-line="213" selection-start-column="4" selection-end-line="213" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../docstore/config/src/test/kotlin/nexstra/config/dsl/TestParameters.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../docstore/config/src/test/kotlin/nexstra/services/config/TestByteBuddy.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
-          <folding>
-            <element signature="e#34#528#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.7/26d2e8a615ae6d766bbaed952a9cc286f6860faf/jackson-databind-2.9.7-sources.jar!/com/fasterxml/jackson/databind/ObjectReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="783" column="32" selection-start-line="783" selection-start-column="28" selection-end-line="783" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../docstore/config/src/main/kotlin/nexstra/services/config/DataMapping.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="60" column="87" selection-start-line="60" selection-start-column="87" selection-end-line="60" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-properties/2.9.7/be5c2a8f174b9c8e9a149b18fa8433d7eb0923c/jackson-dataformat-properties-2.9.7-sources.jar!/com/fasterxml/jackson/dataformat/javaprop/JavaPropsMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="103" column="17" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../docstore/config/src/main/kotlin/nexstra/services/config/PropertyConfig.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="39" column="75" selection-start-line="39" selection-start-column="75" selection-end-line="39" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../docstore/docstore-lib/src/main/kotlin/nexstra/services/docstore/DocStore.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="354" column="22" selection-start-line="354" selection-start-column="22" selection-end-line="354" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.2/21f2f0b1de60af93890b12fac673035f516f0c94/jackson-databind-2.9.2-sources.jar!/com/fasterxml/jackson/databind/JsonMappingException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="390" selection-start-line="390" selection-end-line="390" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.2/21f2f0b1de60af93890b12fac673035f516f0c94/jackson-databind-2.9.2-sources.jar!/com/fasterxml/jackson/databind/JsonNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-          <folding>
-            <element signature="e#3655#3656#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.2/21f2f0b1de60af93890b12fac673035f516f0c94/jackson-databind-2.9.2-sources.jar!/com/fasterxml/jackson/databind/node/ObjectNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="e#1934#1935#0" expanded="true" />
-            <element signature="e#2176#2177#0" expanded="true" />
-            <element signature="e#2218#2219#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-runner-jvm/3.1.10/67ea92bf85e6c357ca1aa43847a04cae70248af4/kotlintest-runner-jvm-3.1.10-sources.jar!/io/kotlintest/runner/jvm/SharedInstanceSpecRunner.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-runner-jvm/3.1.10/67ea92bf85e6c357ca1aa43847a04cae70248af4/kotlintest-runner-jvm-3.1.10-sources.jar!/io/kotlintest/runner/jvm/SpecRunner.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/latest.8/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="380" selection-start-line="380" selection-end-line="380" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/latest.8/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="435" selection-start-line="435" selection-end-line="435" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../docstore/config/src/test/kotlin/nexstra/services/config/TestSecretsProvider.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.8.22/8292b7eb9fbb4a9463a8c6a461e4497f76ad01c9/byte-buddy-1.8.22-sources.jar!/net/bytebuddy/description/modifier/ModifierContributor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="176" selection-start-line="176" selection-end-line="176" />
-          <folding>
-            <element signature="e#6463#6464#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.8.22/8292b7eb9fbb4a9463a8c6a461e4497f76ad01c9/byte-buddy-1.8.22-sources.jar!/net/bytebuddy/dynamic/DynamicType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="2913" selection-start-line="2913" selection-end-line="2913" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.61/bb8aafdddb6c895ba1a9646eddabdb844eb544fb/kotlin-stdlib-common-1.2.61-sources.jar!/generated/_Collections.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="1491" selection-start-line="1491" selection-end-line="1491" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.2/21f2f0b1de60af93890b12fac673035f516f0c94/jackson-databind-2.9.2-sources.jar!/com/fasterxml/jackson/databind/cfg/BaseSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="303" selection-start-line="303" selection-end-line="303" />
-          <folding>
-            <element signature="e#11353#11354#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.2/21f2f0b1de60af93890b12fac673035f516f0c94/jackson-databind-2.9.2-sources.jar!/com/fasterxml/jackson/databind/type/TypeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="615" selection-start-line="615" selection-end-line="615" />
-          <folding>
-            <element signature="e#23936#23937#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.2/21f2f0b1de60af93890b12fac673035f516f0c94/jackson-databind-2.9.2-sources.jar!/com/fasterxml/jackson/databind/cfg/MapperConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="280" selection-start-line="280" selection-end-line="280" />
-          <folding>
-            <element signature="e#9026#9027#0" expanded="true" />
-            <element signature="e#9071#9072#0" expanded="true" />
-            <element signature="e#9399#9400#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.2/21f2f0b1de60af93890b12fac673035f516f0c94/jackson-databind-2.9.2-sources.jar!/com/fasterxml/jackson/databind/ObjectReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="981" selection-start-line="981" selection-end-line="981" />
-          <folding>
-            <element signature="e#23992#23993#0" expanded="true" />
-            <element signature="e#24056#24057#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.2/5c8cc7340ef8234e0b497a21c95e6f2e7af09e6c/jackson-core-2.9.2-sources.jar!/com/fasterxml/jackson/core/JsonParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="1797" selection-start-line="1797" selection-end-line="1797" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.2/21f2f0b1de60af93890b12fac673035f516f0c94/jackson-databind-2.9.2-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-166">
-          <caret line="2774" column="34" selection-start-line="2774" selection-start-column="34" selection-end-line="2774" selection-end-column="34" />
-          <folding>
-            <element signature="e#141353#141354#0" expanded="true" />
-            <element signature="e#141429#141430#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/latest.8/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2924">
-          <caret line="420" column="12" selection-start-line="420" selection-start-column="12" selection-end-line="420" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.2/21f2f0b1de60af93890b12fac673035f516f0c94/jackson-databind-2.9.2-sources.jar!/com/fasterxml/jackson/databind/node/TreeTraversingParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="229" selection-start-line="229" selection-end-line="229" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/latest.8/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="747" selection-start-line="747" selection-end-line="747" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../docstore/config/src/main/kotlin/nexstra/services/config/KSchema.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="134" selection-start-line="134" selection-end-line="134" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../docstore/config/src/test/kotlin/nexstra/services/config/TestConfigure.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="116" column="5" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../docstore/config/src/main/kotlin/nexstra/services/config/ValueProvider.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../docstore/config/src/main/kotlin/nexstra/services/config/Config.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        <state relative-caret-position="2592">
+          <caret line="163" column="10" selection-start-line="163" selection-start-column="10" selection-end-line="163" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../docstore/config/src/main/kotlin/nexstra/services/config/ByteBuddyBean.kt">
+    <entry file="file://$PROJECT_DIR$/buildSrc/src/main/kotlin/Connectors.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2214">
-          <caret line="143" selection-start-line="143" selection-end-line="143" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5146b44c50f5e853d6d77150089b6281d72fe736/kotlin-stdlib-1.2.61-sources.jar!/kotlin/jvm/internal/Intrinsics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1656">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-core/0.7.1/4085809f9a16449fa64cd3f741623bae7c67e227/arrow-core-0.7.1-sources.jar!/arrow/core/Try.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5146b44c50f5e853d6d77150089b6281d72fe736/kotlin-stdlib-1.2.61-sources.jar!/kotlin/util/LazyJVM.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/latest.8/src.zip!/java/util/concurrent/FutureTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1764">
-          <caret line="131" selection-start-line="131" selection-end-line="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-runner-jvm/3.1.10/67ea92bf85e6c357ca1aa43847a04cae70248af4/kotlintest-runner-jvm-3.1.10-sources.jar!/io/kotlintest/runner/jvm/TestCaseExecutor.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/latest.8/src.zip!/java/util/concurrent/AbstractExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="936">
+          <caret line="69" column="56" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
           <folding>
-            <element signature="e#2990#2991#0" expanded="true" />
+            <element signature="e#0#707#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="gradleExecuteTaskHistory">
-    <option value="$PROJECT_DIR$" />
-    <option value="dimensions" />
-    <option value="publish" />
-    <option value="clean build  --stacktrace --no-daemon" />
-    <option value="buildDependen --stacktrace" />
+    <entry file="file://$PROJECT_DIR$/buildSrc/src/main/kotlin/Templates.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nconn-v2/activities/report/src/main/kotlin/nexstra/activities/report/RunReport.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="49" selection-start-line="9" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildSrc/src/main/kotlin/Dimensions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/repo/content-services/config/1.4.101/config-1.4.101.jar!/nexstra/ddata/DRef.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="97" selection-start-line="7" selection-start-column="97" selection-end-line="7" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.0/98515ba3feb571f93b923e61f643bdaed59d14ac/kotlin-stdlib-1.3.0-sources.jar!/kotlin/Primitives.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="592" column="13" selection-start-line="592" selection-start-column="13" selection-end-line="592" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../docstore/config/src/main/kotlin/nexstra/ddata/DataSources.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/repo/content-services/config/1.4.101/config-1.4.101.jar!/nexstra/ddata/JDBCSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/nexstra/kv/BasicKV.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="24" />
+          <folding>
+            <element signature="e#20#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildSrc/src/main/kotlin/Reports.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Kotlin</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -2046,24 +736,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.8.0_144</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>config|config</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -2083,7 +760,6 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Gradle: com.amazonaws:amazon-sqs-java-extended-client-lib:1.0.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -4,58 +4,58 @@
   "type" : "object",
   "additionalProperties" : false,
   "properties" : {
-    "rootUri" : {
-      "propertyOrder" : 1,
-      "type" : "string",
-      "title" : "Root Uri"
-    },
-    "mtime" : {
-      "propertyOrder" : 2,
-      "type" : "integer",
-      "format" : "utc-millisec",
-      "title" : "Mtime"
-    },
     "dir" : {
-      "propertyOrder" : 3,
+      "propertyOrder" : 1,
       "type" : "boolean",
       "title" : "Dir"
     },
     "docuri" : {
-      "propertyOrder" : 4,
+      "propertyOrder" : 2,
       "type" : "string",
       "title" : "Docuri"
     },
-    "contentType" : {
-      "propertyOrder" : 5,
-      "type" : "string",
-      "title" : "Content Type"
-    },
     "extra" : {
-      "propertyOrder" : 6,
+      "propertyOrder" : 3,
       "type" : "object",
       "additionalProperties" : { },
       "title" : "Extra"
     },
-    "uri" : {
-      "propertyOrder" : 7,
+    "contentType" : {
+      "propertyOrder" : 4,
       "type" : "string",
-      "title" : "Uri"
+      "title" : "Content Type"
+    },
+    "mtime" : {
+      "propertyOrder" : 5,
+      "type" : "integer",
+      "format" : "utc-millisec",
+      "title" : "Mtime"
+    },
+    "rootUri" : {
+      "propertyOrder" : 6,
+      "type" : "string",
+      "title" : "Root Uri"
     },
     "length" : {
-      "propertyOrder" : 8,
+      "propertyOrder" : 7,
       "type" : "integer",
       "title" : "Length"
     },
     "name" : {
-      "propertyOrder" : 9,
+      "propertyOrder" : 8,
       "type" : "string",
       "title" : "Name"
     },
     "path" : {
-      "propertyOrder" : 10,
+      "propertyOrder" : 9,
       "type" : "string",
       "title" : "Path"
+    },
+    "uri" : {
+      "propertyOrder" : 10,
+      "type" : "string",
+      "title" : "Uri"
     }
   },
-  "required" : [ "rootUri", "dir", "docuri", "contentType", "extra", "uri", "name", "path" ]
+  "required" : [ "dir", "docuri", "extra", "contentType", "rootUri", "name", "path", "uri" ]
 }

@@ -2,33 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1663779655/cli.iml" filepath="$PROJECT_DIR$/.idea/modules/1663779655/cli.iml" group="cli" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1663779655/cli_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1663779655/cli_main.iml" group="cli" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1663779655/cli_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1663779655/cli_test.iml" group="cli" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1740127163/config.iml" filepath="$PROJECT_DIR$/.idea/modules/1740127163/config.iml" group="config" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1740127163/config_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1740127163/config_main.iml" group="config" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1740127163/config_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1740127163/config_test.iml" group="config" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1768440524/docrun.iml" filepath="$PROJECT_DIR$/.idea/modules/1768440524/docrun.iml" group="docrun" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1768440524/docrun_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1768440524/docrun_main.iml" group="docrun" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1768440524/docrun_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1768440524/docrun_test.iml" group="docrun" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-96522314/docstore.iml" filepath="$PROJECT_DIR$/.idea/modules/-96522314/docstore.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl.iml" filepath="$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl.iml" group="docstore-dsl" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl_main.iml" group="docstore-dsl" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1738354258/docstore-dsl_test.iml" group="docstore-dsl" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib.iml" filepath="$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib.iml" group="docstore-lib" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib_main.iml" group="docstore-lib" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1738361626/docstore-lib_test.iml" group="docstore-lib" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-96522314/docstore_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-96522314/docstore_main.iml" group="docstore" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-96522314/docstore_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-96522314/docstore_test.iml" group="docstore" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1019145117/kscript.iml" filepath="$PROJECT_DIR$/.idea/modules/1019145117/kscript.iml" group="kscript" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1019145117/kscript_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1019145117/kscript_main.iml" group="kscript" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1019145117/kscript_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1019145117/kscript_test.iml" group="kscript" />
       <module fileurl="file://$PROJECT_DIR$/nconn-legacy.iml" filepath="$PROJECT_DIR$/nconn-legacy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nconn-legacy_buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/nconn-legacy_buildSrc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nconn-legacy_buildSrc_main.iml" filepath="$PROJECT_DIR$/.idea/modules/nconn-legacy_buildSrc_main.iml" group="nconn-legacy_buildSrc" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nconn-legacy_buildSrc_test.iml" filepath="$PROJECT_DIR$/.idea/modules/nconn-legacy_buildSrc_test.iml" group="nconn-legacy_buildSrc" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nconn-legacy_main.iml" filepath="$PROJECT_DIR$/.idea/modules/nconn-legacy_main.iml" group="nconn-legacy" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nconn-legacy_test.iml" filepath="$PROJECT_DIR$/.idea/modules/nconn-legacy_test.iml" group="nconn-legacy" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nconn-legacy.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/nconn-legacy.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nconn-legacy.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/nconn-legacy.buildSrc.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nconn-legacy.buildSrc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/nconn-legacy.buildSrc.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nconn-legacy.main.iml" filepath="$PROJECT_DIR$/.idea/modules/nconn-legacy.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nconn-legacy.test.iml" filepath="$PROJECT_DIR$/.idea/modules/nconn-legacy.test.iml" />
     </modules>
   </component>
 </project>
