@@ -30,78 +30,83 @@ fun ResultSet.toKVS() = KVS(getLong(1)).also { kvs ->
   }
 
 
-fun KVS.insert( ps: PreparedStatement  ) {
-  values.forEach {
-    ps.clearParameters()
-    ps.setLong(1, id)
-    ps.setString(2, it.key)
-    ps.setString(3, it.value)
-    ps.addBatch()
+object mysqlKVS {
+
+  fun KVS.insert(ps : PreparedStatement) {
+    values.forEach {
+      ps.clearParameters()
+      ps.setLong(1, id)
+      ps.setString(2, it.key)
+      ps.setString(3, it.value)
+      ps.addBatch()
+    }
   }
-}
 
 
-fun ResultSet.copyTo( ps: PreparedStatement ) {
+  fun ResultSet.copyTo(ps : PreparedStatement) {
 
-    for( i in 1..metaData.columnCount) {
+    for (i in 1..metaData.columnCount) {
       ps.setObject(i, getObject(i))
     }
     ps.addBatch()
-}
-fun loadKVS( table: String , dsSource: String , dsTarget: String , sql : String ) {
+  }
 
-  val jdbcSrc = DRef.fromRef<JDBCSource>(dsSource.removePrefix("@")).deref()
-  val jdbcTarget = DRef.fromRef<JDBCSource>(dsTarget.removePrefix("@")).deref()
+  fun loadKVS(table : String, dsSource : String, dsTarget : String, sql : String) {
+
+    val jdbcSrc = DRef.fromRef<JDBCSource>(dsSource.removePrefix("@")).deref()
+    val jdbcTarget = DRef.fromRef<JDBCSource>(dsTarget.removePrefix("@")).deref()
 
 
-  jdbcSrc.withConnection {
-    val s = this
-    jdbcTarget.withConnection {
-      val t = this
-      var i = 0
-      val ms = measureTimeMillis {
-        var tns : Long = 0L
-        val BS = 1000
-        // s.query(sql).forEach {
-        s.prepareStatement(sql).run {
-          this.fetchSize = Integer.MIN_VALUE
-          val psInsert = t.prepareStatement("INSERT IGNORE INTO ${table} (`id`,`key`,`value`) VALUES(?,?,?)")
-         //  val psInsert = t.prepareStatement("INSERT INTO ${table} VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
-          t.autoCommit = false
-          this.executeQuery().forEach {
-            val newBatch = (++i % BS ) == 0
-            val ns = measureNanoTime {
-              if( true ) {
-                val kvs = toKVS()
-                kvs.insert(psInsert)
-              } else {
-                copyTo(psInsert)
-              }
+    jdbcSrc.withConnection {
+      val s = this
+      jdbcTarget.withConnection {
+        val t = this
+        var i = 0
+        val ms = measureTimeMillis {
+          var tns : Long = 0L
+          val BS = 1000
+          // s.query(sql).forEach {
+          s.prepareStatement(sql).run {
+            this.fetchSize = Integer.MIN_VALUE
+            val psInsert = t.prepareStatement("INSERT IGNORE INTO ${table} (`id`,`key`,`value`) VALUES(?,?,?)")
+            //  val psInsert = t.prepareStatement("INSERT INTO ${table} VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
+            t.autoCommit = false
+            this.executeQuery().forEach {
+              val newBatch = (++i % BS) == 0
+              val ns = measureNanoTime {
+                if (true) {
+                  val kvs = toKVS()
+                  kvs.insert(psInsert)
+                }
+                else {
+                  copyTo(psInsert)
+                }
                 if (newBatch) {
                   psInsert.executeBatch()
                   t.commit()
                 }
+              }
+              tns += ns
+              if (newBatch) {
+                println("${i} ${(tns / BS).toDouble() / 1_000_000.0} ms/rec")
+                tns = 0
+                psInsert.clearBatch()
+              }
             }
-            tns += ns
-            if (newBatch) {
-              println("${i} ${(tns / BS).toDouble() / 1_000_000.0 } ms/rec")
-              tns = 0
-              psInsert.clearBatch()
-            }
+            println("Finalizing")
+            psInsert.executeBatch()
+            psInsert.clearBatch()
+            psInsert.close()
           }
-          println("Finalizing")
-          psInsert.executeBatch()
-          psInsert.clearBatch()
-          psInsert.close()
         }
+        println("${ms} ms total  ${ms.toDouble() / i.toDouble()} ms/rec")
       }
-      println("${ms} ms total  ${ms.toDouble() / i.toDouble()} ms/rec" )
     }
   }
 }
 
 fun main(args:Array<String>) {
-  loadKVS( "kv_elem" , "@file:/nexstra/nconn-legacy/source-prod.ds", "@file:/nexstra/nconn-legacy/target.ds" ,
+  mysqlKVS.loadKVS( "kv_elem" , "@file:/nexstra/nconn-legacy/source-prod.ds", "@file:/nexstra/nconn-legacy/target.ds" ,
      "SELECT * from dist_elem_item" )
 }
 

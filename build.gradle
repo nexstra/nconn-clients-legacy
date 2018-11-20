@@ -12,9 +12,9 @@ buildscript {
 plugins {
   id "org.ajoberstar.grgit" version "3.0.0-rc.2"
   // id "org.gradle.kotlin.kotlin-dsl" version "1.0-rc-6"
-  id 'org.jetbrains.kotlin.jvm' version '1.3.0'
+  id 'org.jetbrains.kotlin.jvm' version '1.3.10'
   id 'nexstra.docstore-dsl' version "1.0.6"
-  id 'nexstra.core-dsl' version "1.0.5"
+  id 'nexstra.core-dsl' version "1.0.6"
   id 'nexstra.client-dsl' version "1.0.4"
   //id 'json-validator' version "1.2.1"
   id "cz.alenkacz.gradle.jsonvalidator" version "1.2.1"
@@ -27,6 +27,8 @@ dependencyManagement {
   }
 }
 apply plugin: 'kotlin'
+apply plugin: 'application'
+mainClassName='nexstra.kv.RedissonKVKt'
 //apply plugin: 'jsonschema2pojo'
 def getAwsBucket() {
   if( rootProject.hasProperty('awsBucket') ) rootProject.getProperty('awsBucket') else
@@ -50,10 +52,11 @@ dependencies {
     }
   }
   compile "mysql:mysql-connector-java:5.1.33"
-  compile "content-services:config:1.4.101"
+  compile "content-services:config:1.4.+"
   compile "nexstra.nconnect:client:0.1.+"
   compile "nexstra.nconnect:activities-api:0.1.+"
   compile "org.apache.logging.log4j:log4j-core"
+  compile 'org.redisson:redisson:3.9.0'
 }
 
 //apply plugin: 'kotlin'
