@@ -7,11 +7,13 @@ import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import nexstra.ddata.*
 import nexstra.services.config.copyAsProperites
+import nexstra.services.config.pretty
 import org.redisson.Redisson
 import org.redisson.api.RBucket
 import org.redisson.client.codec.JsonJacksonMapCodec
 import org.redisson.client.protocol.Decoder
 import org.redisson.codec.JsonJacksonCodec
+import org.redisson.codec.KryoCodec
 import org.redisson.config.Config
 import org.redisson.config.TransportMode
 import java.io.File
@@ -25,12 +27,22 @@ import javax.print.attribute.IntegerSyntax
 import kotlin.system.measureNanoTime
 import kotlin.system.measureTimeMillis
 //@JsonTypeInfo(use = JsonTypeInfo.Id.CLASS, include = JsonTypeInfo.As.PROPERTY)
-    class simplek( val i: Int , val s: String ) {
-      constructor() : this(1,"foo")
+    data class simplek( val i: Int , val s: String ) {
+      constructor() : this(0,"")
     }
 
+    class komplex( var s1 :  simplek, val s2: simplek ) {
+    constructor() : this( simplek(2,"two"),simplek(3,"three"))
+      var list : MutableList<simplek>
+      init {
+          list = mutableListOf(s1,s2)
+      }
+      fun and(i:Int,s:String) = list.add(simplek(i,s))
+    }
 
 fun main() {
+
+/*
     val kjackson =  jacksonObjectMapper()
     val kcodec = JsonJacksonCodec(kjackson)
     val config = Config().apply {
@@ -40,7 +52,7 @@ fun main() {
     }
 
     val client = Redisson.create(config)
-/*
+
     val longObject = client.getAtomicLong("myLong")
     longObject.set(3)
     val ok = longObject.compareAndSet(3,100)
@@ -51,7 +63,7 @@ fun main() {
     mappy["key"] = "value"
     println( mappy["key"] )
   //  val fullCodec = JsonJacksonCodec(kjackson.copy().enableDefaultTyping())
-*/
+
     val s  = client.getBucket<simplek>("mySimple",
       object : JsonJacksonMapCodec(String::class.java, simplek::class.java) {
         override fun getValueDecoder() : Decoder<Any> {
@@ -63,15 +75,30 @@ fun main() {
    s.set( simplek(1,"hi" ) )
     val simple2 = s.get()
        println( simple2 )
-/*
 
   val mapk = client.getMap<String,simplek>("mySimpleMap",JsonJacksonMapCodec(String::class.java, simplek::class.java))
   mapk["key"] = simplek(2,"simple")
   println( mapk["key"] )
 
-*/
 
    // client.liveObjectService.
+*/
+   val config = Config().apply {
+      codec = KryoCodec()
+     useSingleServer().setAddress("redis://localhost:32770")
+
+    transportMode = TransportMode.NIO
+   }
+   val client = Redisson.create(config)
+
+   val sk = client.getBucket<komplex>("myBucket")
+   val ss = simplek(100,"x")
+   val cx = komplex(ss,simplek(200,"y"))
+
+   cx.and(300,"z")
+   sk.set(cx)
+   val s = sk.get()
+   println(s.pretty())
 
    client.shutdown()
 

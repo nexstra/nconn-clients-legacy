@@ -34,17 +34,7 @@
     <list default="true" id="9f0518cc-34a5-40e5-bb5a-9a08cead4fc4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getrepo.sh" beforeDir="false" afterPath="$PROJECT_DIR$/getrepo.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/nexstra.activities.api.mail.ComposeMailRequest.json" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/nexstra.activities.api.mail.ComposeMailRequest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/nexstra.activities.api.mail.ComposeMailResponse.json" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/nexstra.activities.api.mail.ComposeMailResponse.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/nexstra.activities.api.report.ReportRunResponse.json" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/nexstra.activities.api.report.ReportRunResponse.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/nexstra/kv/BasicKV.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/nexstra/kv/BasicKV.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/nexstra/kv/RedisKV" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/nexstra/kv/RedissonKV.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/nexstra/kv/RedissonKV.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/nexstra/kv/RedissonKV.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -109,7 +99,17 @@
                 <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
                 <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="org.redisson:redisson:3.9.0" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
+                <item name="com.esotericsoftware:kryo:3.0.3" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="nconn-legacy" type="f1a62948:ProjectNode" />
+                <item name="nconn-legacy" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="com.esotericsoftware:kryo:3.0.3" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
+                <item name="com.esotericsoftware:reflectasm:1.10.1" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -125,6 +125,19 @@
                 <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
                 <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="nconn-legacy" type="f1a62948:ProjectNode" />
+                <item name="nconn-legacy" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="nconn-legacy" type="f1a62948:ProjectNode" />
+                <item name="nconn-legacy" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -153,122 +166,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/codec/JsonJacksonCodec.java">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/nexstra/kv/RedissonKV.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="173" column="35" selection-start-line="173" selection-start-column="27" selection-end-line="173" selection-end-column="42" />
+            <state relative-caret-position="234">
+              <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3276">
+              <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/codec/KryoCodec.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="143" column="33" selection-start-line="143" selection-start-column="33" selection-end-line="143" selection-end-column="33" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3652#3653#0" expanded="true" />
-                <element signature="e#3692#3693#0" expanded="true" />
-                <element signature="e#7140#7141#0" expanded="true" />
-                <element signature="e#7170#7171#0" expanded="true" />
-                <element signature="e#7224#7225#0" expanded="true" />
-                <element signature="e#7254#7255#0" expanded="true" />
-                <element signature="e#7559#7560#0" expanded="true" />
-                <element signature="e#7597#7598#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/handler/CommandDecoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1022">
-              <caret line="463" column="40" selection-start-line="463" selection-start-column="40" selection-end-line="463" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/config/Config.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="111" column="33" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/liveobject/resolver/DefaultNamingScheme.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="33" column="83" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/codec/CompositeCodec.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
-              <folding>
-                <element signature="e#1844#1845#0" expanded="true" />
-                <element signature="e#1895#1896#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/codec/BaseCodec.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
-              <folding>
-                <element signature="e#1084#1085#0" expanded="true" />
-                <element signature="e#1124#1125#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/handler/CommandPubSubDecoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="234" column="39" selection-start-line="234" selection-start-column="39" selection-end-line="234" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/codec/SerializationCodec.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="88" column="15" selection-start-line="88" selection-start-column="15" selection-end-line="88" selection-end-column="15" />
-              <folding>
-                <element signature="e#2802#2803#0" expanded="true" />
-                <element signature="e#2842#2843#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/RedissonObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="36" />
-              <folding>
-                <element signature="e#2422#2423#0" expanded="true" />
-                <element signature="e#2472#2473#0" expanded="true" />
-                <element signature="e#2745#2746#0" expanded="true" />
-                <element signature="e#2772#2773#0" expanded="true" />
-                <element signature="e#2818#2819#0" expanded="true" />
-                <element signature="e#2850#2851#0" expanded="true" />
+                <element signature="e#4787#4788#0" expanded="true" />
+                <element signature="e#4842#4843#0" expanded="true" />
+                <element signature="e#5222#5223#0" expanded="true" />
+                <element signature="e#5262#5263#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/RedissonList.java">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.esotericsoftware/kryo/3.0.3/a636c50d4c5db89b0ba5dfb4d408e4895293c134/kryo-3.0.3-sources.jar!/com/esotericsoftware/kryo/Kryo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="323" column="40" lean-forward="true" selection-start-line="323" selection-start-column="40" selection-end-line="323" selection-end-column="40" />
+            <state relative-caret-position="-1394">
+              <caret line="613" column="14" selection-start-line="613" selection-start-column="14" selection-end-line="613" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -328,8 +262,8 @@
         <option value="$PROJECT_DIR$/buildSrc/src/main/kotlin/Dimensions.kt" />
         <option value="$PROJECT_DIR$/buildSrc/src/main/kotlin/Connectors.kt" />
         <option value="$PROJECT_DIR$/buildSrc/src/main/kotlin/Templates.kt" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/kotlin/nexstra/kv/BasicKV.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/kotlin/nexstra/kv/RedissonKV.kt" />
       </list>
     </option>
@@ -348,7 +282,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -412,202 +346,13 @@
             </path>
             <path>
               <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nconn-legacy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="kv" type="462c0819:PsiDirectoryNode" />
-              <item name="RedissonKV.kt" type="24436e51:KtFileTreeNode" />
-              <item name="simplek" type="2c5a2ef7:KtClassOrObjectTreeNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.9.7" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.9.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="jackson-module-kotlin-2.9.7.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.9.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="jackson-module-kotlin-2.9.7.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.9.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="jackson-module-kotlin-2.9.7.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="KotlinInstantiators" type="2c5a2ef7:KtClassOrObjectTreeNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.9.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="jackson-module-kotlin-2.9.7.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="KotlinModule" type="2c5a2ef7:KtClassOrObjectTreeNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.9.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="jackson-module-kotlin-2.9.7.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="TypesKt.class" type="24436e51:KtFileTreeNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.9.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="jackson-module-kotlin-2.9.7.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="jackson-module-kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.9.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="jackson-module-kotlin-2.9.7.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.redisson:redisson:3.9.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.redisson:redisson:3.9.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="redisson-3.9.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.redisson:redisson:3.9.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="redisson-3.9.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="redisson" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.redisson:redisson:3.9.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="redisson-3.9.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.redisson:redisson:3.9.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="redisson-3.9.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="redisson" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.redisson:redisson:3.9.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="redisson-3.9.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.redisson:redisson:3.9.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="redisson-3.9.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="REntity" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.redisson:redisson:3.9.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="redisson-3.9.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.redisson:redisson:3.9.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="redisson-3.9.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="event" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.redisson:redisson:3.9.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="redisson-3.9.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.redisson:redisson:3.9.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="redisson-3.9.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="codec" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.redisson:redisson:3.9.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="redisson-3.9.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="decoder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.redisson:redisson:3.9.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="redisson-3.9.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="remote" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.redisson:redisson:3.9.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="redisson-3.9.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="remote" type="462c0819:PsiDirectoryNode" />
-              <item name="RemoteServiceMethod" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.redisson:redisson:3.9.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="redisson-3.9.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="session" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.redisson:redisson:3.9.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="redisson-3.9.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="operation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.redisson:redisson:3.9.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="redisson-3.9.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.slf4j:slf4j-api:1.7.19" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -712,9 +457,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="29" width="1869" height="1022" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.40820312" visible="true" weight="0.18890719" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.40820312" visible="true" weight="0.19330038" />
       <window_info id="Structure" order="1" sideWeight="0.5917969" side_tool="true" weight="0.19261476" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -761,7 +505,7 @@
       <window_info anchor="right" id="Connector for AWS Lambda" order="5" side_tool="true" />
       <window_info anchor="right" id="Database" order="6" sideWeight="0.4984472" weight="0.16766468" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Gradle" order="8" weight="0.15650742" />
+      <window_info anchor="right" id="Gradle" order="8" visible="true" weight="0.21911038" />
       <window_info anchor="right" id="sbt" order="9" />
       <window_info anchor="right" id="CBT" order="10" />
       <window_info anchor="right" id="Maven Projects" order="11" />
@@ -852,13 +596,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/nexstra/kv/RedissonKV.kt</url>
-          <line>67</line>
+          <line>78</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/nexstra/kv/RedissonKV.kt</url>
-          <line>63</line>
+          <line>75</line>
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
@@ -963,58 +707,6 @@
     <option name="serverIp" value="localhost" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.30.Final/e7e5789c789b4f3e6069ee2ed9e5e102c7868ad8/netty-buffer-4.1.30.Final-sources.jar!/io/netty/buffer/AbstractByteBuf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="176" selection-start-line="176" selection-end-line="176" />
-          <folding>
-            <element signature="e#5643#5644#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.30.Final/e7e5789c789b4f3e6069ee2ed9e5e102c7868ad8/netty-buffer-4.1.30.Final-sources.jar!/io/netty/buffer/ByteBufInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="e#2576#2577#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/protocol/RedisCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="52" column="22" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="22" />
-          <folding>
-            <element signature="e#4340#4341#0" expanded="true" />
-            <element signature="e#4372#4373#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/protocol/convertor/EmptyConvertor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#787#788#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/misc/RedissonPromise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
-          <folding>
-            <element signature="e#2574#2575#0" expanded="true" />
-            <element signature="e#2636#2637#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.30.Final/5c9148c433a3d5869981aac0b5d8ee1b83f727e6/netty-codec-4.1.30.Final-sources.jar!/io/netty/handler/codec/ReplayingDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6138">
@@ -1235,17 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/Redisson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="246" column="29" selection-start-line="246" selection-start-column="29" selection-end-line="246" selection-end-column="29" />
-          <folding>
-            <element signature="e#8937#8938#0" expanded="true" />
-            <element signature="e#9019#9020#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/RedissonBucket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1310,10 +991,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/nexstra/kv/RedissonKV.kt">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/config/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        <state relative-caret-position="1440">
+          <caret line="111" column="33" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1324,34 +1005,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/config/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="111" column="33" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/codec/JsonJacksonCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="173" column="35" selection-start-line="173" selection-start-column="27" selection-end-line="173" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3652#3653#0" expanded="true" />
-            <element signature="e#3692#3693#0" expanded="true" />
-            <element signature="e#7140#7141#0" expanded="true" />
-            <element signature="e#7170#7171#0" expanded="true" />
-            <element signature="e#7224#7225#0" expanded="true" />
-            <element signature="e#7254#7255#0" expanded="true" />
-            <element signature="e#7559#7560#0" expanded="true" />
-            <element signature="e#7597#7598#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/codec/CompositeCodec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="684">
           <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
           <folding>
             <element signature="e#1844#1845#0" expanded="true" />
@@ -1362,7 +1018,7 @@
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/codec/BaseCodec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="342">
           <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
           <folding>
             <element signature="e#1084#1085#0" expanded="true" />
@@ -1371,23 +1027,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/handler/CommandDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1022">
-          <caret line="463" column="40" selection-start-line="463" selection-start-column="40" selection-end-line="463" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/handler/CommandPubSubDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
+        <state relative-caret-position="3474">
           <caret line="234" column="39" selection-start-line="234" selection-start-column="39" selection-end-line="234" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/codec/SerializationCodec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
+        <state relative-caret-position="1026">
           <caret line="88" column="15" selection-start-line="88" selection-start-column="15" selection-end-line="88" selection-end-column="15" />
           <folding>
             <element signature="e#2802#2803#0" expanded="true" />
@@ -1398,8 +1047,8 @@
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/RedissonObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="36" />
+        <state relative-caret-position="198">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="36" />
           <folding>
             <element signature="e#2422#2423#0" expanded="true" />
             <element signature="e#2472#2473#0" expanded="true" />
@@ -1414,7 +1063,91 @@
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/RedissonList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
-          <caret line="323" column="40" lean-forward="true" selection-start-line="323" selection-start-column="40" selection-end-line="323" selection-end-column="40" />
+          <caret line="323" column="40" selection-start-line="323" selection-start-column="40" selection-end-line="323" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/handler/CommandDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="766">
+          <caret line="463" column="40" selection-start-line="463" selection-start-column="40" selection-end-line="463" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/codec/JsonJacksonCodec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3652#3653#0" expanded="true" />
+            <element signature="e#3692#3693#0" expanded="true" />
+            <element signature="e#7140#7141#0" expanded="true" />
+            <element signature="e#7170#7171#0" expanded="true" />
+            <element signature="e#7224#7225#0" expanded="true" />
+            <element signature="e#7254#7255#0" expanded="true" />
+            <element signature="e#7559#7560#0" expanded="true" />
+            <element signature="e#7597#7598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/RedisClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="171" selection-start-line="171" selection-end-line="171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/config/ConfigSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="191" selection-start-line="191" selection-end-line="191" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/Redisson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-367">
+          <caret line="161" selection-start-line="161" selection-end-line="161" />
+          <folding>
+            <element signature="e#8937#8938#0" expanded="true" />
+            <element signature="e#9019#9020#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3276">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/nexstra/kv/RedissonKV.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/codec/KryoCodec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="143" column="33" selection-start-line="143" selection-start-column="33" selection-end-line="143" selection-end-column="33" />
+          <folding>
+            <element signature="e#4787#4788#0" expanded="true" />
+            <element signature="e#4842#4843#0" expanded="true" />
+            <element signature="e#5222#5223#0" expanded="true" />
+            <element signature="e#5262#5263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.esotericsoftware/kryo/3.0.3/a636c50d4c5db89b0ba5dfb4d408e4895293c134/kryo-3.0.3-sources.jar!/com/esotericsoftware/kryo/Kryo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1394">
+          <caret line="613" column="14" selection-start-line="613" selection-start-column="14" selection-end-line="613" selection-end-column="14" />
         </state>
       </provider>
     </entry>

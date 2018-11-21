@@ -51,12 +51,13 @@ dependencies {
       url "${rootProject.projectDir}/repo"
     }
   }
-  compile "mysql:mysql-connector-java:5.1.33"
-  compile "content-services:config:1.4.+"
-  compile "nexstra.nconnect:client:0.1.+"
-  compile "nexstra.nconnect:activities-api:0.1.+"
-  compile "org.apache.logging.log4j:log4j-core"
-  compile 'org.redisson:redisson:3.9.0'
+  implementation "mysql:mysql-connector-java:5.1.33"
+  implementation "content-services:config:1.4.+"
+  implementation "nexstra.nconnect:client:0.1.+"
+  implementation "nexstra.nconnect:activities-api:0.1.+"
+  implementation "org.apache.logging.log4j:log4j-core"
+  implementation 'org.redisson:redisson:3.9.0'
+  implementation "com.esotericsoftware:kryo:3.0.3"
 }
 
 //apply plugin: 'kotlin'
