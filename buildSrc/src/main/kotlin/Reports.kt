@@ -22,12 +22,12 @@ fun tenant( partnerCode: String? , clientName: String? ) = if( partnerCode != nu
 fun extractReports( outdir: java.io.File , _datasource: String  ){
   val queryDir = File(outdir,"queries")
   queryDir.mkdirs()
-  val datasource = DRef.fromRef<JDBCSource>(_datasource.removePrefix("@"))
-  val jdbc = source( datasource )
+  val datasource = _datasource
+  val jdbc = getSource( datasource )
   val queryMap = mutableMapOf<String,Map<String,Any>>()
   val sqlMap = mutableMapOf<String,Pair<String,String>>()
   val all = jdbc.withConnection {
-    this.query("SELECT * from reports WHERE report_type = 'SQL'").toList<JsonNode> {asJsonNode()}
+    query("SELECT * from reports WHERE report_type = 'SQL'"){ it.toList<JsonNode> {asJsonNode()}}
   }
 
   for( n in all ) {
@@ -47,7 +47,7 @@ fun extractReports( outdir: java.io.File , _datasource: String  ){
 
     var allp = jdbc.withConnection {
       query("SELECT * from reports_input WHERE report_id = ?",
-          report.report_id).toList {asBean<reports_input>()}.sortedBy {it.col}.toMutableList()
+          report.report_id) { it.toList {asBean<reports_input>()}.sortedBy {it.col}.toMutableList() }
     }
 
     if( parsed.orderedParameters.size != allp.size ) {
@@ -97,12 +97,13 @@ fun extractReports( outdir: java.io.File , _datasource: String  ){
 
   }
 
-  val connReports = jdbc.withConnection { query("SELECT * from connectors WHERE name like '%report%'").toList<connectors>{  asBean() } }
+  val connReports = jdbc.withConnection { query("SELECT * from connectors WHERE name like '%report%'"){ it .toList<connectors>{  asBean() } }}
 
-  val typeMap = jdbc.withConnection {query("SELECT connector_type_id , name FROM connector_types").toList {  getLong(1) to getString(2) }.toMap<Long,String>() }
 
-  val clientMap = jdbc.withConnection {query("SELECT * from client order by client_id").toList<client>{ asBean() }.map{ it.client_id to it }.toMap()}
-    val partnerMap = jdbc.withConnection {query("SELECT partner_id, code from partners order by partner_id").toList { getLong(1) to getString(2) }.toMap<Long,String>()}
+  val typeMap = jdbc.withConnection { query("SELECT connector_type_id , name FROM connector_types"){it.toList {  getLong(1) to getString(2) }.toMap<Long,String>() }}
+
+  val clientMap = jdbc.withConnection {query("SELECT * from client order by client_id"){it.toList<client>{ asBean() }.map{ it.client_id to it }.toMap()}}
+    val partnerMap = jdbc.withConnection {query("SELECT partner_id, code from partners order by partner_id"){it.toList { getLong(1) to getString(2) }.toMap<Long,String>()}}
 //println( mapper.writeValueAsString(clientMap ) )
  // println( mapper.writeValueAsString(partnerMap ) )
    /*   jdbc.withConnection {
@@ -115,7 +116,7 @@ fun extractReports( outdir: java.io.File , _datasource: String  ){
 */
     for( c : connectors in connReports) {
       val props = propertyMapper.readTree(c.properties.byteInputStream())
-      val meta = mapper.valueToTree(c) as ObjectNode
+      //val meta = mapper.valueToTree(c) as ObjectNode
       //    println("client: ${c.client_id}, ${clientMap[c.client_id]?.name} ")
       val client = clientMap[c.client_id.toLong()]
       val partnerName = client?.partner_id?.let {partnerMap[it.toLong()]} ?: null
@@ -139,17 +140,18 @@ fun extractReports( outdir: java.io.File , _datasource: String  ){
       val pdir = File(outdir, tenant(partnerName , clientName) )
 
       val report : String? by props
-      if (report != null) {
+      report?.let{ _report ->
+
          val dir = File(pdir,"queries")
          dir.mkdirs()
 
-        queryMap[report]?.let {rpt->
+        queryMap[_report]?.let {rpt->
           File(dir, report?.toFileName("query") ).writeText(mapper.writeValueAsString(rpt))
-          queryMap.remove(report)
+          queryMap.remove(_report)
         }
-        sqlMap[report]?.let {(fname, sql)->
+        sqlMap[_report]?.let {(fname, sql)->
           File(dir, fname).writeText(sql)
-          sqlMap.remove(report)
+          sqlMap.remove(_report)
         }
 
       }

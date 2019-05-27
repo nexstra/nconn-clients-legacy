@@ -52,16 +52,16 @@
           "type" : "string",
           "title" : "Root Uri"
         },
-        "contentType" : {
-          "propertyOrder" : 5,
-          "type" : "string",
-          "title" : "Content Type"
-        },
         "extra" : {
-          "propertyOrder" : 6,
+          "propertyOrder" : 5,
           "type" : "object",
           "additionalProperties" : { },
           "title" : "Extra"
+        },
+        "contentType" : {
+          "propertyOrder" : 6,
+          "type" : "string",
+          "title" : "Content Type"
         },
         "uri" : {
           "propertyOrder" : 7,
@@ -84,7 +84,7 @@
           "title" : "Path"
         }
       },
-      "required" : [ "dir", "docuri", "rootUri", "contentType", "extra", "uri", "name", "path" ]
+      "required" : [ "docuri", "rootUri", "extra", "contentType", "uri", "name", "path" ]
     }
   }
 }

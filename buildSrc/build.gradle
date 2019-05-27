@@ -1,18 +1,24 @@
 buildscript {  
     repositories {  
        jcenter()  
+   //    maven { url "https://plugins.gradle.org/m2/" }
       maven {
               url "../repo" //"${rootProject.projectDir}/../repo"
       }
     }  
     dependencies {  
         classpath 'com.bmuschko:gradle-tomcat-plugin:2.2.5'  
-        classpath "content-services:config:1.4.+"
+        //classpath ncore.depend("docstore","nexstra.docstore:config")
     }  
-}  
+}
+//plugins { id("org.gradle.kotlin.kotlin-dsl") version "1.2.8" }
+
 plugins {
-  id "org.gradle.kotlin.kotlin-dsl"   version "1.0.3"
-  id 'org.jetbrains.kotlin.jvm' version '1.3.10'
+
+
+  id "nexstra.core-dsl" version "1.1.4"
+  //id "org.gradle.kotlin.kotlin-dsl"   version "1.2.8"
+  id 'org.jetbrains.kotlin.jvm' version '1.3.21'
 }
 apply plugin: 'kotlin'
 apply plugin: 'java'
@@ -25,9 +31,10 @@ dependencies {
   }
   // compile "org.jetbrains.exposed:exposed:0.10.4"
     compile "mysql:mysql-connector-java:5.1.33"
-    compile "content-services:config:1.4.+"
-    compile  "nexstra.nconnect:client:0.1.+"
-    compile "nexstra.nconnect:activities-api:0.1.+"
+  implementation ncore.depend("docstore","docstore:docstore-lib",null)
+  implementation ncore.depend("nconn-v2","nconnect-v2:client",null)
+  implementation ncore.depend("nconn-v2","nconnect-v2:activities:activities-api",null)
+  implementation ncore.depend("nconn-v2","nconnect-v2:activities:activities-client",null)
     
 }
 compileKotlin {
@@ -35,4 +42,10 @@ compileKotlin {
   targetCompatibility = JavaVersion.VERSION_1_8
 
 }
+compileKotlin {
+  kotlinOptions {
+    jvmTarget = "1.8"
+  }
+}
+
 

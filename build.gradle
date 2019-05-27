@@ -5,26 +5,19 @@ buildscript {
               url "${rootProject.projectDir}/repo"
       }
     }  
-    dependencies {  
-        classpath "content-services:config:1.4.79"
+    dependencies {
     }
 }  
 plugins {
+  id 'nexstra.core-dsl' version "1.1.4"
+  id 'nexstra.client-dsl' version "1.0.4"
   id "org.ajoberstar.grgit" version "3.0.0-rc.2"
   // id "org.gradle.kotlin.kotlin-dsl" version "1.0-rc-6"
-  id 'org.jetbrains.kotlin.jvm' version '1.3.10'
+  id 'org.jetbrains.kotlin.jvm' version '1.3.21'
   id 'nexstra.docstore-dsl' version "1.0.6"
-  id 'nexstra.core-dsl' version "1.0.6"
-  id 'nexstra.client-dsl' version "1.0.4"
   //id 'json-validator' version "1.2.1"
   id "cz.alenkacz.gradle.jsonvalidator" version "1.2.1"
-  id 'io.spring.dependency-management' version '1.0.6.RELEASE'
-  id 'org.jetbrains.kotlin.plugin.noarg' version '1.3.0'
-}
-dependencyManagement {
-  imports {
-    mavenBom "org.apache.logging.log4j:log4j-bom:2.11.0"
-  }
+  id 'org.jetbrains.kotlin.plugin.noarg' version '1.3.21'
 }
 apply plugin: 'kotlin'
 apply plugin: 'application'
@@ -36,8 +29,8 @@ def getAwsBucket() {
   //{ println ("runnng subproc"); "awscmd get-export $awsEnv:resource:bucket".execute().text.trim() }
 }
 ext {
-    if( project.hasProperty("datasource" ) ) datasource = "@" + project.getProperty("datasource")
-    else  datasource = "@s3://nexstra-com-dev-config-us-west-2/system/datasource/cds-dev.ds"
+    if( project.hasProperty("datasource" ) ) datasource = project.getProperty("datasource")
+    else  datasource = "cds-dev"
    systemDir = "${projectDir}/system"
    templateDir = "${projectDir}/templates"
    cftemplate = "${buildDir}/cloud/cftemplate.yml"
@@ -50,14 +43,16 @@ dependencies {
     maven {
       url "${rootProject.projectDir}/repo"
     }
+   maven { url "http://maven.aspose.com/repository/repo/" }
   }
   implementation "mysql:mysql-connector-java:5.1.33"
-  implementation "content-services:config:1.4.+"
-  implementation "nexstra.nconnect:client:0.1.+"
-  implementation "nexstra.nconnect:activities-api:0.1.+"
   implementation "org.apache.logging.log4j:log4j-core"
   implementation 'org.redisson:redisson:3.9.0'
   implementation "com.esotericsoftware:kryo:3.0.3"
+      implementation(ncore.depend("docstore","docstore:docstore-lib","docstoreVersion")){changing=false}
+      implementation(ncore.depend("nconn-v2","nconnect-v2:activities:gindex-activity","nconnv2Version")){changing=false}
+      implementation(ncore.depend("nconn-v2","nconnect-v2:activities:activities-api","nconnv2Version")){changing=false}
+      implementation(ncore.depend("nconn-v2","nconnect-v2:activities:activities-client","nconnv2Version")){changing=false}
 }
 
 //apply plugin: 'kotlin'
@@ -69,8 +64,8 @@ dependencies {
     compile "mysql:mysql-connector-java:5.1.33"
     compile "org.jetbrains.kotlin:kotlin-script-runtime"
     compile "com.github.holgerbrandl:kscript-annotations:1.2"
-    compile "content-services:config:1.4.44"
 }
+*
 compileKotlin {
   sourceCompatibility = JavaVersion.VERSION_1_8
   targetCompatibility = JavaVersion.VERSION_1_8
@@ -81,7 +76,6 @@ compileKotlin {
     languageVersion = "1.2"
   }
 }
-*/
 
 task templates( type: Task ) {
   group = 'nconnect'
@@ -91,17 +85,6 @@ task templates( type: Task ) {
         datasource )
   }
 }
-task importDocuments( type: Task ) {
-  inputs.property "datasource",datasource
-  group = 'nconnect'
-  def importDir =  file("${buildDir}/import")
-  outputs.dir importDir
-  doLast {
-    ReportsKt.extractReports( importDir, datasource )
-    ConnectorsKt.convertConnectors(importDir, datasource )
-  }
-}
-
 putDocuments {
   dependsOn templates
   group = 'nconnect'
@@ -123,7 +106,7 @@ stepFunction {
     outputDir = file("build/steps/")
     //source = file("${buildDir}/connectors/ReportAndEmail")
     source  fileTree("${buildDir}/import/"){
-         include "*/steps/*.steps" 
+         include "* / steps / * .steps"
     }
         println("in stepFunction: ${it} ")
     doFirst {
@@ -140,7 +123,7 @@ createPackage {
 task printme {
   doLast {
   def tree = fileTree("${buildDir}/import") {
-    include "*/steps/*.steps"
+    include "*  /steps/  *.steps"
   }
   println(tree.files)
   tree.files.each { println( it ) }
@@ -166,7 +149,6 @@ createTemplate {
       extension = "yml"
 }
 
-/*
 import cz.alenkacz.gradle.jsonvalidator.ValidateJsonTask
 tasks.addRule("Pattern: validateSteps<ID>") { taskName ->
   if( taskName.startsWith("validateSteps") ){
@@ -219,6 +201,17 @@ targetDirectory = file("${project.buildDir}/generated-sources")
 }
 */
 
+task importDocuments( type: Task ) {
+  inputs.property "datasource",datasource
+  group = 'nconnect'
+  def importDir =  file("${buildDir}/import")
+  outputs.dir importDir
+  doLast {
+    ReportsKt.extractReports( importDir, datasource )
+    ConnectorsKt.convertConnectors(importDir, datasource )
+  }
+}
+
 
 //build.enabled = false
 //build.dependsOn validateSteps
@@ -263,5 +256,14 @@ compileKotlin {
 compileTestKotlin {
   kotlinOptions {
     jvmTarget = "1.8"
+  }
+}
+afterEvaluate { 
+   plugins.withType(DistributionPlugin){
+    project.installDist.doLast {
+        model { 
+          tasks.distZip { enabled = false }  
+         }
+      }
   }
 }

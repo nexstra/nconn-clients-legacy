@@ -6,10 +6,14 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import nexstra.ddata.*
+import nexstra.kv.mysqlKVS.copyTo
+import nexstra.kv.mysqlKVS.insert
 import nexstra.services.config.copyAsProperites
 import nexstra.services.config.pretty
 import org.redisson.Redisson
 import org.redisson.api.RBucket
+import org.redisson.api.RFuture
+import org.redisson.api.RedissonClient
 import org.redisson.client.codec.JsonJacksonMapCodec
 import org.redisson.client.protocol.Decoder
 import org.redisson.codec.JsonJacksonCodec
@@ -39,6 +43,67 @@ import kotlin.system.measureTimeMillis
       }
       fun and(i:Int,s:String) = list.add(simplek(i,s))
     }
+
+object redisKVS {
+
+  fun KVS.insert(client: RedissonClient) : RFuture<Void> {
+    val rkey = "kv_$id"
+    val rmap = client.getMap<String,String>(rkey)
+   return rmap.putAllAsync( values )
+  }
+
+
+  fun ResultSet.copyTo(ps : PreparedStatement) {
+
+    for (i in 1..metaData.columnCount) {
+      ps.setObject(i, getObject(i))
+    }
+    ps.addBatch()
+  }
+
+  fun loadKVS(table : String, dsSource : String,  sql : String) {
+
+    val jdbcSrc = DRef.fromRef<JDBCSource>(dsSource.removePrefix("@")).deref()
+
+
+    jdbcSrc.withConnection {
+      val s = this
+      val config = Config().apply {
+   //    codec = KryoCodec()
+        useSingleServer().setAddress("redis://redis:6379")
+
+        transportMode = TransportMode.NIO
+      }
+      val client = Redisson.create(config)
+
+        var i = 0
+        val ms = measureTimeMillis {
+          var tns : Long = 0L
+          val BS = 1000
+          // s.query(sql).forEach {
+          s.prepareStatement(sql).run {
+            this.fetchSize = Integer.MIN_VALUE
+
+            this.executeQuery().forEach {
+              val newBatch = (++i % BS) == 0
+              val ns = measureNanoTime {
+                  val kvs = toKVS()
+                  kvs.insert(client).await()
+              }
+              tns += ns
+              if (newBatch) {
+                println("${i} ${(tns / BS).toDouble() / 1_000_000.0} ms/rec")
+                tns = 0
+              }
+            }
+            println("Finalizing")
+            client.shutdown()
+          }
+        }
+        println("${ms} ms total  ${ms.toDouble() / i.toDouble()} ms/rec")
+      }
+  }
+}
 
 fun main() {
 
@@ -85,7 +150,7 @@ fun main() {
 */
    val config = Config().apply {
       codec = KryoCodec()
-     useSingleServer().setAddress("redis://localhost:32770")
+     useSingleServer().setAddress("redis://redis:6379")
 
     transportMode = TransportMode.NIO
    }
@@ -99,7 +164,10 @@ fun main() {
    sk.set(cx)
    val s = sk.get()
    println(s.pretty())
+  client.shutdown()
 
-   client.shutdown()
+  redisKVS.loadKVS( "kv_elem" , "@file:/nexstra/nconn-legacy/source-prod.ds",
+      "SELECT * from dist_elem_item" )
+
 
 }

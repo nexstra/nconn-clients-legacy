@@ -67,12 +67,12 @@ object Connectors {
     return null
   }
 
-  fun reportType(connector : Connector, _outdir : File, stepType : String, datasource : DRef<JDBCSource>)  {
+  fun reportType(connector : Connector, _outdir : File, stepType : String, datasource : String )  {
     println("REPORT type: ${connector.name} ${connector.type}")
 
     val factory = JavaPropsFactory()
     val parser = factory.createParser(connector.properties.byteInputStream())
-    val props = JavaPropsMapper(factory).readTree(parser)
+    val props = JavaPropsMapper(factory).readTree<JsonNode>(parser)
 
     val fname =connector.name.toFileName("steps")
 
@@ -115,7 +115,7 @@ object Connectors {
     dest = rc.output_file
   }
 
-  fun reportParameters(rc : ReportConnector, datasource : DRef<JDBCSource>) = ReportParameters(
+  fun reportParameters(rc : ReportConnector, datasource : String ) = ReportParameters(
       format = ReportFormat.csv,
       params = rc.input,
       query = SRef( "queries/" + rc.report.toFileName("query")),
@@ -128,11 +128,12 @@ object Connectors {
     cc = rc.cc
   }
 }
+fun getSource(dataSource: String?)  = DataSources.getNamedJDBCSource(dataSource?:"default")!!
 
   fun convertConnectors( outdir: java.io.File , _datasource: String ) {
     outdir.mkdirs()
-    val datasource = DRef.fromRef<JDBCSource>(_datasource.removePrefix("@"))
-    val jdbc = source( datasource )
+    val datasource = _datasource
+    val jdbc = getSource( datasource )
 
     val all = jdbc.withConnection {
       query("""
@@ -140,7 +141,7 @@ object Connectors {
       FROM connectors JOIN client USING(client_id)
            JOIN partners USING(partner_id)
            JOIN connector_types USING(connector_type_id)
-      """).toList<JsonNode> {asJsonNode()}
+      """){ it.toList<JsonNode> {asJsonNode()}}
     }
     for (n in all) {
       val connector : Connector = configure {from(n)}

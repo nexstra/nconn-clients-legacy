@@ -21,32 +21,53 @@
     <option name="SHOW_CLOSE_PROMPT" value="true" />
     <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
-    <treeState key="project">
-      <selectedPath>
-        <pathElement>
-          <option name="myNodeId" value="helperText" />
-          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.LinkedTextDescriptor" />
-        </pathElement>
-      </selectedPath>
-    </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f0518cc-34a5-40e5-bb5a-9a08cead4fc4" name="Default Changelist" comment="">
+    <list default="true" id="3c6da8dd-64fc-4c21-814e-a5d4fd3e5ec8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/kotlin/Connectors.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/Connectors.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/kotlin/Reports.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/Reports.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/kotlin/Templates.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/Templates.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/tc.build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/tc.build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrepo.sh" beforeDir="false" afterPath="$PROJECT_DIR$/getrepo.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localsecret.json" beforeDir="false" afterPath="$PROJECT_DIR$/localsecret.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/nexstra.activities.api.mail.ComposeMailRequest.json" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/nexstra.activities.api.mail.ComposeMailRequest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/nexstra.activities.api.mail.ComposeMailResponse.json" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/nexstra.activities.api.mail.ComposeMailResponse.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/nexstra.activities.api.mail.SendMailRequest.json" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/nexstra.activities.api.mail.SendMailRequest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/nexstra.activities.api.report.ReportRunRequest.json" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/nexstra.activities.api.report.ReportRunRequest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/nexstra.activities.api.report.ReportRunResponse.json" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/nexstra.activities.api.report.ReportRunResponse.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/nexstra/kv/RedissonKV.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/nexstra/kv/RedissonKV.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tc.build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/tc.build.gradle" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/buildSrc/.gradle/" />
     <ignored path="$PROJECT_DIR$/buildSrc/build/" />
-    <ignored path="$PROJECT_DIR$/buildSrc/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -69,92 +90,19 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="nconn-legacy" type="f1a62948:ProjectNode" />
-                <item name="nconn-legacy" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="nconn-legacy" type="f1a62948:ProjectNode" />
-                <item name="nconn-legacy" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="nconn-legacy" type="f1a62948:ProjectNode" />
-                <item name="nconn-legacy" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="nconn-legacy" type="f1a62948:ProjectNode" />
-                <item name="nconn-legacy" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="nconn-legacy" type="f1a62948:ProjectNode" />
-                <item name="nconn-legacy" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="com.esotericsoftware:kryo:3.0.3" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="nconn-legacy" type="f1a62948:ProjectNode" />
-                <item name="nconn-legacy" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="com.esotericsoftware:kryo:3.0.3" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
-                <item name="com.esotericsoftware:reflectasm:1.10.1" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="nconn-legacy" type="f1a62948:ProjectNode" />
-                <item name="nconn-legacy" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="nconn-legacy" type="f1a62948:ProjectNode" />
-                <item name="nconn-legacy" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="nconn-legacy" type="f1a62948:ProjectNode" />
-                <item name="nconn-legacy" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="nconn-legacy" type="f1a62948:ProjectNode" />
-                <item name="nconn-legacy" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="nconn-legacy" type="f1a62948:ProjectNode" />
-                <item name="nconn-legacy" type="2d1252cf:ModuleNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="nconn-legacy" type="f1a62948:ProjectNode" />
-                <item name="buildSrc" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="nconn-legacy" type="f1a62948:ProjectNode" />
-                <item name="buildSrc" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="cloud" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -166,90 +114,109 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/nexstra/kv/RedissonKV.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3276">
-              <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+            <state relative-caret-position="221">
+              <caret line="54" column="121" selection-start-line="54" selection-start-column="121" selection-end-line="54" selection-end-column="121" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/codec/KryoCodec.java">
+        <entry file="file://$PROJECT_DIR$/buildSrc/src/main/kotlin/Connectors.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="143" column="33" selection-start-line="143" selection-start-column="33" selection-end-line="143" selection-end-column="33" />
+            <state relative-caret-position="107">
+              <caret line="130" selection-start-line="130" selection-end-line="130" />
               <folding>
-                <element signature="e#4787#4788#0" expanded="true" />
-                <element signature="e#4842#4843#0" expanded="true" />
-                <element signature="e#5222#5223#0" expanded="true" />
-                <element signature="e#5262#5263#0" expanded="true" />
+                <element signature="e#0#707#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.esotericsoftware/kryo/3.0.3/a636c50d4c5db89b0ba5dfb4d408e4895293c134/kryo-3.0.3-sources.jar!/com/esotericsoftware/kryo/Kryo.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buildSrc/src/main/kotlin/Reports.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1394">
-              <caret line="613" column="14" selection-start-line="613" selection-start-column="14" selection-end-line="613" selection-end-column="14" />
+            <state relative-caret-position="107">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/repo/nexstra/docstore/docstore-lib/1.5.61/docstore-lib-1.5.61.jar!/nexstra/services/config/SSMProvider.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/repo/nexstra/docstore/docstore-lib/1.5.61/docstore-lib-1.5.61.jar!/nexstra/ddata/DataSources.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gradle.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle-dev.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradlew">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle-local.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dimensions.list">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ValueInstantiators</find>
-      <find>KotlinInstantiators</find>
-      <find>valueInstan</find>
-      <find>ValueInstant</find>
-      <find>_objectIdWriter</find>
-      <find>Default</find>
-      <find>_appliesFor</find>
-      <find>TypeInfo</find>
-      <find>setSerializationInclusion</find>
-      <find>isFinal</find>
-      <find>initTypeInclusion</find>
-      <find>Object.class</find>
-      <find>getTypeResolverBuilder</find>
-      <find>_typeResolverBuilder</find>
-      <find>getDefaultTyper</find>
-      <find>JsonJackson</find>
-      <find>Encoder</find>
-      <find>new Decoder&lt;</find>
-      <find>JsonJacksonMapCodec</find>
-      <find>valueClass</find>
-      <find>convertor</find>
-      <find>State</find>
-      <find>encode</find>
-      <find>Decoder</find>
-      <find>get(</find>
-      <find>get()</find>
-      <find>get</find>
-      <find>Codec</find>
-      <find>copy</find>
-      <find>decoder</find>
+      <find>Kotlin</find>
+      <find>dsl</find>
+      <find>readTree</find>
+      <find>JavaPropsFactory</find>
+      <find>JavaPropsMapper</find>
+      <find>compileKotlin</find>
+      <find>getSource</find>
+      <find>dataSource</find>
+      <find>reportParameters</find>
+      <find>source(</find>
+      <find>JSONType</find>
+      <find>asJson</find>
+      <find>KProperty</find>
+      <find>klass</find>
+      <find>objectMapper</find>
+      <find>JsonNode</find>
+      <find>toJson</find>
+      <find>import</find>
+      <find>source</find>
+      <find>query(</find>
+      <find>datasource</find>
+      <find>changing</find>
     </findStrings>
-    <replaceStrings>
-      <replace>JDBCSource</replace>
-    </replaceStrings>
     <dirStrings>
+      <dir>$PROJECT_DIR$/</dir>
       <dir>$PROJECT_DIR$/../nconn-v2</dir>
       <dir>$PROJECT_DIR$/../docstore</dir>
-      <dir>$PROJECT_DIR$/..</dir>
-      <dir>$PROJECT_DIR$/../docstore/</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -258,13 +225,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/buildSrc/src/main/kotlin/Reports.kt" />
-        <option value="$PROJECT_DIR$/buildSrc/src/main/kotlin/Dimensions.kt" />
+        <option value="$PROJECT_DIR$/buildSrc/tc.build.gradle" />
+        <option value="$PROJECT_DIR$/tc.build.gradle" />
+        <option value="$PROJECT_DIR$/buildSrc/build.gradle" />
         <option value="$PROJECT_DIR$/buildSrc/src/main/kotlin/Connectors.kt" />
         <option value="$PROJECT_DIR$/buildSrc/src/main/kotlin/Templates.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/nexstra/kv/BasicKV.kt" />
+        <option value="$PROJECT_DIR$/buildSrc/src/main/kotlin/Reports.kt" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/nexstra/kv/RedissonKV.kt" />
+        <option value="$PROJECT_DIR$/gradle.properties" />
       </list>
     </option>
   </component>
@@ -272,17 +240,15 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="29" />
-    <option name="width" value="1869" />
-    <option name="height" value="1022" />
+    <option name="y" value="24" />
+    <option name="width" value="2048" />
+    <option name="height" value="967" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -290,79 +256,25 @@
               <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
               <item name="nconn-legacy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nconn-legacy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nconn-legacy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nconn-legacy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nconn-legacy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="kv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nconn-legacy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="kv" type="462c0819:PsiDirectoryNode" />
-              <item name="BasicKV.kt" type="24436e51:KtFileTreeNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nconn-legacy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="kv" type="462c0819:PsiDirectoryNode" />
-              <item name="BasicKV.kt" type="24436e51:KtFileTreeNode" />
-              <item name="KV" type="2c5a2ef7:KtClassOrObjectTreeNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nconn-legacy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="kv" type="462c0819:PsiDirectoryNode" />
-              <item name="RedissonKV.kt" type="24436e51:KtFileTreeNode" />
-            </path>
-            <path>
-              <item name="nconn-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/buildSrc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/buildSrc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.gradle.running" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -376,7 +288,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.nexstra.kv.RedissonKVKt">
+  <component name="RunManager" selected="Gradle.nconn-legacy [importDocuments]">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -385,10 +297,28 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="/nexstra/nconn-legacy/buildSrc [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/buildSrc" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="nconn-legacy [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -409,28 +339,53 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="nconn-legacy [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="nconn-legacy [importDocuments]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="importDocuments" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="nexstra.kv.RedissonKVKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="nexstra.nconn-legacy.main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="nexstra.kv.RedissonKVKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -438,248 +393,103 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.nexstra.kv.RedissonKVKt" />
+        <item itemvalue="Gradle.nconn-legacy [importDocuments]" />
+        <item itemvalue="Gradle.nconn-legacy [clean]" />
         <item itemvalue="Gradle.nconn-legacy [build]" />
+        <item itemvalue="Gradle./nexstra/nconn-legacy/buildSrc [clean]" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SQLPlugin.ProjectConfiguration">
+    <queries />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9f0518cc-34a5-40e5-bb5a-9a08cead4fc4" name="Default Changelist" comment="" />
-      <created>1541785117313</created>
+      <changelist id="3c6da8dd-64fc-4c21-814e-a5d4fd3e5ec8" name="Default Changelist" comment="" />
+      <created>1558931300786</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1541785117313</updated>
+      <updated>1558931300786</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="29" width="1869" height="1022" extended-state="0" />
+    <frame x="0" y="24" width="2048" height="967" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.40820312" visible="true" weight="0.19330038" />
-      <window_info id="Structure" order="1" sideWeight="0.5917969" side_tool="true" weight="0.19261476" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.57733536" visible="true" weight="0.29618475" />
+      <window_info id="Structure" order="1" sideWeight="0.4226646" side_tool="true" weight="0.2936747" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Learn" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.2904412" side_tool="true" weight="0.30171636" />
       <window_info id="Image Layers" order="7" />
-      <window_info id="Web" order="8" sideWeight="0.31881532" side_tool="true" weight="0.29091817" />
-      <window_info id="DB Browser" order="9" weight="0.32984033" />
+      <window_info id="Web" order="8" sideWeight="0.42195123" side_tool="true" weight="0.2906137" />
+      <window_info id="aws.explorer" order="9" side_tool="true" />
+      <window_info id="JRebel" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.3720703" visible="true" weight="0.44626167" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32943925" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.35986328" weight="0.59696263" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49550897" weight="0.3249476" />
-      <window_info anchor="bottom" id="Docker" order="7" sideWeight="0.49786097" weight="0.3290398" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49600798" weight="0.32704404" />
-      <window_info anchor="bottom" id="Build" order="9" side_tool="true" weight="0.44494048" />
-      <window_info anchor="bottom" id="Amazon EC2" order="10" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.5708583" weight="0.32704404" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.34228516" side_tool="true" weight="0.44642857" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.5126953" weight="0.3084112" />
-      <window_info anchor="bottom" id="Java Enterprise" order="15" sideWeight="0.499501" weight="0.098802395" />
-      <window_info anchor="bottom" id="Database Console" order="16" visible="true" weight="0.3243513" />
-      <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.32937366" />
-      <window_info anchor="bottom" id="Database Changes" order="18" sideWeight="0.498503" weight="0.32809225" />
-      <window_info anchor="bottom" id="Sequence" order="19" />
-      <window_info anchor="bottom" id="DB Execution Console" order="20" weight="0.32934132" />
-      <window_info anchor="bottom" id="YouTrack" order="21" weight="0.28504673" />
-      <window_info anchor="bottom" id="Analyze Dataflow to" order="22" weight="0.32991803" />
-      <window_info anchor="bottom" id="Thumbnails" order="23" weight="0.32991803" />
-      <window_info anchor="bottom" id="Problems" order="24" weight="0.32991803" />
-      <window_info anchor="bottom" id="SQL Generator" order="25" weight="0.28742516" />
-      <window_info active="true" anchor="bottom" id="REST Client" order="26" visible="true" weight="0.6447106" />
-      <window_info anchor="bottom" id="TeamCity" order="27" sideWeight="0.49658203" weight="0.37149534" />
-      <window_info anchor="bottom" id="JProfiler" order="28" sideWeight="0.49151698" weight="0.32914045" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.3185063" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Connector for AWS Lambda" order="5" side_tool="true" />
-      <window_info anchor="right" id="Database" order="6" sideWeight="0.4984472" weight="0.16766468" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Gradle" order="8" visible="true" weight="0.21911038" />
-      <window_info anchor="right" id="sbt" order="9" />
-      <window_info anchor="right" id="CBT" order="10" />
-      <window_info anchor="right" id="Maven Projects" order="11" />
-      <window_info anchor="right" id="Bean Validation" order="12" weight="0.1497006" />
-      <window_info anchor="right" id="SBT" order="13" />
-      <window_info anchor="right" id="Theme Preview" order="14" />
-      <window_info anchor="right" id="Dynamic Properties" order="15" />
-      <window_info anchor="right" id="PlantUML" order="16" />
-      <window_info anchor="right" id="JWT" order="17" weight="0.32984033" />
-      <window_info anchor="right" id="Swagger UI" order="18" />
-      <window_info anchor="right" id="Kotlin Bytecode" order="19" weight="0.21357286" />
-      <window_info anchor="right" x="0" y="0" width="373" height="807" id="Documentation" order="20" sideWeight="0.5015528" side_tool="true" visible="true" weight="0.1680929" />
-      <window_info anchor="right" id="com.vaadin.designer2.intellij.palette.PaletteToolWindowManager.toolWindow" order="21" sideWeight="0.499002" weight="0.40403423" />
-      <window_info anchor="right" id="com.vaadin.designer2.intellij.outline.OutlineToolWindowManager.toolWindow" order="22" sideWeight="0.500998" side_tool="true" weight="0.32984033" />
-      <window_info anchor="right" id="Maven" order="23" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.40820312" visible="true" weight="0.1867106" />
-      <window_info id="Structure" order="1" sideWeight="0.5917969" side_tool="true" weight="0.19261476" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Learn" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Image Layers" order="7" />
-      <window_info id="Web" order="8" sideWeight="0.31881532" side_tool="true" weight="0.29091817" />
-      <window_info id="DB Browser" order="9" weight="0.32984033" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.3720703" weight="0.44626167" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32943925" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.35986328" visible="true" weight="0.59696263" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.85560054" weight="0.4748521" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.58433735" weight="0.47297296" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8785425" weight="0.5175953" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49550897" weight="0.3249476" />
-      <window_info anchor="bottom" id="Docker" order="7" sideWeight="0.49786097" weight="0.3290398" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49600798" weight="0.32704404" />
-      <window_info anchor="bottom" id="Build" order="9" side_tool="true" weight="0.44494048" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49601197" weight="0.32810968" />
+      <window_info anchor="bottom" id="Docker" order="7" sideWeight="0.49752113" weight="0.32849163" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49732906" weight="0.32810968" />
+      <window_info anchor="bottom" id="Build" order="9" sideWeight="0.41566265" side_tool="true" visible="true" weight="0.47297296" />
       <window_info anchor="bottom" id="Amazon EC2" order="10" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.5708583" weight="0.32704404" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.34228516" side_tool="true" weight="0.44642857" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.5126953" weight="0.3084112" />
-      <window_info anchor="bottom" id="Java Enterprise" order="15" sideWeight="0.499501" weight="0.098802395" />
-      <window_info anchor="bottom" id="Database Console" order="16" visible="true" weight="0.3243513" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.48731408" weight="0.3273743" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.18960863" side_tool="true" weight="0.21104294" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.2807544" visible="true" weight="0.25798526" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" sideWeight="0.2557355" weight="0.32741618" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.3256785" />
       <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.32937366" />
-      <window_info anchor="bottom" id="Database Changes" order="18" sideWeight="0.498503" weight="0.32809225" />
+      <window_info anchor="bottom" id="Database Changes" order="18" show_stripe_button="false" />
       <window_info anchor="bottom" id="Sequence" order="19" />
-      <window_info anchor="bottom" id="DB Execution Console" order="20" weight="0.32934132" />
-      <window_info anchor="bottom" id="YouTrack" order="21" weight="0.28542915" />
-      <window_info anchor="bottom" id="Analyze Dataflow to" order="22" weight="0.32991803" />
-      <window_info anchor="bottom" id="Thumbnails" order="23" weight="0.32991803" />
-      <window_info anchor="bottom" id="Problems" order="24" weight="0.32991803" />
-      <window_info anchor="bottom" id="SQL Generator" order="25" weight="0.28742516" />
-      <window_info active="true" anchor="bottom" id="REST Client" order="26" visible="true" weight="0.6447106" />
-      <window_info anchor="bottom" id="TeamCity" order="27" sideWeight="0.49658203" weight="0.37154555" />
-      <window_info anchor="bottom" id="JProfiler" order="28" sideWeight="0.49151698" weight="0.32914045" />
+      <window_info anchor="bottom" id="YouTrack" order="20" sideWeight="0.49985418" weight="0.32960895" />
+      <window_info anchor="bottom" id="Application Servers" order="21" sideWeight="0.3697706" weight="0.32544377" />
+      <window_info anchor="bottom" id="JProfiler" order="22" />
+      <window_info anchor="bottom" id="TeamCity" order="23" sideWeight="0.49985418" weight="0.32960895" />
+      <window_info anchor="bottom" id="SQL" order="24" sideWeight="0.49985418" weight="0.32960895" />
+      <window_info anchor="bottom" id="JRebel Executor" order="25" />
+      <window_info anchor="bottom" id="JRebel Console" order="26" sideWeight="0.36621094" side_tool="true" visible="true" weight="0.5300546" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.31884766" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.299458" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Connector for AWS Lambda" order="5" side_tool="true" />
-      <window_info anchor="right" id="Database" order="6" sideWeight="0.4984472" weight="0.16766468" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32851985" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Gradle" order="8" visible="true" weight="0.15650742" />
+      <window_info anchor="right" id="Gradle" order="8" visible="true" weight="0.27660644" />
       <window_info anchor="right" id="sbt" order="9" />
       <window_info anchor="right" id="CBT" order="10" />
       <window_info anchor="right" id="Maven Projects" order="11" />
-      <window_info anchor="right" id="Bean Validation" order="12" weight="0.1497006" />
-      <window_info anchor="right" id="SBT" order="13" />
+      <window_info anchor="right" id="SBT" order="12" />
+      <window_info anchor="right" id="Bean Validation" order="13" weight="0.32972324" />
       <window_info anchor="right" id="Theme Preview" order="14" />
       <window_info anchor="right" id="Dynamic Properties" order="15" />
       <window_info anchor="right" id="PlantUML" order="16" />
-      <window_info anchor="right" id="JWT" order="17" weight="0.32984033" />
-      <window_info anchor="right" id="Swagger UI" order="18" />
-      <window_info anchor="right" id="Kotlin Bytecode" order="19" weight="0.21357286" />
-      <window_info anchor="right" x="0" y="0" width="373" height="807" id="Documentation" order="20" sideWeight="0.5015528" side_tool="true" visible="true" weight="0.1680929" />
-      <window_info anchor="right" id="com.vaadin.designer2.intellij.palette.PaletteToolWindowManager.toolWindow" order="21" sideWeight="0.499002" weight="0.40403423" />
-      <window_info anchor="right" id="com.vaadin.designer2.intellij.outline.OutlineToolWindowManager.toolWindow" order="22" sideWeight="0.500998" side_tool="true" weight="0.32984033" />
-      <window_info anchor="right" id="Maven" order="23" />
-    </layout-to-restore>
+      <window_info anchor="right" id="Maven" order="17" />
+      <window_info anchor="right" id="SciView" order="18" />
+      <window_info anchor="right" id="Kotlin Bytecode" order="19" weight="0.32958984" />
+      <window_info anchor="right" id="JWT" order="20" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/nexstra/kv/RedissonKV.kt</url>
-          <line>78</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/nexstra/kv/RedissonKV.kt</url>
-          <line>75</line>
-          <properties />
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.7/26d2e8a615ae6d766bbaed952a9cc286f6860faf/jackson-databind-2.9.7-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java</url>
-          <line>239</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.7/26d2e8a615ae6d766bbaed952a9cc286f6860faf/jackson-databind-2.9.7-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java</url>
-          <line>1536</line>
-          <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/codec/JsonJacksonMapCodec.java</url>
-          <line>77</line>
-          <properties />
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/codec/JsonJacksonMapCodec.java</url>
-          <line>79</line>
-          <properties />
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/codec/JsonJacksonMapCodec.java</url>
-          <line>67</line>
-          <properties />
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/codec/JsonJacksonMapCodec.java</url>
-          <line>69</line>
-          <properties />
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/RedissonObject.java</url>
-          <line>255</line>
-          <properties />
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/command/CommandAsyncService.java</url>
-          <line>679</line>
-          <properties />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/handler/CommandDecoder.java</url>
-          <line>351</line>
-          <properties />
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/handler/CommandDecoder.java</url>
-          <line>350</line>
-          <properties />
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="com.fasterxml.jackson.databind.exc.InvalidTypeIdException" package="com.fasterxml.jackson.databind.exc" />
-          <option name="timeStamp" value="12" />
-        </breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="org.gradle.internal.impldep.com.fasterxml.jackson.databind.exc.InvalidTypeIdException" package="org.gradle.internal.impldep.com.fasterxml.jackson.databind.exc" />
-          <option name="timeStamp" value="13" />
-        </breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.ClassCastException" package="java.lang" />
-          <option name="timeStamp" value="35" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
     <option name="sizePresets">
@@ -702,455 +512,153 @@
       </list>
     </option>
   </component>
-  <component name="designer2.settings">
-    <option name="autodetectServerAddress" value="true" />
-    <option name="serverIp" value="localhost" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.30.Final/5c9148c433a3d5869981aac0b5d8ee1b83f727e6/netty-codec-4.1.30.Final-sources.jar!/io/netty/handler/codec/ReplayingDecoder.java">
+    <entry file="file://$PROJECT_DIR$/tc.build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6138">
-          <caret line="371" selection-start-line="371" selection-end-line="371" />
+        <state relative-caret-position="228">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk1.8.0_201-amd64/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="746" column="28" selection-start-line="746" selection-start-column="28" selection-end-line="746" selection-end-column="28" />
           <folding>
-            <element signature="e#11223#11224#0" expanded="true" />
-            <element signature="e#11251#11252#0" expanded="true" />
+            <element signature="e#27915#27952#1" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.30.Final/de1b7fc8e484050f5879722dfe0e13378229bee4/netty-transport-4.1.30.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
+    <entry file="file://$PROJECT_DIR$/buildSrc/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildSrc/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5580">
-          <caret line="364" selection-start-line="364" selection-end-line="364" />
-          <folding>
-            <element signature="e#4125#4126#0" expanded="true" />
-            <element signature="e#4166#4167#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="516">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/api/RedissonClient.java">
+    <entry file="file://$PROJECT_DIR$/../nconn-v2/activities/api/src/main/kotlin/nexstra/activities/api/report/Request.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="196" column="25" selection-start-line="196" selection-start-column="19" selection-end-line="196" selection-end-column="28" />
+        <state relative-caret-position="192">
+          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/command/CommandSyncService.java">
+    <entry file="jar:///usr/java/jdk1.8.0_201-amd64/src.zip!/java/net/URLClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+        <state relative-caret-position="192">
+          <caret line="381" column="18" selection-start-line="381" selection-start-column="18" selection-end-line="381" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/codec/IntegerCodec.java">
+    <entry file="jar:///usr/java/jdk1.8.0_201-amd64/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        <state relative-caret-position="184">
+          <caret line="356" column="15" selection-start-line="356" selection-start-column="15" selection-end-line="356" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/codec/BitSetCodec.java">
+    <entry file="file://$PROJECT_DIR$/../docstore/docstore-lib/build/tmp/kapt3/stubs/main/nexstra/ddata/DirectMysqlDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/cache/LocalCachedMessageCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/codec/JsonJacksonMapCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/codec/SmileJacksonCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/codec/MsgPackJacksonCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/63c9d176e10fb8c2919d294b6710bcbcde99d02/redisson-3.9.0.jar!/org/redisson/codec/SerializationCodec.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#2720#0" expanded="true" />
-            <element signature="e#1538#1539#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/codec/MapCacheEventCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="102" column="29" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/protocol/Decoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/jcache/JCacheEventCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.30.Final/5c9148c433a3d5869981aac0b5d8ee1b83f727e6/netty-codec-4.1.30.Final-sources.jar!/io/netty/handler/codec/ByteToMessageDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="501" column="12" selection-start-line="501" selection-start-column="12" selection-end-line="501" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/executor/TasksRunnerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="282" column="64" lean-forward="true" selection-start-line="282" selection-start-column="64" selection-end-line="282" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/codec/DoubleCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/protocol/decoder/DecoderState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.30.Final/5c9148c433a3d5869981aac0b5d8ee1b83f727e6/netty-codec-4.1.30.Final-sources.jar!/io/netty/handler/codec/ByteToMessageCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2196">
-          <caret line="146" column="28" selection-start-line="146" selection-start-column="28" selection-end-line="146" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.30.Final/5c9148c433a3d5869981aac0b5d8ee1b83f727e6/netty-codec-4.1.30.Final-sources.jar!/io/netty/handler/codec/marshalling/CompatibleMarshallingDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/handler/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="81" column="22" lean-forward="true" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="31" />
-          <folding>
-            <element signature="e#1018#1019#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/protocol/decoder/ListMultiDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1314">
-          <caret line="109" column="18" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/63c9d176e10fb8c2919d294b6710bcbcde99d02/redisson-3.9.0.jar!/org/redisson/liveobject/core/RObjectInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/liveobject/core/RObjectInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/liveobject/misc/AdvBeanCopy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-          <folding>
-            <element signature="e#844#845#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/RedisConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/api/RemoteInvocationOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/RedissonExpirable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-          <folding>
-            <element signature="e#1141#1142#0" expanded="true" />
-            <element signature="e#1187#1188#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/RedissonBucket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="101" column="35" lean-forward="true" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
-          <folding>
-            <element signature="e#1129#1130#0" expanded="true" />
-            <element signature="e#1175#1176#0" expanded="true" />
-            <element signature="e#2667#2668#0" expanded="true" />
-            <element signature="e#2719#2720#0" expanded="true" />
-            <element signature="e#3292#3293#0" expanded="true" />
-            <element signature="e#3330#3331#0" expanded="true" />
-            <element signature="e#3380#3381#0" expanded="true" />
-            <element signature="e#3476#3477#0" expanded="true" />
-            <element signature="e#4240#4241#0" expanded="true" />
-            <element signature="e#4276#4277#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/command/CommandAsyncExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/protocol/CommandData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-          <folding>
-            <element signature="e#1693#1694#0" expanded="true" />
-            <element signature="e#1723#1724#0" expanded="true" />
-            <element signature="e#1918#1919#0" expanded="true" />
-            <element signature="e#1948#1949#0" expanded="true" />
-            <element signature="e#1984#1985#0" expanded="true" />
-            <element signature="e#2022#2023#0" expanded="true" />
-            <element signature="e#2227#2228#0" expanded="true" />
-            <element signature="e#2255#2256#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/codec/Codec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-603">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0/a0ad4e203304ccab7e01266fa814115850edb8a9/jackson-annotations-2.9.0-sources.jar!/com/fasterxml/jackson/annotation/JsonIdentityInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/RedissonSubList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="277" column="54" selection-start-line="277" selection-start-column="54" selection-end-line="277" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/config/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="111" column="33" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/liveobject/resolver/DefaultNamingScheme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="33" column="83" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/codec/CompositeCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
-          <folding>
-            <element signature="e#1844#1845#0" expanded="true" />
-            <element signature="e#1895#1896#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/codec/BaseCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
-          <folding>
-            <element signature="e#1084#1085#0" expanded="true" />
-            <element signature="e#1124#1125#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/handler/CommandPubSubDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3474">
-          <caret line="234" column="39" selection-start-line="234" selection-start-column="39" selection-end-line="234" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/codec/SerializationCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="88" column="15" selection-start-line="88" selection-start-column="15" selection-end-line="88" selection-end-column="15" />
-          <folding>
-            <element signature="e#2802#2803#0" expanded="true" />
-            <element signature="e#2842#2843#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/RedissonObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="40" column="29" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="36" />
-          <folding>
-            <element signature="e#2422#2423#0" expanded="true" />
-            <element signature="e#2472#2473#0" expanded="true" />
-            <element signature="e#2745#2746#0" expanded="true" />
-            <element signature="e#2772#2773#0" expanded="true" />
-            <element signature="e#2818#2819#0" expanded="true" />
-            <element signature="e#2850#2851#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/RedissonList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="323" column="40" selection-start-line="323" selection-start-column="40" selection-end-line="323" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/handler/CommandDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="463" column="40" selection-start-line="463" selection-start-column="40" selection-end-line="463" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/codec/JsonJacksonCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        <state relative-caret-position="192">
+          <caret line="24" selection-start-line="19" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3652#3653#0" expanded="true" />
-            <element signature="e#3692#3693#0" expanded="true" />
-            <element signature="e#7140#7141#0" expanded="true" />
-            <element signature="e#7170#7171#0" expanded="true" />
-            <element signature="e#7224#7225#0" expanded="true" />
-            <element signature="e#7254#7255#0" expanded="true" />
-            <element signature="e#7559#7560#0" expanded="true" />
-            <element signature="e#7597#7598#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/client/RedisClient.java">
+    <entry file="file://$PROJECT_DIR$/../docstore/docstore-lib/src/main/kotlin/nexstra/services/config/KSchema.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="171" selection-start-line="171" selection-end-line="171" />
+        <state>
+          <caret column="31" selection-start-column="8" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/config/ConfigSupport.java">
+    <entry file="file://$PROJECT_DIR$/../docstore/docstore-lib/src/main/kotlin/nexstra/services/config/Config.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="191" selection-start-line="191" selection-end-line="191" />
+        <state relative-caret-position="114">
+          <caret line="6" column="43" selection-start-line="6" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/Redisson.java">
+    <entry file="file://$PROJECT_DIR$/../docstore/docstore-lib/src/main/kotlin/nexstra/services/SafeMap.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-367">
-          <caret line="161" selection-start-line="161" selection-end-line="161" />
+        <state>
+          <caret column="24" selection-start-column="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildSrc/src/main/kotlin/Templates.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
           <folding>
-            <element signature="e#8937#8938#0" expanded="true" />
-            <element signature="e#9019#9020#0" expanded="true" />
+            <element signature="e#0#399#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/repo/nexstra/docstore/docstore-lib/1.5.61/docstore-lib-1.5.61.jar!/nexstra/services/config/SSMProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/repo/nexstra/docstore/docstore-lib/1.5.61/docstore-lib-1.5.61.jar!/nexstra/ddata/DataSources.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildSrc/src/main/kotlin/Connectors.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+          <folding>
+            <element signature="e#0#707#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildSrc/src/main/kotlin/Reports.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle-local.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle-dev.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dimensions.list">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3276">
-          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+        <state relative-caret-position="221">
+          <caret line="54" column="121" selection-start-line="54" selection-start-column="121" selection-end-line="54" selection-end-column="121" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/nexstra/kv/RedissonKV.kt">
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
+        <state relative-caret-position="19">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.redisson/redisson/3.9.0/4c1d6691e89e17e9144535f46ae14aa5b4c93d70/redisson-3.9.0-sources.jar!/org/redisson/codec/KryoCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="143" column="33" selection-start-line="143" selection-start-column="33" selection-end-line="143" selection-end-column="33" />
-          <folding>
-            <element signature="e#4787#4788#0" expanded="true" />
-            <element signature="e#4842#4843#0" expanded="true" />
-            <element signature="e#5222#5223#0" expanded="true" />
-            <element signature="e#5262#5263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.esotericsoftware/kryo/3.0.3/a636c50d4c5db89b0ba5dfb4d408e4895293c134/kryo-3.0.3-sources.jar!/com/esotericsoftware/kryo/Kryo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1394">
-          <caret line="613" column="14" selection-start-line="613" selection-start-column="14" selection-end-line="613" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="gradleExecuteTaskHistory">
+    <option value="$PROJECT_DIR$/buildSrc" />
+    <option value="clean" />
   </component>
   <component name="masterDetails">
     <states>
@@ -1179,7 +687,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8.0_144</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

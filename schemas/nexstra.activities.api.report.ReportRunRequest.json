@@ -6,14 +6,19 @@
   "properties" : {
     "dataSource" : {
       "propertyOrder" : 1,
+      "type" : "string",
       "title" : "Data Source"
     },
-    "query" : {
+    "input" : {
       "propertyOrder" : 2,
+      "title" : "Input"
+    },
+    "query" : {
+      "propertyOrder" : 3,
       "title" : "Query"
     },
     "params" : {
-      "propertyOrder" : 3,
+      "propertyOrder" : 4,
       "type" : "object",
       "additionalProperties" : {
         "type" : "string"
@@ -21,22 +26,22 @@
       "title" : "Params"
     },
     "prefix" : {
-      "propertyOrder" : 4,
+      "propertyOrder" : 5,
       "type" : "string",
       "title" : "Prefix"
     },
     "format" : {
-      "propertyOrder" : 5,
+      "propertyOrder" : 6,
       "type" : "string",
       "enum" : [ "csv", "xls", "xlsx", "xlsm", "xltx", "xltm", "txt", "html", "pdf", "ods", "xml", "xlsb", "mht", "xps", "tiff", "pptx", "docx", "svg", "dif", "doc", "ppt", "msg", "bin", "vsd", "vsdx", "docm", "dotx", "dotm", "pptm", "potx", "potm", "ppsx", "ppsm", "xlt", "ots" ],
       "title" : "Format"
     },
     "formatOptions" : {
-      "propertyOrder" : 6,
+      "propertyOrder" : 7,
       "type" : "object",
       "additionalProperties" : { },
       "title" : "Format Options"
     }
   },
-  "required" : [ "dataSource", "query", "params", "format", "formatOptions" ]
+  "required" : [ "params", "format", "formatOptions" ]
 }

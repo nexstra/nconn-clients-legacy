@@ -4,28 +4,76 @@
   "type" : "object",
   "additionalProperties" : false,
   "properties" : {
-    "prefix" : {
+    "body" : {
       "propertyOrder" : 1,
-      "type" : "string",
-      "title" : "Prefix"
+      "title" : "Body"
     },
-    "from" : {
+    "mimeType" : {
       "propertyOrder" : 2,
       "type" : "string",
-      "title" : "From"
+      "title" : "Mime Type"
     },
     "to" : {
       "propertyOrder" : 3,
       "type" : "string",
       "title" : "To"
     },
-    "subject" : {
+    "cc" : {
       "propertyOrder" : 4,
+      "type" : "string",
+      "title" : "Cc"
+    },
+    "bcc" : {
+      "propertyOrder" : 5,
+      "type" : "string",
+      "title" : "Bcc"
+    },
+    "from" : {
+      "propertyOrder" : 6,
+      "type" : "string",
+      "title" : "From"
+    },
+    "replyTo" : {
+      "propertyOrder" : 7,
+      "type" : "string",
+      "title" : "Reply To"
+    },
+    "subject" : {
+      "propertyOrder" : 8,
       "type" : "string",
       "title" : "Subject"
     },
+    "prefix" : {
+      "propertyOrder" : 9,
+      "type" : "string",
+      "title" : "Prefix"
+    },
+    "format" : {
+      "propertyOrder" : 10,
+      "type" : "string",
+      "title" : "Format"
+    },
+    "formatOptions" : {
+      "propertyOrder" : 11,
+      "type" : "object",
+      "additionalProperties" : { },
+      "title" : "Format Options"
+    },
+    "flowUUID" : {
+      "propertyOrder" : 12,
+      "type" : "string",
+      "title" : "Flow UUID"
+    },
+    "headers" : {
+      "propertyOrder" : 13,
+      "type" : "object",
+      "additionalProperties" : {
+        "type" : "string"
+      },
+      "title" : "Headers"
+    },
     "attachments" : {
-      "propertyOrder" : 5,
+      "propertyOrder" : 14,
       "type" : "array",
       "format" : "table",
       "items" : {
@@ -33,71 +81,15 @@
       },
       "title" : "Attachments"
     },
-    "mimeType" : {
-      "propertyOrder" : 6,
-      "type" : "string",
-      "title" : "Mime Type"
-    },
-    "body" : {
-      "propertyOrder" : 7,
-      "type" : "string",
-      "title" : "Body"
-    },
-    "bcc" : {
-      "propertyOrder" : 8,
-      "type" : "string",
-      "title" : "Bcc"
-    },
-    "replyTo" : {
-      "propertyOrder" : 9,
-      "type" : "string",
-      "title" : "Reply To"
-    },
-    "formatOptions" : {
-      "propertyOrder" : 10,
-      "type" : "object",
-      "additionalProperties" : {
-        "type" : "string"
-      },
-      "title" : "Format Options"
-    },
     "inlineAttachments" : {
-      "propertyOrder" : 11,
+      "propertyOrder" : 15,
       "type" : "array",
       "format" : "table",
       "items" : {
         "type" : "string"
       },
       "title" : "Inline Attachments"
-    },
-    "bodyRef" : {
-      "propertyOrder" : 12,
-      "type" : "string",
-      "title" : "Body Ref"
-    },
-    "flowUUID" : {
-      "propertyOrder" : 13,
-      "type" : "string",
-      "title" : "Flow UUID"
-    },
-    "cc" : {
-      "propertyOrder" : 14,
-      "type" : "string",
-      "title" : "Cc"
-    },
-    "headers" : {
-      "propertyOrder" : 15,
-      "type" : "object",
-      "additionalProperties" : {
-        "type" : "string"
-      },
-      "title" : "Headers"
-    },
-    "format" : {
-      "propertyOrder" : 16,
-      "type" : "string",
-      "title" : "Format"
     }
   },
-  "required" : [ "from", "to", "subject", "formatOptions" ]
+  "required" : [ "body", "to", "from", "subject", "formatOptions" ]
 }

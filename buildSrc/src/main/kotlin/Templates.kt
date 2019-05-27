@@ -1,15 +1,18 @@
 import com.fasterxml.jackson.databind.JsonNode
-import nexstra.ddata.*
 import java.io.*
 import java.sql.ResultSet
-import java.util.*
-import kotlin.coroutines.experimental.buildIterator
-import kotlin.reflect.KClass
-import nexstra.services.config.*
-import nexstra.services.toJson
-import kotlin.reflect.KProperty
-import nexstra.ddata.DataSource
+import nexstra.ddata.JSONType
+import nexstra.ddata.JSONObject
+import nexstra.ddata.*
 
+import kotlin.reflect.KClass
+import kotlin.reflect.KParameter
+import kotlin.reflect.KProperty
+import kotlin.reflect.KType
+import kotlin.reflect.full.*
+import nexstra.services.toJson
+import nexstra.services.config.*
+import com.fasterxml.jackson.databind.*
 
 class Template : nexstra.generated.template() {
   val client : String =""
@@ -18,23 +21,23 @@ class Template : nexstra.generated.template() {
 fun ResultSet.asJsonObject() : JSONObject = metaData.let {meta ->
   @Suppress("UNCHECKED_CAST")
   (1..meta.columnCount).map {
-    meta.getColumnLabel(it) to asJson<JSONType>(it)
+    meta.getColumnLabel(it) to asJson(it)
   }.toMap() }
-fun ResultSet.asJsonNode() : JsonNode = objectMapper.valueToTree( asJsonObject() )
+fun ResultSet.asJsonNode() : JsonNode = mapper.valueToTree( asJsonObject() )
 
 // public inline operator fun <T> Lazy<T>.getValue(thisRef: Any?, property: KProperty<*>): T = value
-operator fun <T> JsonNode.getValue(thisRef: Nothing?, property: KProperty<*>): T =
-   objectMapper.convertValue( get(property.name), property.klass!!.java ) as T
+operator fun <T:Any> JsonNode.getValue(thisRef: Nothing?, property: KProperty<*>): T =
+   mapper.convertValue( get(property.name), property.klass!!.java ) as T
 
 fun source( datasource: DRef<JDBCSource> ) =  datasource.deref()
 
 fun extractTemplates( outdir: java.io.File , _datasource: String ){
   outdir.mkdirs()
-  val datasource = DRef.fromRef<JDBCSource>(_datasource)
-  val jdbc = source( datasource )
+  val datasource =_datasource
+  val jdbc = getSource( datasource )
 
   val all = jdbc.withConnection {
-     query( "SELECT template.*, client.name as 'client' from template JOIN client USING(client_id)" ).toList<JsonNode> { asJsonNode() }
+     query( "SELECT template.*, client.name as 'client' from template JOIN client USING(client_id)" ){it.toList<JsonNode> { asJsonNode() }}
   }
   for( n in all ) {
      val template : Template = configure { from ( n ) }
@@ -51,7 +54,7 @@ fun extractTemplates( outdir: java.io.File , _datasource: String ){
        "template_type" to template.template_type ,
        "client" to template.client )
 
-    File( outdir,"${metaname}").writeText( meta.toJson() )
+    File( outdir,"${metaname}").writeText( meta.toJson( ) )
   }
 }
 

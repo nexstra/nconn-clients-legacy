@@ -10,8 +10,8 @@ pluginManagement {
 /* 
 if(hasProperty("includedev")) {
   //includeBuild("../../core-dsl")
-  includeBuild "../../../docstore"
+  //includeBuild "../../../docstore"
   //includeBuild "../../portal-sys"
-  includeBuild "../../../nconn-v2"
+  //includeBuild "../../../nconn-v2"
 }
 */
